@@ -37,3 +37,15 @@ let added = <T extends number | string>(item1: T, item2: T): T => {
 
 console.log(added("Riyad ", "karim"));
 console.log(added(13, 41));
+
+
+// function type expression 
+function sayHello(innerFunc: (str: string) => void) {
+  innerFunc("Say hello from inner function")
+}
+
+function printToConsole(s: string) {
+  console.log(s);
+}
+
+sayHello(printToConsole)

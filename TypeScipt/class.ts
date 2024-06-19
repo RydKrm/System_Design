@@ -29,3 +29,20 @@ console.log(person.getAddress());
 
 const manager = new Manager(2, "Mr. Manager", "Dhaka");
 console.log(manager.getAddress());
+
+
+class Student {
+  fullName: string;
+  constructor(firstName: string, lastName: string) {
+    this.fullName = `${firstName} ${lastName}`
+  }
+}
+
+interface Person {
+  firstName: string;
+  lastName: string
+}
+
+function greeter(person: Person): string {
+  return `Hello, ${person.firstName} ${person.lastName}`
+}
