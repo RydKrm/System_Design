@@ -39,7 +39,45 @@ func EncodeJson(){
 
 }
 
+
+func DecodeJson(){
+	jsonData := []byte(`
+	{
+		"courseName": "Golang",
+		"Price": 300,
+		"website": "udemy",
+		"tagList": [
+				"server",
+				"backendEnd"
+		]
+    }
+	`);
+	var onlineCourse course;
+
+	// for checking json data is valid or not 
+	checkJson := json.Valid(jsonData)
+
+	if checkJson {
+		fmt.Println("json is valid");
+		json.Unmarshal(jsonData,&onlineCourse);
+		fmt.Printf("%#v\n", onlineCourse);
+	} else {
+		fmt.Println("JSON data is not valid");
+		return 
+	}
+
+	// need to get the json key name 
+	// An interface is define as a set of method signatures 
+	var  addedKey map[string]interface{}
+    json.Unmarshal(jsonData,&addedKey)
+
+	fmt.Printf("%#v\n",addedKey)
+
+
+}
+
 func main(){ 
 	fmt.Println("Json for start here")
 	EncodeJson()
+	DecodeJson()
 }
