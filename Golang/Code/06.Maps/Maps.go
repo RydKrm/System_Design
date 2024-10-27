@@ -31,7 +31,7 @@ makeMap["year"] = "1964"
 fmt.Printf("a\t%v\n", makeMap)
 
 // Access Map Elements
-println("Brand => ", makeMap["brand"])
+println("\n Brand => ", makeMap["brand"])
 
 // Remove Element from Map
 delete(makeMap, "model")

@@ -1,4 +1,4 @@
-package main
+package interfaces
 
 import "fmt"
 
@@ -13,7 +13,7 @@ type Developer struct {
 }
 
 type DeveloperInterface interface{
-	ageOk() bool
+	ageOk(expAge int) bool
 	isDeveloper()bool
 	isExperenced() bool 
 	whatLanguage() string
@@ -71,5 +71,7 @@ func main(){
 	}
 
     fmt.Println(developer1.whatLanguage())
+
+	Geometry()
 
 }

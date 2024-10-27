@@ -10,32 +10,39 @@ type Person struct {
 	name string
 	age int
 	job string
-	salary int
-  }
-// struct can hold method with in 
+	salary [10]int
+}
 
+// struct can hold method with in 
 func (p Person) checkerJobEligible() bool {
 	if p.age<=30 {
 		return true
 	} else {
 		return false
 	}
-	
+}
+
+func (p Person) totalSalary() int {
+	sum := 0
+    for _, salary := range p.salary {
+        sum += salary
+    }
+    return sum
 }
 
 
-  func main(){
+func main(){
 	var person1 Person;
 
 	person1.name = "Riyadh"
 	person1.age  = 32
 	person1.job = "Web developer"
-	person1.salary = 100
+	person1.salary[0] = 123
 
 	println("Name : ",person1.name)
 	println("Age : ", person1.age)
 	println("Job : ", person1.job)
-	println("Salary : ", person1.salary)
+	// println("Salary : ", person1.salary)
 	println("Job checker ", person1.checkerJobEligible())
-
-  }
+	println("Total salary : ", person1.totalSalary())
+}
