@@ -1,0 +1,21 @@
+type WishList {
+    id: ID!
+    userId: String!
+    productId: String!
+}
+
+input CreateWishList{
+    userId: String!
+    productId: String!
+}
+
+type Query {
+    singleWishList(id: ID!): WishList
+    allWishList(Id:ID): [WishList]
+}
+
+type Mutation{
+    createWishList(input:CreateWishList): WishList
+    deleteWishList(id: ID!): Boolean
+    deleteAllWishList(id:ID!): Boolean
+}

@@ -45,6 +45,25 @@ if isExist  {
 
 for k, v := range makeMap {
     fmt.Print( k, v)
-  }
+}
+
+// map start again 
+get_map := map[string]string{};
+
+ get_map["name"] = "riyad"
+
+ get_map["address"] = "mirpur"
+
+ delete(get_map, "job")
+
+ get_data,isExists:= get_map["address"]
+ 
+ if isExists {
+   fmt.Println(get_data)
+ }
+
+ for k,v := range get_map{
+   fmt.Println("key => ",k, "value => ", v)
+ }
 
 }

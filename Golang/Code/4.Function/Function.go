@@ -9,6 +9,10 @@ func myFunction(x int, y int) int {
   return x + y
 }
 
+func nonReturn(){
+	fmt.Println("not return function")
+}
+
 // Name return functions
 func myNamedFunction(x int, y int) (result int) {
 	result = x + y
@@ -30,6 +34,15 @@ func testcount(x int) int {
 	fmt.Println(x)
 	return testcount(x + 1)
   }
+
+func variadic (nums ...int)int{
+	sum := 0
+	for item := range nums{
+		sum += item
+	}
+
+	return sum
+}
 
 func main() {
   fmt.Println(myFunction(1, 2))

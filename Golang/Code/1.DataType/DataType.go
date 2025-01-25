@@ -6,7 +6,7 @@ import (
 
 func main(){
 
-	// declaring variable 
+	// declaring variable
 	var first int = 64
 	first = 32
 
@@ -24,11 +24,15 @@ func main(){
     student1 = "John"
     fmt.Println(student1, sum)
 
-	// declaring multiple value in the same line 
+	// Autometic type cast not possible here because  of the
+	// student1 = 133;
+
+
+	// declaring multiple value in the same line
 	var a,b,c,d float32 = 23,4,6,12
 	fmt.Println( (a + b + c + d)/4)
 
-	// if the `type` of variable not define then you  can define multiple type in same variable 
+	// if the `type` of variable not define then you  can define multiple type in same variable
 	var six, hello = 6, "hello"
 
 	fmt.Println(hello, six)
@@ -41,9 +45,9 @@ func main(){
 		helloString string = "hello"
 	  )
 
-	fmt.Println(empty, withOne, helloString)  
+	fmt.Println(empty, withOne, helloString)
 
-	// * Declare constants 
+	// * Declare constants
 
 	const PI = 3.1416
 	fmt.Println("value of pi", PI)
@@ -51,8 +55,8 @@ func main(){
 
 }
 
-// Their are different type of variables 
-// int 
-// float32 
+// Their are different type of variables
+// int
+// float32
 // string
-// bool 
+// bool

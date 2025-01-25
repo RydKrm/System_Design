@@ -1,0 +1,72 @@
+type File {
+  filename: String!
+  mimetype: String!
+  encoding: String!
+}
+
+type Product {
+  id: ID!
+  name: String
+  price: Float
+  category: Category
+  description: String
+  store: String
+  discount_price: Float
+  quantity: Int
+  rating: Int
+  visit: Int
+  comment: Int
+  review: Int
+  status: Int
+  # images: [String!]!
+  # reactions: [String]
+}
+
+scalar Upload
+
+input CreateProduct {
+  name: String!
+  price: Float!
+  category: String!
+  description: String!
+  store: String!
+  quantity: Int!
+  # images: [String!]!
+}
+
+input UpdateProduct {
+  id: ID!
+  name: String
+  price: Float
+  category: String
+  description: String
+  store: String
+  # images: [String]
+}
+
+# union ResponseData = Product | [Product]
+
+type Response {
+  status: Boolean!
+  message: String!
+  data: Product
+}
+
+type ProductListResponse {
+  status: Boolean!
+  message: String!
+  data: [Product]
+}
+
+type Query {
+  singleProduct(id: ID!): Response
+  allProductByStore(storeId: ID!): ProductListResponse
+  allProduct: ProductListResponse
+}
+
+type Mutation {
+  createProduct(input: CreateProduct): Response
+  updateProduct(input: UpdateProduct): Response
+  deleteProduct(id: ID!): Response
+  updateStatus(id: ID!): Response
+}

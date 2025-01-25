@@ -17,7 +17,7 @@ func main(){
 
 	// define array with length inferred
 
-	var arr3 = [...]int{43,1,9}
+	var arr3 = [...]int{43,1,9,13,3,54,12}
 
 	fmt.Println("Inferred array ", arr3)
 
@@ -31,6 +31,9 @@ func main(){
 	// find the length of array 
 	length := len(emptyArray)
 	fmt.Println("Length of array ", length)
+
+	b := [...]int{100, 3: 400, 500}
+    fmt.Println("idx:", b)
 
 
 	// Array types are one-dimensional,
