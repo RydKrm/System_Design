@@ -18,7 +18,7 @@ import (
 
 func main() {
   var firstMap = map[string]string{"brand": "Ford", "model": "Mustang", "year": "1964"}
-   secondMap := map[string]int{"Oslo": 1, "Bergen": 2, "Trondheim": 3, "Stavanger": 4}
+  secondMap := map[string]int{"Oslo": 1, "Bergen": 2, "Trondheim": 3, "Stavanger": 4}
 
   fmt.Printf("a\t%v\n", firstMap)
   fmt.Printf("b\t%v\n", secondMap)

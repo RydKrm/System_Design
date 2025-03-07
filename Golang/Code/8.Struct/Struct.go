@@ -6,11 +6,14 @@
 
 package main
 
+import "fmt"
+
 type Person struct {
 	name string
 	age int
 	job string
 	salary int
+	savingAmount []float64
   }
 // struct can hold method with in 
 
@@ -20,9 +23,25 @@ func (p Person) checkerJobEligible() bool {
 	} else {
 		return false
 	}
-	
 }
 
+
+func (p Person) AddMoneyToSavingAccount( amount int){
+	p.savingAmount = append(p.savingAmount, float64(amount))
+    fmt.Println("Money added to the account, new total is ", p.savingAmount)
+  }
+
+func (p Person) GetTotalMoney() float64{
+    return float64(sum(p.savingAmount))
+}
+
+func sum(values []float64) int {
+    total := 0
+    for _, value := range values {
+        total += int(value)
+    }
+    return total
+}
 
   func main(){
 	var person1 Person;

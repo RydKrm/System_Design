@@ -20,11 +20,11 @@ func main(){
 	fmt.Println("hello world!", first + second + third)
 
 	var student1 string
-	sum := first + second +third
+	sum := first + second + third
     student1 = "John"
     fmt.Println(student1, sum)
 
-	// Autometic type cast not possible here because  of the
+	// Automatic type cast not possible here because  of the
 	// student1 = 133;
 
 

@@ -19,7 +19,7 @@ func myNamedFunction(x int, y int) (result int) {
 	return
   }
 
-//   Function with multioke return 
+//   Function with multiple return 
 func myMultiReturnFunction(x int, y string) (result int, txt1 string) {
 	result = x + x
 	txt1 = y + " World!"

@@ -25,7 +25,7 @@ func main(){
 	fromArrayToSlice = append(fromArrayToSlice, 123,4)
 	fmt.Println("added element to slice ", fromArrayToSlice)
 
-	// append two slice togather
+	// append two slice together
 	firstSlice = append(firstSlice, fromArrayToSlice...)
 
 	fmt.Println(firstSlice)
