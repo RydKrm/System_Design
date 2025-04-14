@@ -7,10 +7,13 @@ RUN npm install -g nodemon
 # Initial the working directory
 WORKDIR /app
 
-# first dot for root folder and second dot is to which folder do i need to copy 
-COPY  . .
+# First copy package.json file so that after every run not npm install going to run 
+COPY  ./package.json ./
 
 RUN npm install
+# first dot for root folder and second dot is to which folder do i need to copy 
+# This will only copy the full project, but not install the package every time
+COPY ./ ./
 
 # on which port application will be run
 EXPOSE 8000

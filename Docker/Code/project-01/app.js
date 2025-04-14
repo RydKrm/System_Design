@@ -6,7 +6,7 @@ app.use(cors());
 
 app.get("/health", async (req, res) => {
   res.status(200).json({
-    message: "Health is okay",
+    message: "System up",
   });
 });
 const port = 8000;
