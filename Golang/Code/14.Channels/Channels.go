@@ -12,8 +12,10 @@ func passMessage(text string, messages chan string) {
 }
 
 func firstGoroutine(ch1 chan <- string, message string){
-	println("First goRoutins send message")
+	println("First go Routines send message")
 	ch1 <- message
+	// After this line the go routine will be stop, not will be started until other received channel 
+	// will not receive the data
 }
 
 func secondGoroutine(ch1 <-chan string){
@@ -22,6 +24,13 @@ func secondGoroutine(ch1 <-chan string){
 }
 
 // Buffer Channel
+// In Golang, an unbuffered channel is a type of channel that has no capacity to store values. It forces the 
+// sender to wait until a receiver is ready to receive the value. This makes unbuffered channels a great tool for 
+// synchronization between goroutines.
+
+// Why dead lock occur in g routines?
+// When a unbuffer sent a data through channel, but no on receive that data, that can create a dead lock 
+// so sending data on a unbuffer channel must need a receiver
 
 func bufferChannel(){
 	messages := make(chan string,2)
@@ -32,7 +41,6 @@ func bufferChannel(){
 	fmt.Println(<- messages)
 	fmt.Println(<-messages)
 }
-
 
 func main() {
     fmt.Println("Channels with go")
