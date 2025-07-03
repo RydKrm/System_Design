@@ -28,7 +28,7 @@ func main() {
 
 	// String Formatter 
 
-	    p := point{1, 2}
+	p := point{1, 2}
     fmt.Printf("struct1: %v\n", p) // {1,2}
 
     fmt.Printf("struct2: %+v\n", p) // {x:1 y:2}

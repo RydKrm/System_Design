@@ -1,0 +1,43 @@
+type Comment {
+  id: ID!
+  commentText: String!
+  userId: String!
+  productId: String!
+  commentImage: String
+}
+
+type CommentResponse {
+  status: Boolean!
+  message: String!
+  data: Comment
+}
+
+type CommentResponseList {
+  status: Boolean!
+  message: String!
+  data: [Comment]
+}
+
+input CreateComment {
+  commentText: String!
+  userId: String!
+  productId: String!
+  commentImage: String
+}
+
+input UpdateComment {
+  id: String!
+  commentText: String
+  commentImage: String
+}
+
+type Query {
+  singleComment(id: ID!): CommentResponse
+  allComment(id: ID!): CommentResponseList
+}
+
+type Mutation {
+  createComment(input: CreateComment): CommentResponse
+  updateComment(input: UpdateComment): CommentResponse
+  deleteComment(id: ID!): CommentResponse
+}

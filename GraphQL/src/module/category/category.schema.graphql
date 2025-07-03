@@ -1,0 +1,44 @@
+type Category {
+  id: String
+  name: String
+  description: String
+  status: Boolean
+  parent: String
+  children: [String]
+}
+
+input CreateCategory {
+  name: String!
+  description: String
+  parent: String
+  children: String
+}
+
+input UpdateCategory {
+  id: ID!
+  name: String
+  description: String
+}
+
+type CategoryResponse {
+  status: Boolean!
+  message: String!
+  data: Category
+}
+
+type CategoryResponseList {
+  status: Boolean!
+  message: String!
+  data: [Category]
+}
+
+type Query {
+  singleCategory(id: ID!): CategoryResponse
+  allCategory: CategoryResponseList
+}
+
+type Mutation {
+  createCategory(input: CreateCategory!): CategoryResponse
+  updateCategory(input: UpdateCategory): CategoryResponse
+  deleteCategory(id: ID!): CategoryResponse
+}

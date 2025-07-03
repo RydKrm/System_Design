@@ -1,0 +1,50 @@
+type Review {
+  id: String
+  userId: String
+  productId: String
+  rating: Float
+  images: [String]
+  description: String
+}
+
+input CreateReview {
+  userId: String!
+  productId: String!
+  rating: Float!
+  images: [String]
+  description: String
+}
+
+input UpdateReview {
+  id: String
+  userId: String
+  productId: String
+  rating: Float
+  images: [String]
+  description: String
+}
+
+type ReviewResponse {
+  status: Boolean!
+  message: String!
+  data: Review
+}
+
+type ReviewResponseList {
+  status: Boolean!
+  message: String!
+  data: [Review]
+}
+
+type Query {
+  singleReview(id: ID!): ReviewResponse
+  allReviewByProduct(id: ID!): ReviewResponseList
+  allReviewByCompany(id: ID!): ReviewResponseList
+}
+
+type Mutation {
+  createReview(input: CreateReview): ReviewResponse
+  updateReview(input: UpdateReview): ReviewResponse
+  deleteReview(id: ID!): ReviewResponse
+  updateReviewStatus(id: ID!): ReviewResponse
+}

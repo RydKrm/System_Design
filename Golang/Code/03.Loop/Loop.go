@@ -14,7 +14,7 @@ func main() {
      fmt.Printf("%v\t%v\n", idx, val)
   }
 
-//   omit the other field with undersacore 
+//   omit the other field with underscore 
 
 for _, val := range fruits {
 	fmt.Printf("%v\n", val)

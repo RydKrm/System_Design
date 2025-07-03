@@ -11,13 +11,13 @@ func main(){
 
 	// Fixed sized array 
 
-	var arr1 = [3]int{1,2,3}
+	arr1 := []int{1, 2}
 	arr2 := [4]int{1,2,3,4}
 	fmt.Println(arr1, arr2)
 
 	// define array with length inferred
 
-	var arr3 = [...]int{43,1,9}
+	var arr3 = [...]int{43,1,9,13,3,54,12}
 
 	fmt.Println("Inferred array ", arr3)
 
@@ -32,6 +32,9 @@ func main(){
 	length := len(emptyArray)
 	fmt.Println("Length of array ", length)
 
+	b := [...]int{100, 3: 400, 500}
+    fmt.Println("idx:", b)
+
 
 	// Array types are one-dimensional,
 	var twoD [2][3]int
@@ -41,5 +44,11 @@ func main(){
         }
     }
     fmt.Println("2d: ", twoD)
+
+	// Take a 100 sized array with initial values are 100
+	initial_value_array := [100]int{0}
+	for i:=0; i<100; i++ {
+        fmt.Printf("%v ", initial_value_array[i])
+    }
 
 }

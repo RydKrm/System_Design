@@ -4,18 +4,17 @@ import "fmt"
 
 type Developer struct {
 	name string
-	age int 
+	age int
 	job string
 	competitiveProgrammer bool
-	exp int 
-	language string
-
+	exp int
+	language string 
 }
 
 type DeveloperInterface interface{
 	ageOk(expAge int) bool
 	isDeveloper()bool
-	isExperenced() bool 
+	isExperenced() bool
 	whatLanguage() string
 }
 
@@ -37,7 +36,7 @@ func (d Developer) isDeveloper(currentJob string) bool{
 
 func (d Developer) isExperenced(currentJobExp int) bool {
 	if currentJobExp>= d.exp {
-		return true 
+		return true
 	} else {
 		return false
 	}
@@ -49,10 +48,10 @@ func (d Developer) whatLanguage() string{
 
 func main(){
 
-	developer1 := Developer { 
+	developer1 := Developer {
 		name: "Riyadh",
 	    job: "backendDeveloper",
-	    age: 26, 
+	    age: 26,
 		competitiveProgrammer: true,
 		exp:1,
 		language: "go",
@@ -60,7 +59,7 @@ func main(){
 
 	if developer1.ageOk(30) {
 		fmt.Println("Developer age okay")
-	} 
+	}
 
 	if developer1.isDeveloper("backendDeveloper") {
 		fmt.Println("this is a developer ")
