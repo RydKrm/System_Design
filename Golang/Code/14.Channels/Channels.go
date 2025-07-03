@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 // Channels are the pipes that connect concurrent goroutines. You can send values into channels from one
@@ -16,11 +17,17 @@ func firstGoroutine(ch1 chan <- string, message string){
 	ch1 <- message
 	// After this line the go routine will be stop, not will be started until other received channel 
 	// will not receive the data
+// func passMessage( messages chan string) {
+//     messages <- "hello from channel"
+// }
+
 }
 
+// This will receive a message
 func secondGoroutine(ch1 <-chan string){
 	msg := <- ch1;
-	fmt.Println("second function receive message ", msg);
+	fmt.Println("Receiving message from second message ", msg);
+	time.Sleep(time.Second * 2)
 }
 
 // Buffer Channel
@@ -46,22 +53,26 @@ func main() {
     fmt.Println("Channels with go")
 
     // Create a channel
-    messages := make(chan string)
+    messages := make(chan string,2)
+
+	messages <- "Hello"
 
     // Start a goroutine to pass a message
-    go passMessage("hello", messages)
+    // go passMessage(messages)
 
     // Receive the message from the channel
-    msg := <-messages
+    // msg := <-messages
 
-    fmt.Println("Received message:", msg);
+    // fmt.Println("Received message:", msg);
 
-	go bufferChannel()
+	// go bufferChannel()
 
+	// Make two channel in two different function and pass message from one function to another
 
-	// Make two channel in two different function and pass message from one function to another 
-
-	go firstGoroutine(messages, "hello from channel 1")
+	// go firstGoroutine(messages)
 	go secondGoroutine(messages)
-	
+
+	time.Sleep(time.Second*3)
+
+
 }

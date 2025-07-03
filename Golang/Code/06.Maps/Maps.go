@@ -18,7 +18,7 @@ import (
 
 func main() {
   var firstMap = map[string]string{"brand": "Ford", "model": "Mustang", "year": "1964"}
-   secondMap := map[string]int{"Oslo": 1, "Bergen": 2, "Trondheim": 3, "Stavanger": 4}
+  secondMap := map[string]int{"Oslo": 1, "Bergen": 2, "Trondheim": 3, "Stavanger": 4}
 
   fmt.Printf("a\t%v\n", firstMap)
   fmt.Printf("b\t%v\n", secondMap)
@@ -45,6 +45,25 @@ if isExist  {
 
 for k, v := range makeMap {
     fmt.Print( k, v)
-  }
+}
+
+// map start again 
+get_map := map[string]string{};
+
+ get_map["name"] = "riyad"
+
+ get_map["address"] = "mirpur"
+
+ delete(get_map, "job")
+
+ get_data,isExists:= get_map["address"]
+ 
+ if isExists {
+   fmt.Println(get_data)
+ }
+
+ for k,v := range get_map{
+   fmt.Println("key => ",k, "value => ", v)
+ }
 
 }

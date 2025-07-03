@@ -1,0 +1,30 @@
+type Reaction {
+  id: String
+  userId: String
+  productId: String
+  type: String
+}
+
+input CreateReaction {
+  userId: String!
+  productId: String!
+  type: String!
+}
+
+input UpdateReaction {
+  userId: String
+  productId: String
+  type: String
+}
+
+type Query {
+  singleReview(id: ID!): Reaction
+  allReviewByProduct(id: ID!): [Reaction]
+  allReviewByCompany(id: ID!): [Reaction]
+}
+
+type Mutation {
+  createReview(input: CreateReview): Reaction
+  UpdateReaction(input: UpdateReaction): Reaction
+  deleteReview(id: ID!): Boolean
+}

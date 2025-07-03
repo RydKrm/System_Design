@@ -33,6 +33,10 @@ func Add[T Addable] (a,b T) T {
 	return a + b
 }
 
+func subtract[T uint32 | uint64](a T,b T) T {
+	return a - b
+}
+
 
 func main(){
 	x,y := Swap[int](4,5)
