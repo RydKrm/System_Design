@@ -59,8 +59,11 @@ Here’s a **comprehensive list of topics** for learning **Clean Code**, broken 
 * Favor Composition Over Inheritance
 * Encapsulation: Keep Data Private
 * Use Interfaces Properly
+* Use Composition Properly
+* Dependency Management
+* Error Handling
 
----
+---    
 
 ## 🔁 5. **Code Structure and Formatting**
 
