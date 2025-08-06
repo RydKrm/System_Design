@@ -184,7 +184,21 @@ Here’s a **comprehensive list of topics** for learning **Clean Code**, broken 
 
 ---
 
-## 🧰 14. **Tools and Automation**
+## 🔄 14. **Clean Concurrency**
+
+> Writing clean concurrent code is hard, but essential for modern applications.
+
+*   **Keep Concurrency Models Simple**: Avoid complex locking mechanisms.
+*   **Isolate Shared Data**: Minimize or eliminate shared mutable state.
+*   **Make Code Thread-Safe**: Ensure methods can be safely executed by multiple threads.
+*   **Prefer Immutable Objects**: Objects that cannot be modified after creation are inherently thread-safe.
+*   **Use Copies of Data**: Pass copies of data to threads, not shared instances.
+*   **Understand Concurrency-Specific Flaws**: Be aware of issues like race conditions, deadlocks, and starvation.
+*   **Know Your Concurrency Library**: Deeply understand the features and pitfalls of your language's concurrency tools (e.g., `async/await`, `goroutines`, `java.util.concurrent`).
+
+---
+
+## 🧰 15. **Tools and Automation**
 
 > Let tools help you maintain clean code.
 
@@ -195,7 +209,7 @@ Here’s a **comprehensive list of topics** for learning **Clean Code**, broken 
 
 ---
 
-## 📚 15. **Code Review Skills**
+## 📚 16. **Code Review Skills**
 
 > Learn how to write and review code cleanly.
 
@@ -206,7 +220,7 @@ Here’s a **comprehensive list of topics** for learning **Clean Code**, broken 
 
 ---
 
-## 🧠 16. **Mindset and Culture**
+## 🧠 17. **Mindset and Culture**
 
 > Clean code is a team habit.
 
