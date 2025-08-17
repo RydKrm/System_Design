@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+
+  node-app:
+    build: ./node-app
+    container_name: node-app
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./node-app:/app
+      - /app/node_modules
+    command: npx nodemon src/index.js --legacy-watch
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - CHOKIDAR_INTERVAL=500
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+volumes:
+  redis-data:
