@@ -1,0 +1,24 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4"
+  },
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.8.0",
+    "@types/node": "^24.3.1",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.13.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
