@@ -40,7 +40,7 @@ Now you dive deeper into handling multiple connections and efficiency.
 
 **Topics to learn:**
 * Concurrent connections
-  * Threads, processes, or async handling
+* Threads, processes, or async handling
 * Non-blocking sockets
 * Select, poll, epoll, or kqueue (depending on your OS)
 * Socket options and configuration (e.g., timeout, buffer size)
