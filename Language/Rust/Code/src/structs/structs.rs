@@ -1,5 +1,3 @@
-use core::time;
-use std::fmt::Error;
 use crate::enums::enums::TransactionType;
 
 #[derive(Debug)]
@@ -20,47 +18,52 @@ pub struct Transaction{
 
 
 
-pub impl BankAccount {
+impl BankAccount {
     pub fn new(account_number:String, user_name:String) -> Self{
+        println!("A new account created with name : {}", account_number);
         Self{
             account_number,
             user_name,
-            balance : 0,
+            balance : 0.01,
             transaction_history: Vec::new()
         }
     }
 
     pub fn account_with_initial(account_number:String, user_name:String, balance:f64) -> Result<Self,String>{
-        if balance < 0 {
-            Err("Opening Balance cannot be lower that zero. Negative balance not allowed".to_string())
+        if balance < 0.0{
+            return Err("Opening Balance cannot be lower that zero. Negative balance not allowed".to_string());
         }
         
         println!("Create account with initial balance");
         
-        Self { 
+        Ok(Self { 
             account_number: account_number,
             user_name: user_name,
             balance,
             transaction_history: Vec::new()
-        };
-        Ok(())
+        })
     }
 
     pub fn get_current_balance(&self)->f64{
+        println!("Current amount is {}", self.balance);
         self.balance
     }
 
-    pub fn get_account_number(&self)->String{
-        &self.account_number;
+    pub fn get_account_number(&self)->&String{
+        println!("Account number {}", self.account_number);
+        &self.account_number
     }
 
-    pub fn get_transactions(&self)-> String{
+    pub fn get_transactions(&self)-> &Vec<Transaction>{
+        for trans in &self.transaction_history{
+            println!("type -> {:?} \n amount -> {}", trans.transaction_type, trans.amount);
+        }
         &self.transaction_history
     }
 
     pub fn make_deposit(&mut self, amount:f64, description:String)->Result<(), String> {
-        if amount <= 0 {
-            Err("Deposit amount must be positive number".to_string())
+        if amount <= 0.0 {
+            return Err("Deposit amount must be positive number".to_string());
         }
         self.balance += amount;
         let new_transaction = Transaction{
@@ -70,16 +73,17 @@ pub impl BankAccount {
             timestamp: String::from("2025-10-15 12:00:00")
         };
         self.transaction_history.push(new_transaction);
+        println!("Making deposit of {} ", amount);
         Ok(())
     }
 
     pub fn make_withdraw(&mut self, amount:f64, description: String) -> Result<(), String>{
-        if amount <=0 {
+        if amount <=0.0 {
             return Err("Amount must be possible".to_string());
         }
 
         if self.balance < amount {
-            Err("Insufficient funds".to_string())
+            return Err("Insufficient funds".to_string());
         }
 
         self.balance -= amount;
@@ -92,16 +96,17 @@ pub impl BankAccount {
         };
 
         self.transaction_history.push(new_transaction);
-        Ok(());
+        println!("withdraw {} from account {}", amount, self.account_number);
+        Ok(())
     }
 
     pub fn make_fund_transfer(&mut self,other_account:&mut BankAccount , amount:f64 ) -> Result<(), String>{
-        if amount <= 0 {
-            Err(String::from("Only positive amount is allowed to transfer"));
+        if amount <= 0.0 {
+           return Err(String::from("Only positive amount is allowed to transfer"));
         }
 
         if self.balance < amount {
-            Err(String::from("Insufficient funds"))
+           return Err(String::from("Insufficient funds"));
         }
 
         self.balance -= amount;
@@ -123,7 +128,9 @@ pub impl BankAccount {
         };
         other_account.transaction_history.push(new_deposit_transfer);
 
-        Ok(());
+        println!("{} is transfer from {} to {}", amount, self.account_number, other_account.account_number);
+
+        Ok(())
     }
 
     pub fn total_deposit(&self) -> f64{
@@ -133,6 +140,7 @@ pub impl BankAccount {
                 total += tr.amount
             }
         }
+        println!("Your total deposit is {} ", total);
 
         total
 
