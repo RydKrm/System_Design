@@ -1,3 +1,7 @@
 {
-  "rust-analyzer.checkOnSave": false
+  "rust-analyzer.checkOnSave": true,
+  "cSpell.words": [
+    "karim",
+    "riyad"
+  ]
 }
