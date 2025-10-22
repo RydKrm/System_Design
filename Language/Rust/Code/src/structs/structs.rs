@@ -2,8 +2,9 @@ use crate::enums::enums::TransactionType;
 
 #[derive(Debug)]
 pub struct BankAccount{
-    account_number:String,
-    user_name:String,
+    pub account_number:String,
+    pub user_name:String,
+    pub phone_number: Option<String>,
     balance:f64,
     transaction_history: Vec<Transaction>
 }
@@ -24,6 +25,7 @@ impl BankAccount {
         Self{
             account_number,
             user_name,
+            phone_number: None,
             balance : 0.01,
             transaction_history: Vec::new()
         }
@@ -37,11 +39,22 @@ impl BankAccount {
         println!("Create account with initial balance");
         
         Ok(Self { 
-            account_number: account_number,
-            user_name: user_name,
+            account_number,
+            user_name,
+            phone_number: None,
             balance,
             transaction_history: Vec::new()
         })
+    }
+
+    pub fn account_with_phone(account_number:String, user_name:String, phone_number:String)-> Self{
+        Self { 
+            account_number,
+            user_name,
+            phone_number: Some(phone_number), 
+            balance: 0.0,
+            transaction_history: Vec::new() 
+        }
     }
 
     pub fn get_current_balance(&self)->f64{
