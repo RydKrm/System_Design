@@ -5,6 +5,10 @@ mod structs;
 
 mod enums;
 
+mod traits;
+
+mod generics;
+
 fn main() {
     println!("Hello, world!");
     let mut riyad_account = BankAccount::new(
@@ -27,7 +31,7 @@ fn main() {
 
     // println!("account has a phone number {}", number);
     if let Some(new_phone_number) = &riyad_account.phone_number {
-        println!("Riyad account has a phone number ", new_phone_number);
+        println!("Riyad account has a phone number {}", new_phone_number);
     }
 
     if let Some(get_phone) = &riyad_account.phone_number {
@@ -35,8 +39,8 @@ fn main() {
     }
 
     // return if get any reports 
-    let new_phone_number = karim_account.phone_number?;
-    println!("This will get phone number or return from here", new_phone_number);
+    let new_phone_number = karim_account.phone_number.unwrap_or("Default phone number".to_string());
+    println!("This will get phone number or return from here {}", new_phone_number);
 
     riyad_account.make_deposit(10000.0, "Salary".to_string());
 
