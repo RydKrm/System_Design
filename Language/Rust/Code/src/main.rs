@@ -12,6 +12,7 @@ mod generics;
 mod memory_management;
 
 mod error;
+mod closures;
 
 fn main() {
     println!("Hello, world!");
