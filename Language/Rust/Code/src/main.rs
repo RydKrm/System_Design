@@ -9,6 +9,10 @@ mod traits;
 
 mod generics;
 
+mod memory_management;
+
+mod error;
+
 fn main() {
     println!("Hello, world!");
     let mut riyad_account = BankAccount::new(
