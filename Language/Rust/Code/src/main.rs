@@ -9,6 +9,9 @@ mod traits;
 
 mod generics;
 
+mod memory_management;
+
+mod error;
 mod closures;
 
 fn main() {
