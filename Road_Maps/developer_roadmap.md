@@ -14,7 +14,7 @@ A structured path with checkboxes for tracking your progress.
 
 ## 🧑‍💻 2. Programming Languages
 
-- [Done] TypeScript
+- [Done] TypeScript \*
 - [running] Golang
 - [ ] Rust
 
@@ -22,7 +22,7 @@ A structured path with checkboxes for tracking your progress.
 
 ## 🏛️ 3. Software Engineering & Architecture
 
-- [ ] SOLID Principles
+- [ ] SOLID Principles \*
 - [ ] Design Patterns
 - [ ] Clean Architecture
 
@@ -34,7 +34,7 @@ A structured path with checkboxes for tracking your progress.
 - [Done] PostgreSQL
 - [Done] MySQL
 - [Running] Database Optimization
-- [ ] Redis
+- [ ] Redis \*
 
 ---
 
@@ -48,8 +48,8 @@ A structured path with checkboxes for tracking your progress.
 
 ## ⚙️ 6. DevOps & Deployment
 
-- [OK_OK] CI/CD
-- [OK_OK] Docker
+- [OK_OK] CI/CD \*
+- [OK_OK] Docker \*
 - [ ] Kubernetes
 - [ ] AWS / GCP
 
