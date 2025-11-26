@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7bec481f67ce6597",
+        "id": "de2f080c29691ec2",
         "type": "tabs",
         "children": [
           {
-            "id": "eba757e881c7b39c",
+            "id": "d7641c84084773b1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -188,6 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eba757e881c7b39c",
-  "lastOpenFiles": []
+  "active": "b42da1d6333f6868",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "System_Design/Job_Portal/job-portal.md",
+    "System_Design/Job_Portal",
+    "System_Design",
+    "Redis/04.data_structure.md"
+  ]
 }
