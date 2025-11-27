@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "839684640ce43484",
+        "id": "6e6e7dddb9207366",
         "type": "tabs",
         "children": [
           {
-            "id": "7d9394f88fe2553c",
+            "id": "0338936e79dd705c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -201,8 +201,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "36fde483d467abb9",
+  "active": "0338936e79dd705c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Redis/05.Redis_vs_Database.md",
     "System_Design/Job_Portal/Drawing 2025-11-26 16.51.01.excalidraw.md",
     "System_Design/Job_Portal/job-portal.md",
     "Drawing 2025-11-26 12.39.09.excalidraw.md",
@@ -236,8 +238,6 @@
     "test.md",
     "Excalidraw/Drawing 2025-11-26 10.20.35.excalidraw.md",
     "My code file.go",
-    "Clippings/Goca - Go Clean Architecture Code Generator 1.md",
-    "Redis/01.Basic.md",
     "Clippings",
     "Language/Golang/Code/11.Select/Select.go",
     "Language/Golang/Code/01.DataType/DataType.go"
