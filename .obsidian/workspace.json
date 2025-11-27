@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c065ba2a82c63f5d",
+        "id": "839684640ce43484",
         "type": "tabs",
         "children": [
           {
-            "id": "7f74defda6c1803b",
+            "id": "7d9394f88fe2553c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "System_Design/Job_Portal/job-portal.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "job-portal"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -200,12 +198,10 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "vscode-editor:Create Code File": false,
-      "terminal:Open terminal": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f74defda6c1803b",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
     "System_Design/Job_Portal/Drawing 2025-11-26 16.51.01.excalidraw.md",
     "System_Design/Job_Portal/job-portal.md",
