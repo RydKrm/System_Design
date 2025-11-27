@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6e6e7dddb9207366",
+        "id": "6edfd96d1ffb7bff",
         "type": "tabs",
         "children": [
           {
-            "id": "0338936e79dd705c",
+            "id": "b986f15a4229fa94",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "System_Design/Job_Portal/job-portal.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "job-portal"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 205.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -201,12 +203,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0338936e79dd705c",
+  "active": "b986f15a4229fa94",
   "lastOpenFiles": [
+    "System_Design/Job_Portal/job-portal.md",
+    "Jenkins/learning_path.md",
     "conflict-files-obsidian-git.md",
     "Redis/05.Redis_vs_Database.md",
     "System_Design/Job_Portal/Drawing 2025-11-26 16.51.01.excalidraw.md",
-    "System_Design/Job_Portal/job-portal.md",
     "Drawing 2025-11-26 12.39.09.excalidraw.md",
     "System_Design/Job_Portal",
     "Untitled 1",
@@ -223,7 +226,6 @@
     "linux/cmd/03.sudo_command.md",
     "linux/cmd/02.file_permission.md",
     "linux/cmd/01.basic_cmd.md",
-    "Jenkins/learning_path.md",
     "Load_Balancing/01.Into/01.What_and_why.md",
     "Load_Balancing/readme.md",
     "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
