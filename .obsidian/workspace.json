@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "3bc64b9b050d01bb",
+    "id": "b47a5e36afa8a8f5",
     "type": "split",
     "children": [
       {
-        "id": "25b9ededf3f880fc",
+        "id": "c60cc25b6c7d7f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "9f797d1e8421f6e6",
+            "id": "352630d5f8212b55",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Redis/05.Redis_vs_Database.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "05.Redis_vs_Database"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a4160c77fc81963d",
+    "id": "8ff34c8d26d3150a",
     "type": "split",
     "children": [
       {
-        "id": "7056d0d3260e08db",
+        "id": "77417c31cf4e643f",
         "type": "tabs",
         "children": [
           {
-            "id": "b42da1d6333f6868",
+            "id": "36fde483d467abb9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "d2f8fd3dad08827a",
+            "id": "79ee9ae9dc658389",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "7a9320a5d26fa53b",
+            "id": "7c3f15b0becc7599",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 205.5
   },
   "right": {
-    "id": "8da6158567f5cb25",
+    "id": "3758031abf639b10",
     "type": "split",
     "children": [
       {
-        "id": "a2fb47e53d8d1c77",
+        "id": "a4a610b41fc5a1c3",
         "type": "tabs",
         "children": [
           {
-            "id": "90317e408831d910",
+            "id": "b473180d5fbc64a3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redis/05.Redis_vs_Database.md",
+                "file": "Database/MySQL/Theory/03.index/scaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 05.Redis_vs_Database"
+              "title": "Backlinks for scaning"
             }
           },
           {
-            "id": "ff789ac82758bfa0",
+            "id": "dd5ac7ee6b05e2cd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Database/MySQL/Theory/03.index/scaning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from scaning"
             }
           },
           {
-            "id": "45e34f89739982be",
+            "id": "4a202376d2d6753f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,7 +137,7 @@
             }
           },
           {
-            "id": "49ddd28cc021f0dd",
+            "id": "6c7a46ad6e4fea43",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -146,21 +151,32 @@
             }
           },
           {
-            "id": "83635895b5a680dc",
+            "id": "623ddaa206eaf8b4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Database/MySQL/Theory/03.index/scaning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of scaning"
             }
           },
           {
-            "id": "eaf7124d2d158fb4",
+            "id": "9a6afce1f1b198fa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "e4e63f68877866b4",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -170,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -189,13 +205,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f797d1e8421f6e6",
+  "active": "352630d5f8212b55",
   "lastOpenFiles": [
-    "Redis/05.Redis_vs_Database.md",
     "System_Design/Job_Portal/job-portal.md",
+    "Jenkins/learning_path.md",
     "conflict-files-obsidian-git.md",
+    "Redis/05.Redis_vs_Database.md",
+    "System_Design/Job_Portal/Drawing 2025-11-26 16.51.01.excalidraw.md",
+    "Drawing 2025-11-26 12.39.09.excalidraw.md",
     "System_Design/Job_Portal",
+    "Untitled 1",
     "System_Design",
-    "Redis/04.data_structure.md"
+    "RabbitMQ/readme.md",
+    "RabbitMQ/Basic/05.Producer.md",
+    "RabbitMQ/Basic/04.why_decoupling.md",
+    "RabbitMQ/Basic/03.Messaging_vs_apis.md",
+    "RabbitMQ/Basic/02_how_it's_works.md",
+    "Docker/Code/project-01/app.js",
+    "Authentication/Basic_Auth/BasicAuth.js",
+    "linux/cmd/all_type_cmd.md",
+    "linux/cmd/04.package_management.md",
+    "linux/cmd/03.sudo_command.md",
+    "linux/cmd/02.file_permission.md",
+    "linux/cmd/01.basic_cmd.md",
+    "Load_Balancing/01.Into/01.What_and_why.md",
+    "Load_Balancing/readme.md",
+    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
+    "gRPC/00.Foundamental/01.uderstanding_distributed_system.md",
+    "Excalidraw/Drawing 2025-11-26 12.27.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-26 12.24.47.excalidraw.md",
+    "Excalidraw",
+    "Jenkins/Basic/what_is_jobs.md",
+    "Language/TypeScript/Docs/Narrowing.md",
+    "Untitled.canvas",
+    "Database/MySQL/Code/Operation/delete.md",
+    "test.md",
+    "Excalidraw/Drawing 2025-11-26 10.20.35.excalidraw.md",
+    "My code file.go",
+    "Clippings",
+    "Language/Golang/Code/11.Select/Select.go",
+    "Language/Golang/Code/01.DataType/DataType.go"
   ]
 }
