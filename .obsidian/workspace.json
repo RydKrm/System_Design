@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6edfd96d1ffb7bff",
+        "id": "c60cc25b6c7d7f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "b986f15a4229fa94",
+            "id": "352630d5f8212b55",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "System_Design/Job_Portal/job-portal.md"
+                "file": "Redis/05.Redis_vs_Database.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "job-portal"
+              "icon": "lucide-file",
+              "title": "05.Redis_vs_Database"
             }
           }
         ]
@@ -203,7 +205,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b986f15a4229fa94",
+  "active": "352630d5f8212b55",
   "lastOpenFiles": [
     "System_Design/Job_Portal/job-portal.md",
     "Jenkins/learning_path.md",
