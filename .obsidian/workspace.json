@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
+                "file": "Docker/Docker_Deep/Docker_Technology/02.Container_More_depth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.Docker Basic Archetecture"
+              "title": "02.Container_More_depth"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 307.51103591918945
   },
   "right": {
     "id": "3758031abf639b10",
@@ -206,14 +206,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "36fde483d467abb9",
+  "active": "6a2da54b42c165bc",
   "lastOpenFiles": [
     "Docker/Docker_Deep/Docker_Technology/02.Container.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container_More_depth.md",
+    "Docker/Docker_Deep/Basic Linux/C_Group.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Linux_Namespce_Cgroup_union_file_system.md",
+    "Docker/Docker_Deep/Basic Linux/Namespace.md",
+    "Docker/Docker_Deep/Basic Linux/Union_File_System.md",
+    "Docker/Docker_Deep/Basic Linux",
+    "Docker/Docker_Deep/Docker_Technology/test.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
+    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
+    "DevOps_Books",
     "Docker/Docs/06.docker_compose.md",
     "Operating_System/04.Process_Management/03.Concurrancy.md",
     "Docker/Docker_Deep/Docker_Technology/Docker Technoogy.md",
-    "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
-    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
     "Operating_System/01.Code_Executionn/00.Code_Execution.md",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology",
@@ -231,20 +239,12 @@
     "Operating_System/04.Process_Management/02.Context_Switching.md",
     "Operating_System/04.Process_Management/01.Thread_Management.md",
     "Operating_System/03.CPU/02.Pipeline_and_Paralalism.md",
-    "Operating_System/03.CPU/01.CPU_Components.md",
-    "Operating_System/01.Code_Executionn/04.Stack_Section.md",
-    "Operating_System/01.Code_Executionn/01.How_code_execute.md",
-    "Operating_System/02.Memory_Management/02.CPU_Read_Write_RAM.md",
-    "Operating_System/02.Memory_Management/01.RAM_And_Internals.md",
     "Operating_System/04.Process_Management",
     "Operating_System/02.Memory_Management",
     "Operating_System/03.CPU",
     "Operating_System/01.Code_Executionn",
     "Operating_System",
-    "Redis/04.data_structure.md",
     "System_Design/Job_Portal",
-    "Untitled 1",
-    "System_Design",
     "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
     "Untitled.canvas"
   ]
