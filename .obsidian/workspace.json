@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9441b5126008e7fe",
+        "id": "a95225ff07250c50",
         "type": "tabs",
         "children": [
           {
-            "id": "2ec49a002ff94abc",
+            "id": "6a2da54b42c165bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01.Docker Basic Archetecture"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 242.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -186,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,44 +206,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ec49a002ff94abc",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
+    "Docker/Docker_Deep/Docker_Technology/02.Container.md",
+    "Docker/Docs/06.docker_compose.md",
     "Operating_System/04.Process_Management/03.Concurrancy.md",
+    "Docker/Docker_Deep/Docker_Technology/Docker Technoogy.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
+    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
+    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
+    "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
+    "Docker/Docker_Deep/Docker_Technology",
+    "Docker/Docker_Deep",
+    "Docker/Docs/05.volumes.md",
+    "Docker/Docs/04.Layer_caching.md",
+    "Docker/Docs/03.command.md",
+    "Docker/Docs/02.create-Dockerfile.md",
+    "Docker/Docs/01.image.md",
+    "test2.md",
+    "test.md",
+    "Operating_System/01.Code_Executionn/05.Heap_Section.md",
+    "Operating_System/01.Code_Executionn/03.Code_sections.md",
+    "Operating_System/01.Code_Executionn/02.Execution_Example.md",
     "Operating_System/04.Process_Management/02.Context_Switching.md",
     "Operating_System/04.Process_Management/01.Thread_Management.md",
-    "Operating_System/02.Memory_Management/02.CPU_Read_Write_RAM.md",
-    "Operating_System/02.Memory_Management/01.RAM_And_Internals.md",
     "Operating_System/03.CPU/02.Pipeline_and_Paralalism.md",
     "Operating_System/03.CPU/01.CPU_Components.md",
-    "Operating_System/01.Code_Executionn/02.Execution_Example.md",
-    "Operating_System/01.Code_Executionn/03.Code_sections.md",
-    "Operating_System/01.Code_Executionn/05.Heap_Section.md",
     "Operating_System/01.Code_Executionn/04.Stack_Section.md",
     "Operating_System/01.Code_Executionn/01.How_code_execute.md",
-    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
+    "Operating_System/02.Memory_Management/02.CPU_Read_Write_RAM.md",
+    "Operating_System/02.Memory_Management/01.RAM_And_Internals.md",
     "Operating_System/04.Process_Management",
     "Operating_System/02.Memory_Management",
     "Operating_System/03.CPU",
     "Operating_System/01.Code_Executionn",
     "Operating_System",
     "Redis/04.data_structure.md",
-    "Redis/02.Data_structure.md",
-    "Redis/03.Architecture.md",
-    "Redis/01.Basic.md",
-    "System_Design/Job_Portal/job-portal.md",
-    "Redis/05.Redis_vs_Database.md",
-    "Jenkins/learning_path.md",
-    "conflict-files-obsidian-git.md",
-    "System_Design/Job_Portal/Drawing 2025-11-26 16.51.01.excalidraw.md",
-    "Drawing 2025-11-26 12.39.09.excalidraw.md",
     "System_Design/Job_Portal",
     "Untitled 1",
     "System_Design",
-    "RabbitMQ/readme.md",
-    "RabbitMQ/Basic/05.Producer.md",
-    "RabbitMQ/Basic/04.why_decoupling.md",
-    "Docker/Code/project-01/app.js",
-    "Authentication/Basic_Auth/BasicAuth.js",
     "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
     "Untitled.canvas"
   ]
