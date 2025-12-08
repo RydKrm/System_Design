@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a95225ff07250c50",
+        "id": "f12939c787aac37c",
         "type": "tabs",
         "children": [
           {
-            "id": "6a2da54b42c165bc",
+            "id": "32123f456f9866b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Docker/Docker_Deep/Docker_Technology/02.Container_More_depth.md",
-                "mode": "source",
-                "source": false
+                "file": "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "02.Container_More_depth"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-07 12.57.12.excalidraw"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.51103591918945
+    "width": 322.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -206,19 +204,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a2da54b42c165bc",
+  "active": "32123f456f9866b5",
   "lastOpenFiles": [
-    "Docker/Docker_Deep/Docker_Technology/02.Container.md",
+    "Docker/Docker_Deep/Docker_Technology/03.Open_Container_Initiative.md",
     "Docker/Docker_Deep/Docker_Technology/02.Container_More_depth.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container.md",
+    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
+    "Docker/Docker_Deep/Data_Persistence",
+    "Docker/Docker_Deep/Basic Linux/Linux_Inside.md",
+    "Docker/Untitled 2.canvas",
+    "Docker/Untitled 2.base",
+    "Docker/2025-12-08.md",
+    "Docker/Untitled 1.canvas",
+    "Docker/Untitled 1.base",
+    "Docker/Untitled.canvas",
+    "Docker/Untitled.base",
+    "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
+    "Docker/Docker_Deep/Docker_Technology/test.md",
+    "Docker/Docker_Deep/Basic Linux/Union_File_System.md",
+    "Docker/Docker_Deep/Basic Linux/Namespace.md",
     "Docker/Docker_Deep/Basic Linux/C_Group.md",
     "Docker/Docker_Deep/Docker_Technology/01.Linux_Namespce_Cgroup_union_file_system.md",
-    "Docker/Docker_Deep/Basic Linux/Namespace.md",
-    "Docker/Docker_Deep/Basic Linux/Union_File_System.md",
     "Docker/Docker_Deep/Basic Linux",
-    "Docker/Docker_Deep/Docker_Technology/test.md",
-    "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
-    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
-    "DevOps_Books",
     "Docker/Docs/06.docker_compose.md",
     "Operating_System/04.Process_Management/03.Concurrancy.md",
     "Docker/Docker_Deep/Docker_Technology/Docker Technoogy.md",
@@ -236,15 +243,9 @@
     "Operating_System/01.Code_Executionn/05.Heap_Section.md",
     "Operating_System/01.Code_Executionn/03.Code_sections.md",
     "Operating_System/01.Code_Executionn/02.Execution_Example.md",
-    "Operating_System/04.Process_Management/02.Context_Switching.md",
-    "Operating_System/04.Process_Management/01.Thread_Management.md",
-    "Operating_System/03.CPU/02.Pipeline_and_Paralalism.md",
     "Operating_System/04.Process_Management",
     "Operating_System/02.Memory_Management",
     "Operating_System/03.CPU",
-    "Operating_System/01.Code_Executionn",
-    "Operating_System",
-    "System_Design/Job_Portal",
     "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
     "Untitled.canvas"
   ]
