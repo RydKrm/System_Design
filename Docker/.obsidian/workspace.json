@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "98cf899def684915",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d424bef77043de9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5133972dd6557ee8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker_Deep/Basic Linux/Linux_Inside.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux_Inside"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab9aec171163a481",
+    "type": "split",
+    "children": [
+      {
+        "id": "0205335cb7134228",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85f08fec5cdab470",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6f9f333e24c71aa1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8ee188996f06ad87",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 224.5
+  },
+  "right": {
+    "id": "7497e7bf7a4cdefc",
+    "type": "split",
+    "children": [
+      {
+        "id": "727db0d13c0bf618",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f78f04cff51736e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docker_Deep/Basic Linux/Linux_Inside.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Linux_Inside"
+            }
+          },
+          {
+            "id": "266b0d2879a97d0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Docker_Deep/Basic Linux/Linux_Inside.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Linux_Inside"
+            }
+          },
+          {
+            "id": "8e69e3e8143b73ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9197fec84bd8739a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "83cb9c9c682ff65b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docker_Deep/Basic Linux/Linux_Inside.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Linux_Inside"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5133972dd6557ee8",
+  "lastOpenFiles": [
+    "Docker_Deep/Docker_Technology/03.Open_Container_Initiative.md",
+    "Docker_Deep/Docker_Technology/Untitled.md",
+    "Docker_Deep/Data_Persistence",
+    "Docker_Deep/Untitled",
+    "Docker_Deep/Docker_Technology/02.Container.md",
+    "Docker_Deep/Basic Linux/Linux_Inside.md",
+    "Docker_Deep/Basic Linux/linux_inside.md",
+    "Docker_Deep/Basic Linux/Untitled.md",
+    "Docker_Deep/Docker_Technology/01.Linux_Namespce_Cgroup_union_file_system.md",
+    "Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
+    "Docker_Deep/Basic Linux/C_Group.md",
+    "Untitled 2.base",
+    "Untitled 1.canvas",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Docker_Deep/Basic Linux/Union_File_System.md",
+    "2025-12-08.md"
+  ]
+}
