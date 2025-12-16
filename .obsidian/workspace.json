@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ae3d670942f1b288",
+        "id": "a6923fa4f899830b",
         "type": "tabs",
         "children": [
           {
-            "id": "d6207c686148feed",
+            "id": "a038b42564eea9b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker_Deep/Docker_Technology/00.Docker_Architecture.md",
+                "file": "Docker/Docker_Deep/Docker_Technology/03.Networking/Docker_networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00.Docker_Architecture"
+              "title": "Docker_networking"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.51103591918945
+    "width": 342.51103591918945
   },
   "right": {
     "id": "3758031abf639b10",
@@ -206,20 +206,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6207c686148feed",
+  "active": "a038b42564eea9b7",
   "lastOpenFiles": [
-    "Docker/Docker_Deep/Docker_Technology/04.Docker_Volumn.md",
-    "Docker/Docker_Deep/Docker_Technology/00.Docker_Architecture.md",
+    "Docker/Docker_Deep/Docker_Technology/00.Linux/00.Linux_Namespce_Cgroup_union_file_system.md",
+    "Docker/Docker_Deep/Docker_Technology/03.Networking/Docker_networking.md",
+    "Docker/Docker_Deep/Docker_Technology/03.Networking",
+    "Docker/Docker_Deep/Docker_Technology/00.Linux",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/00.Container_in_easy_way.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/04.Container_In_Details.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/02.Container_More_depth.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/02.Container.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/03.Open_Container_Initiative.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/04.Docker_Deamon.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/00.Docker_Architecture.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/03.Docker_Containerd.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/01.Docker Basic Archetecture.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/01.Docker_Archetecture_in-Deep.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/02.Docker Runc.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture",
     "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Docker Images.md",
+    "Docker/Docker_Deep/Docker_Technology/04.Docker_Volumn.md",
+    "Operating_System/01.Code_Executionn/01.How_code_execute.md",
+    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
     "Database/MySQL/Theory/08.Cursors/readme.md",
     "Database/MySQL/Theory/07.Concurrency_Issues/readme.md",
     "Database/MySQL/Theory/06.Locking/01.exclusive_and_shared_locking.md",
     "Database/Database.png",
-    "Docker/Docker_Deep/Docker_Technology/02.Container_More_depth.md",
-    "Docker/Docker_Deep/Docker_Technology/03.Open_Container_Initiative.md",
-    "Docker/Docker_Deep/Docker_Technology/01.Docker Basic Archetecture.md",
     "Docker/Docker_Deep/Docker_Technology/test.md",
-    "Docker/Docker_Deep/Docker_Technology/02.Container.md",
     "Docker/Docker_Deep/Data_Persistence",
     "Docker/Docker_Deep/Basic Linux/Linux_Inside.md",
     "Docker/Untitled 2.canvas",
@@ -231,24 +246,9 @@
     "Docker/Untitled.base",
     "Docker/Docker_Deep/Basic Linux/Union_File_System.md",
     "Docker/Docker_Deep/Basic Linux/Namespace.md",
-    "Docker/Docker_Deep/Basic Linux/C_Group.md",
-    "Docker/Docker_Deep/Docker_Technology/01.Linux_Namespce_Cgroup_union_file_system.md",
     "Docker/Docker_Deep/Basic Linux",
-    "Docker/Docs/06.docker_compose.md",
-    "Operating_System/04.Process_Management/03.Concurrancy.md",
-    "Docker/Docker_Deep/Docker_Technology/Docker Technoogy.md",
-    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology",
-    "Docker/Docker_Deep",
-    "Docker/Docs/05.volumes.md",
-    "Docker/Docs/04.Layer_caching.md",
-    "Docker/Docs/03.command.md",
-    "Docker/Docs/02.create-Dockerfile.md",
-    "Docker/Docs/01.image.md",
-    "Operating_System/04.Process_Management",
-    "Operating_System/02.Memory_Management",
-    "Operating_System/03.CPU",
     "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
     "Untitled.canvas"
   ]
