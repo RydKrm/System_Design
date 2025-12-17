@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a6923fa4f899830b",
+        "id": "bbd6bbfb67de8297",
         "type": "tabs",
         "children": [
           {
-            "id": "a038b42564eea9b7",
+            "id": "1845de5a78196ad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker_Deep/Docker_Technology/Docker Command.md",
-                "mode": "source",
+                "file": "Docker/Docker_Deep/Docker_Technology/05.Image/03.Dockerfile_Best_Practice.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker Command"
+              "title": "03.Dockerfile_Best_Practice"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.51103591918945
+    "width": 237.51103591918945
   },
   "right": {
     "id": "3758031abf639b10",
@@ -206,11 +206,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a038b42564eea9b7",
+  "active": "1845de5a78196ad4",
   "lastOpenFiles": [
-    "Docker/Docker_Deep/Docker_Technology/test.md",
-    "Docker/Docker_Deep/Docker_Technology/Docker Command.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/02.Layer_Caching_And_Image_Size_Reduce.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/03.Image_Size_optimization.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/01.Image_Building.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/03.Dockerfile_Best_Practice.md",
+    "Docker/Docker_Deep/Docker_Technology/Docker Command.md",
+    "Docker/Docker_Deep/Docker_Technology/test.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/00.Docker Images.md",
     "Docker/Docker_Deep/Docker_Technology/03.Networking/Docker_networking.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image",
@@ -236,13 +239,10 @@
     "Operating_System/01.Code_Executionn/00.Code_Execution.md",
     "Database/MySQL/Theory/08.Cursors/readme.md",
     "Database/MySQL/Theory/07.Concurrency_Issues/readme.md",
-    "Database/MySQL/Theory/06.Locking/01.exclusive_and_shared_locking.md",
     "Database/Database.png",
     "Docker/Docker_Deep/Data_Persistence",
-    "Docker/Docker_Deep/Basic Linux/Linux_Inside.md",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 2.base",
-    "Docker/2025-12-08.md",
     "Docker/Untitled 1.canvas",
     "Docker/Untitled 1.base",
     "Docker/Untitled.canvas",
