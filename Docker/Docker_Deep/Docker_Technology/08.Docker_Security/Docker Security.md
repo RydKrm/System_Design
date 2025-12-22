@@ -25,44 +25,44 @@ Docker provides multiple layers of security, but many features are **not enabled
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│                    Security Layers Stack                        │
-│                                                                 │
+│                    Security Layers Stack                       │
+│                                                                │
 │  Layer 7: Security Scanning & Monitoring                       │
 │           ├─ Image vulnerability scanning                      │
 │           ├─ Runtime security monitoring                       │
 │           └─ Audit logging                                     │
-│                                                                 │
+│                                                                │
 │  Layer 6: Secrets Management                                   │
 │           ├─ Docker secrets                                    │
 │           ├─ Environment variable protection                   │
 │           └─ Encrypted storage                                 │
-│                                                                 │
+│                                                                │
 │  Layer 5: Network Isolation                                    │
 │           ├─ Custom networks                                   │
 │           ├─ Network policies                                  │
 │           └─ Firewall rules                                    │
-│                                                                 │
+│                                                                │
 │  Layer 4: Resource Limits                                      │
 │           ├─ CPU limits                                        │
 │           ├─ Memory limits                                     │
 │           └─ Storage limits                                    │
-│                                                                 │
+│                                                                │
 │  Layer 3: Access Control                                       │
 │           ├─ User namespaces                                   │
 │           ├─ Read-only filesystems                             │
 │           └─ Capability dropping                               │
-│                                                                 │
+│                                                                │
 │  Layer 2: Container Runtime Security                           │
 │           ├─ Seccomp profiles                                  │
 │           ├─ AppArmor/SELinux                                  │
 │           └─ No privileged mode                                │
-│                                                                 │
+│                                                                │
 │  Layer 1: Image Security                                       │
 │           ├─ Official base images                              │
 │           ├─ Minimal images                                    │
 │           ├─ No secrets in images                              │
 │           └─ Image signing                                     │
-│                                                                 │
+│                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
 
@@ -135,37 +135,37 @@ Docker uses Linux kernel features to create isolated environments:
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                         Linux Kernel                              │
-│                                                                   │
-│  ┌────────────────────────────────────────────────────────────┐ │
-│  │                    Namespaces                               │ │
-│  │  (Process, Network, Mount, User, IPC, UTS isolation)       │ │
+│                         Linux Kernel                             │
+│                                                                  │
+│  ┌────────────────────────────────────────────────────────────┐  │
+│  │                    Namespaces                              │  │
+│  │  (Process, Network, Mount, User, IPC, UTS isolation)       │  │
+│  │                                                            │  │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │  │
+│  │  │ Container 1  │  │ Container 2  │  │ Container 3  │      │  │
+│  │  │              │  │              │  │              │      │  │
+│  │  │ PID: 1-100   │  │ PID: 1-100   │  │ PID: 1-100   │      │  │
+│  │  │ (isolated)   │  │ (isolated)   │  │ (isolated)   │      │  │
+│  │  └──────────────┘  └──────────────┘  └──────────────┘      │  │
+│  │                                                            │  │
+│  └────────────────────────────────────────────────────────────┘  │
+│                                                                  │
+│  ┌──────────────────────────────────────────────────────────-──┐ │
+│  │                      Control Groups (cgroups)               │ │
+│  │  (Resource limits: CPU, Memory, Disk I/O, Network)          │ │
 │  │                                                             │ │
-│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │ │
-│  │  │ Container 1  │  │ Container 2  │  │ Container 3  │    │ │
-│  │  │              │  │              │  │              │    │ │
-│  │  │ PID: 1-100   │  │ PID: 1-100   │  │ PID: 1-100   │    │ │
-│  │  │ (isolated)   │  │ (isolated)   │  │ (isolated)   │    │ │
-│  │  └──────────────┘  └──────────────┘  └──────────────┘    │ │
-│  │                                                             │ │
+│  │  Container 1: max 1 CPU, 512MB RAM                          │ │
+│  │  Container 2: max 2 CPU, 1GB RAM                            │ │
+│  │  Container 3: max 0.5 CPU, 256MB RAM                        │ │
 │  └─────────────────────────────────────────────────────────────┘ │
-│                                                                   │
-│  ┌────────────────────────────────────────────────────────────┐ │
-│  │                      Control Groups (cgroups)              │ │
-│  │  (Resource limits: CPU, Memory, Disk I/O, Network)        │ │
-│  │                                                             │ │
-│  │  Container 1: max 1 CPU, 512MB RAM                         │ │
-│  │  Container 2: max 2 CPU, 1GB RAM                           │ │
-│  │  Container 3: max 0.5 CPU, 256MB RAM                       │ │
-│  └─────────────────────────────────────────────────────────────┘ │
-│                                                                   │
-│  ┌────────────────────────────────────────────────────────────┐ │
-│  │                    Security Modules                        │ │
-│  │  ├─ Seccomp: Syscall filtering                            │ │
-│  │  ├─ AppArmor/SELinux: Mandatory access control            │ │
-│  │  └─ Capabilities: Fine-grained privileges                 │ │
-│  └─────────────────────────────────────────────────────────────┘ │
-│                                                                   │
+│                                                                  │
+│  ┌────────────────────────────────────────────────────────────┐  │
+│  │                    Security Modules                        │  │
+│  │  ├─ Seccomp: Syscall filtering                             │  │
+│  │  ├─ AppArmor/SELinux: Mandatory access control             │  │
+│  │  └─ Capabilities: Fine-grained privileges                  │  │
+│  └────────────────────────────────────────────────────────────┘  │
+│                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
@@ -591,37 +591,37 @@ docker pull myregistry.com/myapp:latest
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│                    Docker Host Server                           │
-│                                                                 │
-│  ┌──────────────────────────────────────────────────────────┐ │
+│                    Docker Host Server                          │
+│                                                                │
+│  ┌─────────────────────────────────────────────────────-─────┐ │
 │  │              Project 1 Network (Isolated)                 │ │
-│  │                                                            │ │
-│  │  ┌──────────┐    ┌──────────┐    ┌─────────────┐        │ │
-│  │  │ Frontend │    │ Backend  │    │ PostgreSQL  │        │ │
-│  │  │          │───►│          │───►│             │        │ │
-│  │  └──────────┘    └──────────┘    └─────────────┘        │ │
+│  │                                                           │ │
+│  │  ┌──────────┐    ┌──────────┐    ┌─────────────┐          │ │
+│  │  │ Frontend │    │ Backend  │    │ PostgreSQL  │          │ │
+│  │  │          │───►│          │───►│             │          │ │
+│  │  └──────────┘    └──────────┘    └─────────────┘          │ │
 │  │       │               │                                   │ │
 │  └───────┼───────────────┼───────────────────────────────────┘ │
 │          │               │                                     │
 │  ┌───────▼───────────────▼───────────────────────────────────┐ │
 │  │              Proxy Network (Shared)                       │ │
 │  │              Only frontend/backend connect here           │ │
-│  │                                                            │ │
+│  │                                                           │ │
 │  │                 ┌─────────────────┐                       │ │
 │  │                 │  Nginx Proxy    │                       │ │
 │  │                 │  (Port 80, 443) │                       │ │
 │  │                 └─────────────────┘                       │ │
-│  └────────────────────────────────────────────────────────────┘ │
-│                                                                 │
-│  ┌──────────────────────────────────────────────────────────┐ │
+│  └───────────────────────────────────────────────────────────┘ │
+│                                                                │
+│  ┌──────────────────────────────────────────────────────-────┐ │
 │  │              Project 2 Network (Isolated)                 │ │
-│  │                                                            │ │
-│  │  ┌──────────┐    ┌──────────┐    ┌─────────────┐        │ │
-│  │  │ Frontend │    │ Backend  │    │   MySQL     │        │ │
-│  │  │          │───►│          │───►│             │        │ │
-│  │  └──────────┘    └──────────┘    └─────────────┘        │ │
-│  └─────────────────────────────────────────────────────────┘  │
-│                                                                 │
+│  │                                                           │ │
+│  │  ┌──────────┐    ┌──────────┐    ┌─────────────┐          │ │
+│  │  │ Frontend │    │ Backend  │    │   MySQL     │          │ │
+│  │  │          │───►│          │───►│             │          │ │
+│  │  └──────────┘    └──────────┘    └─────────────┘          │ │
+│  └─────────────────────────────────────────────────────-────┘  │
+│                                                                │
 │  Key Security Principle:                                       │
 │  - Databases NEVER on proxy network                            │
 │  - Each project isolated from others                           │
