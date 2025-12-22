@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "75d12e0d5c7dd9f9",
+        "id": "be9d7861aca18f76",
         "type": "tabs",
         "children": [
           {
-            "id": "0d6a6598167f5223",
+            "id": "73a957a9a60ef82a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/01.Server-Management_with_docker.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01.Server-Management_with_docker"
-            }
-          },
-          {
-            "id": "9e7dae91aa5d20c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/01.Server-Management_Example.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01.Server-Management_Example"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.51103591918945
+    "width": 314.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -205,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,24 +202,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e7dae91aa5d20c3",
+  "active": "73a957a9a60ef82a",
   "lastOpenFiles": [
-    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/01.Server-Management_with_docker.md",
-    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/01.Server-Management_Example.md",
+    "Docker/Docker_Deep/Docker_Technology/Docker Command.md",
+    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
+    "Docker/Docker_Deep/Docker_Technology/08.Docker_Security/Docker Security.md",
+    "Docker/Docker_Deep/Docker_Technology/test.md",
+    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn",
+    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/03.Database-Migration.md",
+    "Docker/Docker_Deep/Docker_Technology/08.Docker_Security",
     "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/01.CI_CD_pipeline.md",
+    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/02.1.Server-Management_with_docker.md",
+    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/02.2.Server-Management_Example.md",
     "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/01.Docker_compose_guide_01.md",
     "Docker/Docker_Deep/Docker_Technology/03.Networking/02.Docker Networking In Deep.md",
     "Docker/Docker_Deep/Docker_Technology/03.Networking/01.Docker_networking.md",
     "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/02.Docker_compose_guide_02.md",
     "Docker/Docker_Deep/Docker_Technology/07.Advance_Works",
-    "Docker/Docker_Deep/Docker_Technology/04.Docker_Volumn.md",
+    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn/04.Docker_Volumn.md",
     "Docker/Docker_Deep/Docker_Technology/interview_question/image_and_container_interview_question_03.md",
     "Docker/Docker_Deep/Docker_Technology/interview_question/image_and_container_interview_question_02.md",
     "Docker/Docker_Deep/Docker_Technology/interview_question/image_and_container_interview_question_01.md",
     "Docker/Docker_Deep/Docker_Technology/06.Docker_compose",
     "Docker/Docker_Deep/Docker_Technology/interview_question/Interview_Question_01.md",
     "Docker/Docker_Deep/Docker_Technology/interview_question",
-    "Docker/Docker_Deep/Docker_Technology/test.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/05.Multi_stage_building_logic.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/06.Image_building_logic.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/04.Multi_stage_Image_Building.md",
@@ -245,21 +233,15 @@
     "Docker/Docker_Deep/Docker_Technology/05.Image/02.Layer_Caching_And_Image_Size_Reduce.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/01.Image_Building.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/00.Docker Images.md",
-    "Docker/Docker_Deep/Docker_Technology/Docker Command.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image/03.Image_Size_optimization.md",
     "Docker/Docker_Deep/Docker_Technology/05.Image",
     "Docker/Docker_Deep/Docker_Technology/00.Linux/00.Linux_Namespce_Cgroup_union_file_system.md",
     "Docker/Docker_Deep/Docker_Technology/03.Networking",
     "Docker/Docker_Deep/Docker_Technology/00.Linux",
-    "Docker/Docker_Deep/Docker_Technology/02.Container/00.Container_in_easy_way.md",
-    "Docker/Docker_Deep/Docker_Technology/02.Container/04.Container_In_Details.md",
-    "Docker/Docker_Deep/Docker_Technology/02.Container/02.Container_More_depth.md",
     "Docker/Docker_Deep/Docker_Technology/02.Container",
     "Docker/Docker_Deep/Docker_Technology/01.Archerecture",
     "Database/Database.png",
-    "Docker/Docker_Deep/Data_Persistence",
     "Docker/Untitled 2.canvas",
-    "Docker/Untitled 2.base",
     "Docker/Untitled 1.canvas",
     "Docker/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
