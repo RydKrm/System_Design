@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d747b99a4968830e",
+        "id": "d908b7d6ab12cd4d",
         "type": "tabs",
         "children": [
           {
-            "id": "ab151b7814a8f7ca",
+            "id": "f5037a7c5fd9102a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Golang/Docs/04.Structs.md",
+                "file": "Language/Golang/Docs/08.Goroutines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04.Structs"
+              "title": "08.Goroutines"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 354.51103591918945
   },
   "right": {
     "id": "3758031abf639b10",
@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,37 +205,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab151b7814a8f7ca",
+  "active": "f5037a7c5fd9102a",
   "lastOpenFiles": [
-    "Language/Golang/Docs/Functions.md",
+    "Language/Golang/Docs/07.Interface.md",
+    "Language/Golang/Docs/08.Goroutines.md",
+    "Language/Golang/Docs/06.Methods.md",
+    "Language/Golang/Docs/05.Functions.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/06.Image_building_logic.md",
     "Language/Golang/Docs/04.Structs.md",
     "Language/Golang/Docs/03.Maps.md",
-    "Language/Golang/Docs/Slice.md",
-    "Language/Golang/Docs/Interfaces.md",
-    "Language/Golang/Docs/Generic.md",
-    "Language/Golang/Docs/DataType.md",
     "Language/Golang/Docs/02.Array.md",
     "Language/Golang/Docs/01.Variable.md",
-    "Language/Golang/Docs/Struct_Embedding.md",
-    "Language/Golang/Docs/Pointer.md",
-    "Monitor/Monitoring.md",
-    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/03.Database-Migration.md",
-    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/02.2.Server-Management_Example.md",
-    "Docker/Docker_Deep/Docker_Technology/Docker Command.md",
-    "Docker/Docker_Deep/Docker_Technology/Drawing 2025-12-07 12.57.12.excalidraw.md",
-    "Docker/Docker_Deep/Docker_Technology/08.Docker_Security/Docker Security.md",
-    "Docker/Docker_Deep/Docker_Technology/test.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/05.Multi_stage_building_logic.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/04.Multi_stage_Image_Building.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/03.Dockerfile_Best_Practice.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/02.Layer_Caching_And_Image_Size_Reduce.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/01.Image_Building.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/00.Docker Images.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/04.Container_In_Details.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/03.Open_Container_Initiative.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/02.Container_More_depth.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/02.Container.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/00.Container_in_easy_way.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/04.Docker_Deamon.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/03.Docker_Containerd.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/02.Docker Runc.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/00.Docker_Architecture.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/01.Docker_Archetecture_in-Deep.md",
+    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn/04.Docker_Volumn.md",
     "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn",
     "Docker/Docker_Deep/Docker_Technology/08.Docker_Security",
-    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/01.CI_CD_pipeline.md",
-    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works/02.1.Server-Management_with_docker.md",
-    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/01.Docker_compose_guide_01.md",
-    "Docker/Docker_Deep/Docker_Technology/03.Networking/02.Docker Networking In Deep.md",
-    "Docker/Docker_Deep/Docker_Technology/03.Networking/01.Docker_networking.md",
-    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/02.Docker_compose_guide_02.md",
     "Docker/Docker_Deep/Docker_Technology/07.Advance_Works",
-    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn/04.Docker_Volumn.md",
-    "Docker/Docker_Deep/Docker_Technology/interview_question/image_and_container_interview_question_03.md",
     "Docker/Docker_Deep/Docker_Technology/06.Docker_compose",
     "Docker/Docker_Deep/Docker_Technology/interview_question",
     "Docker/Docker_Deep/Docker_Technology/05.Image",
