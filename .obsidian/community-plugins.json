@@ -1,5 +1,14 @@
 [
   "calendar",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-full-calendar",
+  "obsidian-icon-folder",
+  "obsidian-mind-map",
+  "obsidian-tracker",
+  "obsidian-kanban",
+  "obsidian-minimal-settings",
+  "obsidian-day-planner",
+  "buttons",
+  "dataview"
 ]

@@ -5,52 +5,52 @@ A structured checklist to master Go from fundamentals to production-level topics
 ---
 
 ## 🧱 Foundations
-- [ ] Hello World
-- [ ] Values
-- [ ] Variables
-- [ ] Constants
-- [ ] For
-- [ ] If / Else
-- [ ] Switch
+- [x] Hello World
+- [x] Values
+- [x] Variables
+- [x] Constants
+- [x] For
+- [x] If / Else
+- [x] Switch
 
 ---
 
 ## 📦 Data Structures
-- [ ] Arrays
-- [ ] Slices
-- [ ] Maps
+- [x] Arrays
+- [x] Slices
+- [x] Maps
 - [ ] Range over Built-in Types
 - [ ] Strings and Runes
-- [ ] Pointers
+- [x] Pointers
 
 ---
 
 ## 🧠 Functions
-- [ ] Functions
-- [ ] Multiple Return Values
-- [ ] Variadic Functions
-- [ ] Closures
-- [ ] Recursion
+- [x] Functions
+- [x] Multiple Return Values
+- [x] Variadic Functions
+- [x] Closures
+- [x] Recursion
 
 ---
 
 ## 🧩 Structs & Interfaces
-- [ ] Structs
-- [ ] Methods
-- [ ] Interfaces
-- [ ] Enums
-- [ ] Struct Embedding
-- [ ] Generics
+- [x] Structs
+- [x] Methods
+- [x] Interfaces
+- [x] Enums
+- [x] Struct Embedding
+- [x] Generics
 - [ ] Range over Iterators
 
 ---
 
 ## ⚠️ Error Handling
-- [ ] Errors
-- [ ] Custom Errors
-- [ ] Panic
-- [ ] Defer
-- [ ] Recover
+- [x] Errors
+- [x] Custom Errors
+- [x] Panic
+- [x] Defer
+- [x] Recover
 
 ---
 
@@ -68,15 +68,6 @@ A structured checklist to master Go from fundamentals to production-level topics
 
 ---
 
-## ⏱️ Time
-- [ ] Timers
-- [ ] Tickers
-- [ ] Time
-- [ ] Epoch
-- [ ] Time Formatting / Parsing
-
----
-
 ## 🧵 Concurrency Patterns
 - [ ] Worker Pools
 - [ ] WaitGroups
@@ -85,23 +76,32 @@ A structured checklist to master Go from fundamentals to production-level topics
 - [ ] Mutexes
 - [ ] Stateful Goroutines
 
+--- 
+## ⏱️ Time
+- [x] Timers
+- [x] Tickers
+- [x] Time
+- [x] Epoch
+- [x] Time Formatting / Parsing
+
+
 ---
 
 ## 🔢 Utilities
-- [ ] Sorting
-- [ ] Sorting by Functions
-- [ ] Random Numbers
-- [ ] Number Parsing
-- [ ] SHA256 Hashes
-- [ ] Base64 Encoding
+- [x] Sorting
+- [x] Sorting by Functions
+- [x] Random Numbers
+- [x] Number Parsing
+- [x] SHA256 Hashes
+- [x] Base64 Encoding
 
 ---
 
 ## 📝 Strings & Text
-- [ ] String Functions
-- [ ] String Formatting
-- [ ] Text Templates
-- [ ] Regular Expressions
+- [x] String Functions
+- [x] String Formatting
+- [x] Text Templates
+- [x] Regular Expressions
 
 ---
 
@@ -112,36 +112,36 @@ A structured checklist to master Go from fundamentals to production-level topics
 ---
 
 ## 📁 Files & OS
-- [ ] Reading Files
-- [ ] Writing Files
-- [ ] Line Filters
-- [ ] File Paths
-- [ ] Directories
-- [ ] Temporary Files and Directories
-- [ ] Embed Directive
+- [x] Reading Files
+- [x] Writing Files
+- [x] Line Filters
+- [x] File Paths
+- [x] Directories
+- [x] Temporary Files and Directories
+- [x] Embed Directive
 
 ---
 
 ## 🧪 Testing & Tooling
-- [ ] Testing and Benchmarking
-- [ ] Logging
+- [x] Testing and Benchmarking
+- [x] Logging
 
 ---
 
 ## 🖥️ CLI & Environment
-- [ ] Command-Line Arguments
-- [ ] Command-Line Flags
-- [ ] Command-Line Subcommands
-- [ ] Environment Variables
+- [x] Command-Line Arguments
+- [x] Command-Line Flags
+- [x] Command-Line Subcommands
+- [x] Environment Variables
 
 ---
 
 ## 🌐 Networking & Web
-- [ ] HTTP Client
-- [ ] HTTP Server
-- [ ] TCP Server
-- [ ] URL Parsing
-- [ ] Context
+- [x] HTTP Client
+- [x] HTTP Server
+- [x] TCP Server
+- [x] URL Parsing
+- [x] Context
 
 ---
 
