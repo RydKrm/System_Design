@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Golang/Docs/24.OOP.md",
+                "file": "Language/Golang/Docs/09.Channel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "24.OOP"
+              "title": "09.Channel"
             }
           },
           {
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Golang/Docs/24.OOP.md",
+                "file": "Language/Golang/Docs/09.Channel.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 24.OOP"
+              "title": "Outline of 09.Channel"
             }
           },
           {
@@ -263,10 +263,15 @@
   },
   "active": "2edd4baf859199ad",
   "lastOpenFiles": [
+    "Language/Golang/Docs/08.3.Goroutines_Concurrancy_And_Parallalism.md",
+    "Language/Golang/Docs/08.2.Goroutines_Usecase.md",
+    "Language/Golang/Docs/09.Channel.md",
+    "Language/Golang/Docs/08.0.Goroutines.md",
+    "Language/Golang/Docs/08.1.Goroutines_Internal_Archetecture.md",
+    "Language/Golang/Docs/24.OOP.md",
     "Language/Golang/Docs/07.Interface.md",
     "Notes/Focus Lists.md",
     "Language/Golang/Docs/06.Methods.md",
-    "Language/Golang/Docs/24.OOP.md",
     "Language/Golang/Docs/05.Functions.md",
     "Language/Golang/Docs/04.Structs.md",
     "Operating_System/01.Code_Executionn/02.Execution_Example.md",
@@ -284,11 +289,6 @@
     "Language/Golang/Docs/01.Variable.md",
     "Language/Golang/Docs/18.Panic.md",
     "Language/Golang/Docs/22.Time.md",
-    "Language/Golang/Docs/21.HTTP_Context.md",
-    "Language/Golang/Docs/20.HTTP_Internal_Archetecture.md",
-    "Language/Golang/Docs/19.HTTP_Server_Client.md",
-    "Language/Golang/Docs/16.Encryption_Decryption.md",
-    "Language/Golang/Docs/15.String.md",
     "Untitled.base",
     "Notes",
     "Untitled.canvas",
