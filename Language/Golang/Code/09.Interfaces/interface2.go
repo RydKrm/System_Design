@@ -1,4 +1,4 @@
-package main
+package interfaces
 
 import "fmt"
 
@@ -18,12 +18,12 @@ func (mob mobile) ring() {
 	fmt.Println(mob.name + "ringing")
 }
 
-func (mob mobile) sendSMS(text string){
+func (mob mobile) sendSMS(text string) {
 	fmt.Println(mob.name + "sending sms " + text)
 }
 
-func (mob mobile) processor(){
-	fmt.Println(mob.name + "with model " + mob.model + " is good" );
+func (mob mobile) processor() {
+	fmt.Println(mob.name + "with model " + mob.model + " is good")
 }
 
 func main() {
@@ -33,8 +33,8 @@ func main() {
 		ram:   8,
 	}
 
-	phone1.ring();
-	phone1.processor();
-	phone1.sendSMS("my name");
+	phone1.ring()
+	phone1.processor()
+	phone1.sendSMS("my name")
 
 }
