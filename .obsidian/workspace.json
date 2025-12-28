@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "139655e73fa151c7",
+        "id": "a9b8cf6f2c8267c2",
         "type": "tabs",
         "children": [
           {
-            "id": "3f6cdf06f3aa5aa7",
+            "id": "69dfcd99d94b3dbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Golang/Docs/09.02.Channel_Advance.md",
+                "file": "Language/Golang/Docs/29.Go_Concurrent_Request.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09.02.Channel_Advance"
+              "title": "29.Go_Concurrent_Request"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.50260543823242
+    "width": 255.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Golang/Docs/09.02.Channel_Advance.md",
+                "file": "Language/Golang/Docs/29.Go_Concurrent_Request.md",
                 "followCursor": false,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 09.02.Channel_Advance"
+              "title": "Outline of 29.Go_Concurrent_Request"
             }
           },
           {
@@ -186,7 +186,7 @@
             }
           },
           {
-            "id": "8f04d48ed22d1095",
+            "id": "ad129e55fc32c2e7",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -196,14 +196,18 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -212,58 +216,53 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f6cdf06f3aa5aa7",
+  "active": "e4e63f68877866b4",
   "lastOpenFiles": [
+    "Language/Golang/Docs/28.GO_Request_Response_Cycle.md",
+    "Language/Golang/Docs/29.Go_Concurrent_Request.md",
+    "Language/Golang/Docs/27.Go_Server.md",
+    "Language/Golang/Docs/26.Concurrency_Patterns.md",
+    "Language/Golang/Docs/08.03.Gorourines_Concurrancy.md",
+    "Language/Golang/Docs/08.3.Goroutines_Concurrancy_And_Parallalism.md",
+    "Language/Golang/Docs/09.02.Channel_Advance.md",
     "Language/Golang/Docs/09.01.Channel.md",
     "Language/Golang/Docs/09.00.Channel_Basic.md",
-    "Language/Golang/Docs/25.Go_Runtimes.md",
-    "Notes/Focus Lists.md",
-    "Operating_System/01.Code_Executionn/01.How_code_execute.md",
+    "Language/Golang/Docs/08.0.Goroutines.md",
+    "Language/Golang/Docs/08.2.Goroutines_Usecase.md",
     "Language/Golang/readme.md",
-    "Language/Golang/Docs/09.02.Channel_Advance.md",
+    "Language/Golang/Docs/25.Go_Runtimes.md",
     "Language/Golang/Code/14.0.Channels/Closing_Channel/Closing_Channel.go",
     "Language/Golang/Code/14.0.Channels/Closing_Channel",
     "Language/Golang/Code/14.0.Channels/Channels.go",
     "Language/Golang/Code/14.0.Channels/Channels",
     "Language/Golang/Code/14.0.Channels",
-    "Language/Golang/Docs/08.3.Goroutines_Concurrancy_And_Parallalism.md",
-    "Language/Golang/Docs/08.2.Goroutines_Usecase.md",
-    "Language/Golang/Docs/08.1.Goroutines_Internal_Archetecture.md",
-    "Language/Golang/Docs/08.0.Goroutines.md",
-    "Language/Golang/Docs/04.Structs.md",
-    "Language/Golang/Docs/24.OOP.md",
-    "Language/Golang/Docs/07.Interface.md",
-    "Language/Golang/Docs/06.Methods.md",
-    "Language/Golang/Docs/05.Functions.md",
-    "Operating_System/01.Code_Executionn/02.Execution_Example.md",
-    "Operating_System/01.Code_Executionn/05.Heap_Section.md",
-    "Operating_System/01.Code_Executionn/04.Stack_Section.md",
-    "Operating_System/01.Code_Executionn/03.Code_sections.md",
-    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
-    "Language/Golang/Docs/23.Closure.md",
+    "Language/Golang/Docs/09.Channel.md",
+    "Road_Maps/AI.md",
+    "Road_Maps/learning_list.md",
+    "Road_Maps/Devops.md",
+    "Road_Maps/developer_roadmap.md",
+    "Road_Maps/MLOps.md",
+    "Road_Maps/Microservice+DevOps+AI.md",
+    "Road_Maps/microservice.md",
+    "README.md",
     "Untitled.md",
-    "Language/Golang/Docs/17.Testing.md",
-    "Language/Golang/Docs/03.Maps.md",
-    "Language/Golang/Docs/02.Array.md",
-    "Untitled.base",
+    "Untitled Kanban.md",
+    "Language/Golang/Docs/24.OOP.md",
+    "Language/Golang/readme.md.md",
     "Notes",
-    "Untitled.canvas",
-    "Calendar",
-    "Day_Planer",
-    "Untitled 1.canvas",
-    "Untitled 1.base",
+    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn",
+    "Docker/Docker_Deep/Docker_Technology/08.Docker_Security",
+    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works",
+    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose",
     "Database/Database.png",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 1.canvas",
     "Docker/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
-    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg"
+    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
+    "Untitled.canvas"
   ]
 }
