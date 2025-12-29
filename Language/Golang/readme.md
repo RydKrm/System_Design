@@ -5,152 +5,142 @@ A structured checklist to master Go from fundamentals to production-level topics
 ---
 
 ## 🧱 Foundations
-- [x] Hello World
-- [x] Values
-- [x] Variables
-- [x] Constants
-- [x] For
-- [x] If / Else
-- [x] Switch
+- Hello World
+-  Variables [[Language/Golang/Docs/01.Variable|01.Variable]]
+- Loop [[03.Loop.go]]
 
 ---
 
 ## 📦 Data Structures
-- [x] Arrays
-- [x] Slices
-- [x] Maps
-- [ ] Range over Built-in Types
-- [ ] Strings and Runes
-- [x] Pointers
+-  Arrays [[02.Array#**Introduction to Arrays in Go**]]
+-  Slices[[02.Array#**Slices The Dynamic Arrays of Go**]]
+-  Maps [[03.Maps]]
+-  Strings[[05.String]]
+-  Pointers [[06.Pointer]]
 
 ---
 
 ## 🧠 Functions
-- [x] Functions
-- [x] Multiple Return Values
-- [x] Variadic Functions
-- [x] Closures
-- [x] Recursion
+-  Functions [[06.Functions#Introduction Why Functions Exist]]
+-  Multiple Return Values[[06.Functions#Basic Function Syntax]]
+-  Variadic Functions [[06.Functions#Variadic Functions]]
+-  Closures[[07.Closure#]]
 
 ---
 
 ## 🧩 Structs & Interfaces
-- [x] Structs
-- [x] Methods
-- [x] Interfaces
-- [x] Enums
-- [x] Struct Embedding
-- [x] Generics
-- [ ] Range over Iterators
+-  Structs[[04.Structs]]
+-  Methods[[04.01.Methods_Of_Structure]]
+-  Interfaces[[07.Interface]]
+-  Enums
+-  Struct Embedding[[04.Structs#Composition and Embedding]]
+-  Generics[[08.Generic]]
 
 ---
 
 ## ⚠️ Error Handling
-- [x] Errors
-- [x] Custom Errors
-- [x] Panic
-- [x] Defer
-- [x] Recover
+-  Errors[[10.Error]]
+-  Custom Errors[[10.Error#Custom Error Types]]
+-  Panic[[12.Panic_Recover_And_Defer#What is Panic?]]
+-  Defer[[12.Panic_Recover_And_Defer#What is Defer?]]
+-  Recover[[12.Panic_Recover_And_Defer#What is Recover?]]
 
 ---
 
 ## 🔁 Concurrency
-- [ ] Goroutines
-- [ ] Channels
-- [ ] Channel Buffering
-- [ ] Channel Synchronization
-- [ ] Channel Directions
-- [ ] Select
-- [ ] Timeouts
-- [ ] Non-Blocking Channel Operations
-- [ ] Closing Channels
-- [ ] Range over Channels
+-  Goroutines[[13.0.Goroutines]]
+-  Channels[[14.00.Channel_Basic]]
+-  Channel Buffering[[14.02.Channel_Advance#Buffering and Memory]]
+-  Channel Synchronization[[14.02.Channel_Advance#Channel Synchronization { channel-synchronization}]]
+-  Channel Directions[[14.02.Channel_Advance#Channel Directions { channel-directions}]]
+-  Select[[14.02.Channel_Advance#Select Statement { select}]]
+-  Timeouts[[14.02.Channel_Advance#Timeouts { timeouts}]]
+-  Non-Blocking Channel Operations[[14.02.Channel_Advance#Non-Blocking Channel Operations { non-blocking}]]
+-  Closing Channels[[14.02.Channel_Advance#Closing Channels { closing-channels}]]
+-  Range over Channels[[14.02.Channel_Advance#Range over Channels { range-channels}]]
 
 ---
 
 ## 🧵 Concurrency Patterns
-- [ ] Worker Pools
-- [ ] WaitGroups
-- [ ] Rate Limiting
-- [ ] Atomic Counters
-- [ ] Mutexes
-- [ ] Stateful Goroutines
+-  Worker Pools[[15.Concurrency_Patterns#Worker Pools { worker-pools}]]
+-  WaitGroups[[15.Concurrency_Patterns#WaitGroups { waitgroups}]]
+-  Rate Limiting[[15.Concurrency_Patterns#Rate Limiting Strategies]]
+-  Atomic Counters[[15.Concurrency_Patterns#Atomic Pointers and Values]]
+-  Mutexes[[15.Concurrency_Patterns#Mutexes { mutexes}]]
+-  Stateful Goroutines[[15.Concurrency_Patterns#Stateful Goroutines { stateful-goroutines}]]
 
 --- 
 ## ⏱️ Time
-- [x] Timers
-- [x] Tickers
-- [x] Time
-- [x] Epoch
-- [x] Time Formatting / Parsing
+-  Timers[[16.Time#Introduction to Time in Go]]
+-  Tickers[[16.Time#Tickers]]
+-  Epoch [[16.Time#Epoch Time]]
+-  Time Formatting / Parsing[[16.Time#Time Formatting and Parsing]]
 
 
 ---
 
 ## 🔢 Utilities
-- [x] Sorting
-- [x] Sorting by Functions
-- [x] Random Numbers
-- [x] Number Parsing
-- [x] SHA256 Hashes
-- [x] Base64 Encoding
+-  Sorting[[19.Sorting#Basic Sorting - Primitives { basic-sorting}]]
+-  Sorting by Functions[[19.Sorting#Custom Type Sorting { custom-sorting}]]
+-  SHA256 Hashes[[17.Encryption_Decryption#What is SHA256?]]
+-  Base64 Encoding[[17.Encryption_Decryption#Part 2 Base64 Encoding]]
 
 ---
 
 ## 📝 Strings & Text
-- [x] String Functions
-- [x] String Formatting
-- [x] Text Templates
-- [x] Regular Expressions
+-  String Functions[[05.String#Part 2 String Functions]]
+-  String Formatting[[05.String#Part 3 String Formatting]]
+-  Text Templates[[05.String#Part 4 Text Templates]]
+-  Regular Expressions[[05.String#Part 5 Regular Expressions]]
 
 ---
-
-## 📄 Data Formats
-- [ ] JSON
-- [ ] XML
-
----
-
 ## 📁 Files & OS
-- [x] Reading Files
-- [x] Writing Files
-- [x] Line Filters
-- [x] File Paths
-- [x] Directories
-- [x] Temporary Files and Directories
-- [x] Embed Directive
+-  Reading Files[[18.Files#Reading Files]]
+-  Writing Files[[18.Files#Writing Files]]
+-  Line Filters[[18.Files#Line Filtering and Processing]]
+-  File Paths[[18.Files#File Paths and Cross-Platform Compatibility]]
+-  Directories[[18.Files#Directory Operations]]
+-  Temporary Files and Directories[[18.Files#Temporary Files and Directories]]
+-  Embed Directive[[18.Files#Embedded File Systems]]
 
 ---
 
 ## 🧪 Testing & Tooling
-- [x] Testing and Benchmarking
-- [x] Logging
+- Testing and Benchmarking [[20.Testing]]
+- [ ] Logging
 
 ---
 
 ## 🖥️ CLI & Environment
-- [x] Command-Line Arguments
-- [x] Command-Line Flags
-- [x] Command-Line Subcommands
-- [x] Environment Variables
+-  Command-Line Arguments [[21.Command#From Basic Arguments to Advanced CLI Tools]]
+-  Command-Line Flags[[21.Command#Advanced Flag Patterns]]
+-  Command-Line Subcommands[[21.Command#Why Subcommands?]]
+-  Environment Variables[[21.Command#Environment Variable Integration]]
 
 ---
 
 ## 🌐 Networking & Web
-- [x] HTTP Client
-- [x] HTTP Server
-- [x] TCP Server
-- [x] URL Parsing
-- [x] Context
+-  HTTP Client [[22.01.HTTP_Server_Client#HTTP Client { http-client}]]
+-  HTTP Server[[22.01.HTTP_Server_Client#HTTP Server { http-server}]]
+-  TCP Server[[22.01.HTTP_Server_Client#TCP Server { tcp-server}]]
+-  HTTP Context [[22.02.HTTP_Context]]
+
 
 ---
 
-## ⚙️ OS & Process Control
-- [ ] Spawning Processes
-- [ ] Exec'ing Processes
-- [ ] Signals
-- [ ] Exit
+## 🧩OOP
+- Philosophy [[24.OOP#Go's OOP Philosophy]]
+- Encapsulation [[24.OOP#Encapsulation { encapsulation}]]
+- Polymorphism [[24.OOP#Polymorphism through Interfaces { polymorphism}]]
+- Interface Segregation [[24.OOP#Interface Segregation { interface-segregation}]]
+- Dependancy-Injection [[24.OOP#Dependency Injection { dependency-injection}]]
 
 ---
+## 🔢 Core
+- Go Runtime [[25.Go_Runtimes]]
+- Go Server [[26.Go_Server]]
+- Go Request Response [[27.GO_Request_Response_Cycle]]
+- Go Concurrent Request [[28.Go_Concurrent_Request]]
+
 
 > Progress slowly, practice daily, and revisit concurrency often. This checklist follows the traditional Go learning path used in real-world backend systems.
