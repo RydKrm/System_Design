@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "03c423dc8cd47efd",
+        "id": "9dd12a73d75824fd",
         "type": "tabs",
         "children": [
           {
-            "id": "770bef3604883226",
+            "id": "6aa74138e04f05f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5026054382324
+    "width": 287.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Database/MySQL/Theory/03.index/scaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for scaning"
             }
           },
           {
@@ -146,6 +147,21 @@
             }
           },
           {
+            "id": "623ddaa206eaf8b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Language/Golang/Docs/24.OOP.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 24.OOP"
+            }
+          },
+          {
             "id": "9a6afce1f1b198fa",
             "type": "leaf",
             "state": {
@@ -166,7 +182,7 @@
             }
           },
           {
-            "id": "8f04d48ed22d1095",
+            "id": "ad129e55fc32c2e7",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -174,30 +190,20 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
-          },
-          {
-            "id": "623ddaa206eaf8b4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -206,59 +212,53 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
-      "iconic:Open rulebook": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4e63f68877866b4",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
-    "Cacheing/readme.md",
+    "Docker/Learning_List.md",
+    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn/04.Docker_Volumn.md",
+    "Docker/Docker_Deep/Docker_Technology/08.Docker_Security/Docker Security.md",
+    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/02.Docker_compose_guide_02.md",
+    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/01.Docker_compose_guide_01.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/06.Image_building_logic.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/05.Multi_stage_building_logic.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/04.Multi_stage_Image_Building.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/03.Dockerfile_Best_Practice.md",
     "Roadmap.md",
-    "Nginx/README.md",
-    "Language/Rust/readme.md",
-    "Jenkins/readme.md",
-    "Jenkins/Basic/jobs/01.what_is_jobs.md",
-    "Jenkins/Basic/pipeline/node_pipeline.md",
-    "Jenkins/Basic/what_is_jobs.md",
-    "Jenkins/Basic/What_and_Why.md",
-    "Jenkins/Basic/pipe/03.prod_example_01.md",
-    "Jenkins/Basic/pipe/02.syntax.md",
-    "Jenkins/Basic/pipe/01.what_why.md",
-    "Jenkins/Basic/jobs/03.node_free_style_job_config.md",
-    "Jenkins/Basic/jobs/02.free_style_job.md",
-    "Jenkins/learning_path.md",
-    "gRPC/01.topic_list.md",
-    "gRPC/micro_service_communication/README.md",
-    "gRPC/02.Error_Handling/main.md",
-    "gRPC/01.Basic/Types/04.bidirectional_streaming.md",
-    "gRPC/01.Basic/Types/03.client_stream.md",
-    "gRPC/01.Basic/Types/02.server_streaming.md",
-    "gRPC/01.Basic/Types/01.unary_grpc.md",
-    "gRPC/00.Foundamental/what_and_why.md",
-    "gRPC/00.Foundamental/04.syntax_and_datatype.md",
-    "gRPC/00.Foundamental/03.gRPC_vs_xml_json.md",
-    "gRPC/00.Foundamental/02.why_it's_exits.md",
-    "Database/Database.png",
-    "Database/MySQL/Code/Indexes for high performance/13- Performance Best Practices.pdf",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/02.Layer_Caching_And_Image_Size_Reduce.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/01.Image_Building.md",
+    "Docker/Docker_Deep/Docker_Technology/05.Image/00.Docker Images.md",
+    "Docker/Docker_Deep/Docker_Technology/03.Networking/02.Docker Networking In Deep.md",
+    "Docker/Docker_Deep/Docker_Technology/03.Networking/01.Docker_networking.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/04.Container_In_Details.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/03.Open_Container_Initiative.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/02.Container_More_depth.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/01.Container.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/00.Container_in_easy_way.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/02.Docker Runc.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/01.Docker Basic Archetecture.md",
+    "Docker/Docker_Deep/Docker_Technology/01.Archerecture/00.Docker_Architecture.md",
+    "Docker/Docs/05.volumes.md",
+    "Docker/Docs/04.Layer_caching.md",
+    "Docker/Docs/06.docker_compose.md",
     "Language/Golang/Code/14.0.Channels/Closing_Channel/Closing_Channel.go",
     "Language/Golang/Code/14.0.Channels/Closing_Channel",
     "Language/Golang/Code/14.0.Channels/Channels.go",
     "Language/Golang/Code/14.0.Channels/Channels",
     "Language/Golang/Code/14.0.Channels",
-    "Untitled.base",
     "Notes",
-    "Untitled.canvas",
-    "Calendar",
-    "Day_Planer",
-    "Untitled 1.canvas",
+    "Docker/Docker_Deep/Docker_Technology/09.Docker_Volumn",
+    "Docker/Docker_Deep/Docker_Technology/08.Docker_Security",
+    "Docker/Docker_Deep/Docker_Technology/07.Advance_Works",
+    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose",
+    "Database/Database.png",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 1.canvas",
     "Docker/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
-    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg"
+    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
+    "Untitled.canvas"
   ]
 }
