@@ -39,8 +39,8 @@ A structured checklist to master Go from fundamentals to production-level topics
 ---
 
 ## ⚠️ Error Handling
--  Errors[[10.Error]]
--  Custom Errors[[10.Error#Custom Error Types]]
+-  Errors[[11.Error]]
+-  Custom Errors[[11.Error#Custom Error Types]]
 -  Panic[[12.Panic_Recover_And_Defer#What is Panic?]]
 -  Defer[[12.Panic_Recover_And_Defer#What is Defer?]]
 -  Recover[[12.Panic_Recover_And_Defer#What is Recover?]]
@@ -49,7 +49,10 @@ A structured checklist to master Go from fundamentals to production-level topics
 
 ## 🔁 Concurrency
 -  Goroutines[[13.0.Goroutines]]
--  Channels[[14.00.Channel_Basic]]
+-  Goroutines Concurrency  [[13.04.Gorourines_Concurrancy]]  [[13.05.Goroutines_Concurrancy_And_Parallalism]]
+-  Goroutines Use case [[13.02.Goroutines_Usecase]]
+-  Goroutines Internal Architecture [[13.1.Goroutines_Internal_Archetecture]] 
+-  Channels[[14.00.Channel_Basic]][[14.01.Channel]]
 -  Channel Buffering[[14.02.Channel_Advance#Buffering and Memory]]
 -  Channel Synchronization[[14.02.Channel_Advance#Channel Synchronization { channel-synchronization}]]
 -  Channel Directions[[14.02.Channel_Advance#Channel Directions { channel-directions}]]
@@ -120,6 +123,8 @@ A structured checklist to master Go from fundamentals to production-level topics
 ---
 
 ## 🌐 Networking & Web
+
+-  HTTP Internal Architecture [[22.00.HTTP_Internal_Archetecture]] 
 -  HTTP Client [[22.01.HTTP_Server_Client#HTTP Client { http-client}]]
 -  HTTP Server[[22.01.HTTP_Server_Client#HTTP Server { http-server}]]
 -  TCP Server[[22.01.HTTP_Server_Client#TCP Server { tcp-server}]]

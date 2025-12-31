@@ -4,6 +4,7 @@
 - Code Section [[03.Code_sections]]
 - Stack Section [[04.Stack_Section]]
 - Heap Section [[05.Heap_Section]]
+- Visual Of How Code Execute [[00.Code_Execution]]
 
 ## 🧰 Memory Management
 
