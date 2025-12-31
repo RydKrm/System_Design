@@ -10,5 +10,9 @@
   "obsidian-minimal-settings",
   "obsidian-day-planner",
   "buttons",
-  "dataview"
+  "dataview",
+  "contribution-graph",
+  "persistent-graph",
+  "extended-graph",
+  "obsidian-living-graph"
 ]
