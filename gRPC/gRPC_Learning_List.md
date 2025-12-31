@@ -1,11 +1,12 @@
 
+### Topic List [[01.topic_list]]
 ## ☁ Understanding The Distribution System
 
-- What is distribution System [[01.uderpstanding_distributed_system#Chapter 1 What are Distributed Systems and Microservices]]
-- Communication Pattern of Distribution System [[01.uderstanding_distributed_system#Communication Patterns in Distributed Architectures]]
-- Problem with Traditional HTTP/REST Communication [[01.uderstanding_distributed_system#Problems with Traditional HTTP/REST Communication]]
-- Introduction to RPC [[01.uderstanding_distributed_system#Chapter 4 Introduction to Remote Procedure Calls (RPC)]]
-- Client Server Architecture Fundamentals  [[01.uderstanding_distributed_system#Chapter 5 Client-Server Architecture Fundamentals]] 
+- What is distribution System [[00.uderstanding_distributed_system]]
+- Communication Pattern of Distribution System [[00.uderstanding_distributed_system#Communication Patterns in Distributed Architectures]]
+- Problem with Traditional HTTP/REST Communication [[00.uderstanding_distributed_system#Problems with Traditional HTTP/REST Communication]]
+- Introduction to RPC [[00.uderstanding_distributed_system#Chapter 4 Introduction to Remote Procedure Calls (RPC)]]
+- Client Server Architecture Fundamentals  [[00.uderstanding_distributed_system#Chapter 5 Client-Server Architecture Fundamentals]] 
 
 ## 🌤Introduction To gRPC
 
@@ -18,6 +19,7 @@
 - Performance Characteristics [[gRPC/00.Foundamental/01.what_and_why#Chapter 7 Performance Characteristics and Optimizations]]
 - Error Handling and Status Code [[gRPC/00.Foundamental/01.what_and_why#Chapter 8 Error Handling and Status Codes]]
 - Security and Authentication [[gRPC/00.Foundamental/01.what_and_why#Chapter 9 Security and Authentication]]
+- gRPC Micro-Service Communication [[gRPC/micro_service_communication/README|README]]
 - Real World Example [[gRPC/00.Foundamental/01.what_and_why#Chapter 10 Real-World Implementation Strategies]]
 
 ## 🌧Protocol Buffer 
@@ -55,3 +57,8 @@
 - Error Propagations [[01.Error_handling#Error Propagation Across Services]]
 - Basic Debugging Techniques [[01.Error_handling#Basic Debugging Techniques]]
 - Real World Implementations [[01.Error_handling#Real-World Implementation Strategy]]
+
+
+## 🫥 Example 
+
+- First Example [[01.first_grpc]]

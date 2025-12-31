@@ -1,0 +1,8 @@
+- What is Authentication [[What_is_Auth]]
+-  Basic Auth [[Basic_Auth]]
+- Cookie Base Auth [[Cookie_Based_Auth]]
+- Basic Auth VS Cookie Base Auth [[Cookie_Based_Auth_2]]
+- JWT Auth [[JWT_Auth]]
+- Refresh_Token [[Refresh_Token]]
+- Role Base Auth [[Role_Base_Auth]]
+- Session Based Auth [[Session_Based_Auth]]

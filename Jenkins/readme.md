@@ -1,9 +1,10 @@
 ## :LiBadge: Basic 
 
  -  What and why [[Jenkins/Basic/What_and_Why|What_and_Why]]
+ - Learning Path [[learning_path]]
 
 ## 🇯🇴 Jobs
-- What is jobs [[01.what_is_jobs]]
+- What is jobs [[01.what_is_jobs]] [[what_is_jobs]]
 - Free style Jobs [[02.free_style_job]]
 - Node Free style Job Config [[03.node_free_style_job_config]]
 

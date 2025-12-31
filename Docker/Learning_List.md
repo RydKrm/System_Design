@@ -3,10 +3,12 @@
 - Linux Inside [[Linux_Inside]]
 - Namespace [[Namespace]]
 - Union File System [[Union_File_System]]
+- All need to know before Docker [[00.Linux_Namespce_Cgroup_union_file_system]]
 
 ## 🏗 Architecture 
  - Fundamental [[00.Docker_Architecture#Understanding the Fundamental Architecture]] [[01.Docker Basic Archetecture#What is Docker?]]
  - Docker Client [[00.Docker_Architecture#1. Docker Client]] [[01.Docker Basic Archetecture#1. **Docker Client**]]
+ - Docker Architecture In Deep [[01.Docker_Archetecture_in-Deep]]
  - Docker Daemon [[00.Docker_Architecture#2. Docker Daemon (dockerd)]] [[01.Docker Basic Archetecture#2. **Docker Daemon (dockerd)**]] [[04.Docker_Deamon]]
  - Docker Run_C [[02.Docker Runc]] 
  - Docker Image [[00.Docker_Architecture#3. Docker Images]] [[01.Docker Basic Archetecture#3. **Docker Images**]]
@@ -16,6 +18,7 @@
  - Docker Networks [[00.Docker_Architecture#7. Docker Networks]] [[01.Docker Basic Archetecture#7. **Docker Networks**]]
  - How they Works together [[00.Docker_Architecture#How Components Work Together A Complete Workflow]] 
  - The Complete Workflow [[01.Docker Basic Archetecture#Complete Docker Workflow Example]]
+ - Visual Execution [[Visual_Execution.excalidraw]]
 
 ## 🗃Container 
 
@@ -138,3 +141,22 @@
 - Checklist and Audit [[Docker Security#12. Security Checklist and Audit { checklist}]]
 
 
+## 🖥Docker Command 
+
+- Docker Command [[Docker Command]]
+
+
+## 🧵 Advance Works 
+
+- CI/CD Pipeline [[01.CI_CD_pipeline]]
+- Server Management [[02.1.Server-Management_with_docker]]
+- Server Management Example [[02.2.Server-Management_Example]]
+- Database Migration [[03.Database-Migration]]
+
+
+## 🧑‍🤝‍🧑Interview Question 
+
+- Basic Question [[Interview_Question_01]]
+- Part 01 [[image_and_container_interview_question_01]]
+- Part 02 [[image_and_container_interview_question_02]]
+- Part 03 [[image_and_container_interview_question_03]]
