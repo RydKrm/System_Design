@@ -4,67 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "38b8c2a6764d1330",
+        "id": "3071b12ac08bbad3",
         "type": "tabs",
         "children": [
           {
-            "id": "04b45059f45ab348",
+            "id": "bf385b6f93301356",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Golang/readme.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "3d_graph_view",
+              "state": {},
               "icon": "lucide-file",
-              "title": "readme"
+              "title": "3D-Graph"
             }
           },
           {
-            "id": "84b12a899a3be85f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gRPC/gRPC_Learning_List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "gRPC_Learning_List"
-            }
-          },
-          {
-            "id": "34d25722b0143eab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Golang/readme.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "readme"
-            }
-          },
-          {
-            "id": "a48c0f9c033c8f05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "13.04.Gorourines_Concurrancy"
-            }
-          },
-          {
-            "id": "aea812cb087ec162",
+            "id": "6f43bc5eaa546a85",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -72,9 +26,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "65b6c8df91996711",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning_List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learning_List"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +86,7 @@
             }
           },
           {
-            "id": "7c3f15b0becc7599",
+            "id": "603bb42945f33ebb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -131,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5026054382324
+    "width": 200
   },
   "right": {
     "id": "3758031abf639b10",
@@ -267,37 +235,43 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "3d-graph:3D Graph": false
     }
   },
   "active": "e4e63f68877866b4",
   "lastOpenFiles": [
+    "Learning_List.md",
+    "TradeOff/Docs/02.Consistance_vs_Abilibility.md",
+    "Database/MySQL/Theory/02.Storage/02.row_base_db_vs_col_base_db.md",
+    "Untitled Kanban.md",
+    "rabbitMQ/Basic/01_Intro.md",
+    "Language/Golang/Docs/13.05.Goroutines_Concurrancy_And_Parallalism.md",
+    "Database/MySQL/Code/Operation/delete.md",
+    "rabbitMQ/Basic/11.topic_exchange.md",
+    "Database/MySQL/Problem/HackerRank/Basic/03.CharStartAndEnd.md",
+    "gRPC/micro_service_communication/README.md",
+    "rabbitMQ/Basic/08.Exchance_bref.md",
+    "Language/Golang/Docs/26.Go_Server.md",
+    "Docker/Docker_Deep/Docker_Technology/02.Container/01.Container.md",
+    "gRPC/00.Foundamental/02.Protocol Buffer.md",
+    "Docker/Docker_Deep/Docker_Technology/interview_question/image_and_container_interview_question_02.md",
+    "linux/Linux Learning Path.md",
+    "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
+    "202512312058.md",
+    "202512312057.md",
     "Language/Golang/Code/13.01.WaitGroups/README.md",
     "Language/Golang/readme.md",
     "Jenkins/readme.md",
-    "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
     "README.md",
     "Jenkins/learning_path.md",
     "Roadmap.md",
     "gRPC/gRPC_Learning_List.md",
-    "TradeOff/TradeOff_Learning_List.md",
-    "01.uderstanding_distributed_system.md",
-    "Language/Golang/Docs/13.02.Goroutines_Usecase.md",
-    "gRPC/00.Foundamental/00.uderstanding_distributed_system.md",
-    "Cacheing/main.md",
-    "Language/Golang/Code/02.Condition/Untitled.md",
-    "Cacheing/Redis_Learning_Path.md",
-    "Redis/Docs/01.Basic.md",
-    "Cacheing/01.Basic/01.Basic.md",
-    "gRPC/01.Basic/01.first_grpc.md",
-    "gRPC/01.topic_list.md",
-    "gRPC/00.Foundamental/03.gRPC_vs_xml_json.md",
-    "Docker/Learning_List.md",
-    "Docker/Docker_Deep/Docker_Technology/00.Linux/00.Linux_Namespce_Cgroup_union_file_system.md",
-    "Clean_Code/Clean_Code_Learning_List.md",
-    "Clean_Code/Readme.md",
-    "Cacheing/readme.md",
-    "Jenkins/Basic/what_is_jobs.md",
     "Database/Database.png",
     "Road_Maps/Docs",
     "TradeOff/Docs",
