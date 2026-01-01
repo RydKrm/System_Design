@@ -1,5 +1,5 @@
 1. Operating System [[Operating_System/readme|readme]]
-2. Language - Golang [[Language/Golang/readme|readme]]
+2. Language - Golang [[Golang_Learning_List|Golang_Learning_List]]
 3. Language - Rust [[Rust_Learning_Path]]
 4. Clean Code [[Clean_Code_Learning_List]]
 5. Linux [[Linux Learning Path]]
