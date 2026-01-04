@@ -171,7 +171,7 @@ ___
 - Read replicas
 - Connection pooling
 - CAP Theorem 
--  **Write amplification**
+- **Write amplification**
 - **Read amplification**
 - **Hot partitions**
 - **Online schema migrations**

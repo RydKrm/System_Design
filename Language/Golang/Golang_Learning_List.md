@@ -110,7 +110,7 @@ A structured checklist to master Go from fundamentals to production-level topics
 
 ## 🧪 Testing & Tooling
 - Testing and Benchmarking [[20.Testing]]
-- [ ] Logging
+-  Logging
 
 ---
 
