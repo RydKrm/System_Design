@@ -317,6 +317,10 @@ ___
 - **Quorum-based systems**
 - **Gossip protocols**
 
+## Methodology 
+
+- **Twelve-Factor App**
+
 ### Generative AI (Engineering-Focused)
 
 - LLM fundamentals
