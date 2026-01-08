@@ -149,3 +149,7 @@ A structured checklist to master Go from fundamentals to production-level topics
 
 
 > Progress slowly, practice daily, and revisit concurrency often. This checklist follows the traditional Go learning path used in real-world backend systems.
+
+
+## 🧰 Tool
+-  Build A CLI Tools [[29.Build_A_CLI_Tool]]
