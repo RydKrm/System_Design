@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ba27cbfcafd793c7",
+        "id": "d44788ce7cb2c30a",
         "type": "tabs",
         "children": [
           {
-            "id": "9712518e752b558d",
+            "id": "d529b64f9cd9d6d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning_List.md",
+                "file": "Language/Golang/Docs/28.Go_Concurrent_Request.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning_List"
+              "title": "28.Go_Concurrent_Request"
             }
           },
           {
-            "id": "0632438ad1b299d7",
+            "id": "883a86efc155c479",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Golang/Golang_Learning_List.md",
+                "file": "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Golang_Learning_List"
-            }
-          },
-          {
-            "id": "0aa1e5378cead53d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Golang/Docs/15.Concurrency_Patterns.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "15.Concurrency_Patterns"
+              "title": "13.06.Goroutines_GMP_Model"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 313.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -185,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Golang/Docs/15.Concurrency_Patterns.md",
+                "file": "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 15.Concurrency_Patterns"
+              "title": "Outline of 13.06.Goroutines_GMP_Model"
             }
           },
           {
@@ -248,37 +234,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0aa1e5378cead53d",
+  "active": "e4e63f68877866b4",
   "lastOpenFiles": [
+    "Language/Golang/Docs/28.Go_Concurrent_Request.md",
+    "Language/Golang/Docs/27.GO_Request_Response_Cycle.md",
+    "Language/Golang/Docs/26.Go_Server.md",
+    "Language/Golang/Docs/25.Go_Runtimes.md",
+    "Language/Golang/Docs/22.01.HTTP_Server_Client.md",
+    "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
+    "Language/Golang/Docs/24.OOP.md",
+    "Language/Golang/Docs/22.02.HTTP_Context.md",
+    "Language/Golang/Docs/22.00.HTTP_Internal_Archetecture.md",
+    "Language/Golang/Docs/21.Command.md",
+    "Language/Golang/Docs/18.Files.md",
+    "Language/Golang/Docs/17.Encryption_Decryption.md",
+    "Language/Golang/Docs/16.Time.md",
+    "Language/Golang/Docs/19.Sorting.md",
+    "Learning_List.md",
+    "README.md",
     "Tools/Make_File/01.Make_File.md",
+    "Language/Golang/Golang_Learning_List.md",
+    "Language/Golang/Docs/15.Concurrency_Patterns.md",
     "Database/MySQL/Theory/10.Database_View/01.Database_View.md",
     "Tools/Make_File",
     "Tools",
     "Language/Golang/Docs/29.Build_A_CLI_Tool.md",
     "Database/MySQL/Theory/10.Database_View",
-    "Learning_List.md",
-    "Language/Golang/Golang_Learning_List.md",
     "Language/Rust/Docs/02.Intermediate/02.option_and_Result.md",
     "Language/Rust/Docs/02.Intermediate/01.emun.md",
     "Language/Rust/Docs/01.Basic/05.code_compailation.md",
     "Language/Rust/Docs/01.Basic/04.Structure_and_methods.md",
     "Language/Rust/Docs/01.Basic/04.Pattern_matching.md",
-    "Language/Rust/Docs/01.Basic/03.Controll_flow.md",
-    "Language/Rust/Docs/01.Basic/02.Function.md",
-    "Language/Rust/Docs/01.Basic/01.variable.md",
-    "Language/Golang/Docs/15.Concurrency_Patterns.md",
-    "Language/Golang/Docs/14.02.Channel_Advance.md",
-    "Language/Golang/Docs/14.01.Channel.md",
-    "Language/Golang/Docs/14.00.Channel_Basic.md",
-    "Language/Golang/Docs/13.05.Goroutines_Concurrancy_And_Parallalism.md",
-    "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
-    "Language/Golang/Docs/13.1.Goroutines_Internal_Archetecture.md",
-    "Language/Golang/Docs/07.Interface.md",
-    "Language/Golang/Docs/13.0.Goroutines.md",
-    "Language/Golang/Docs/13.02.Goroutines_Usecase.md",
-    "Roadmap.md",
-    "gRPC/00.Foundamental/01.what_and_why.md",
-    "gRPC/gRPC_Learning_List.md",
     "TradeOff/Docs",
     "Socket/Docs",
     "Road_Maps/Docs",
