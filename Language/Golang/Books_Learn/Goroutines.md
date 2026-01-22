@@ -1,0 +1,8 @@
+```golang
+
+// This sample program demonstrates how to create goroutines and //
+ how the scheduler behaves.
+  package main 04 05
+   import (  "fmt" "runtime" "sync" )
+// main is the entry point for all Go programs. 12 func main() { 13 // Allocate 1 logical processor for the scheduler to use. 14 runtime.GOMAXPROCS(1) 15 16 // wg is used to wait for the program to finish. 17 // Add a count of two, one for each goroutine. 18 var wg sync.WaitGroup 19 wg.Add(2) 20 21 fmt.Println("Start Goroutines") 22 Listing 6.1 listing01.go Processor P0 G5 G6 Thread M2 Concurrency G7 G4 Processor P0 G6 G8 Thread M2 G10 G4 Processor P1 G7 G9 Thread M3 G5 Parallelism Figure 6.3 Difference between concurrency and parallelism Licensed to Mark Watson Goroutines 133 23 // Declare an anonymous function and create a goroutine. 24 go func() { 25 // Schedule the call to Done to tell main we are done. 26 defer wg.Done() 27 28 // Display the alphabet three times 29 for count := 0; count < 3; count++ { 30 for char := 'a'; char < 'a'+26; char++ { 31 fmt.Printf("%c ", char) 32 } 33 } 34 }() 35 36 // Declare an anonymous function and create a goroutine. 37 go func() { 38 // Schedule the call to Done to tell main we are done. 39 defer wg.Done() 40 41 // Display the alphabet three times 42 for count := 0; count < 3; count++ { 43 for char := 'A'; char < 'A'+26; char++ { 44 fmt.Printf("%c ", char) 45 } 46 } 47 }() 48 49 // Wait for the goroutines to finish. 50 fmt.Println("Waiting To Finish") 51 wg.Wait() 52 53 fmt.Println("\nTerminating Program") 54 }
+```
