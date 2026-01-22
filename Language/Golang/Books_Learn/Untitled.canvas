@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"16e7cda7c8382d0d","x":-665,"y":-447,"width":265,"height":167,"type":"text","text":"Go runtime scheduler is a sophisticated piece of software that manages all the goroutines that are created and need processor time"},
+		{"id":"9c3e7305e33002c0","type":"text","text":"Thread","x":-380,"y":-260,"width":140,"height":60,"color":"1"},
+		{"id":"54bf2cec7df89311","type":"text","text":"Process","x":-840,"y":-160,"width":140,"height":60,"color":"4"},
+		{"id":"81a4604c603f32b5","x":-885,"y":-80,"width":220,"height":300,"type":"text","text":"When you run an application, such as an IDE or editor, the operating system starts a process for the application. You can think of a process like a container that holds all the resources an application uses and maintains as it run"},
+		{"id":"04a6a6e8c93d5977","type":"text","text":"A thread is a path of execution that’s scheduled by the operating system to run the code that you write in your functions","x":-460,"y":-130,"width":200,"height":210},
+		{"id":"ab5efb703e8ea8c3","x":-160,"y":-130,"width":220,"height":170,"type":"text","text":"Each process contains at least one thread, and the initial thread for each process is called the main thread"}
+	],
+	"edges":[]
+}
