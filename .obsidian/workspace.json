@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2b3ae5357c1758dc",
+        "id": "5a592b764bac27f9",
         "type": "tabs",
         "children": [
           {
-            "id": "417405c542aff24b",
+            "id": "9df96033c0bd6d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Rust/Docs/02.Intermediate/09.Concurrency.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "09.Concurrency"
-            }
-          },
-          {
-            "id": "2984692aaf1c970f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Books/AI_Engineering/chapter_2.md",
+                "file": "UI_UX/ui_ux_roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chapter_2"
+              "title": "ui_ux_roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,15 +207,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2984692aaf1c970f",
+  "active": "9df96033c0bd6d0c",
   "lastOpenFiles": [
-    "Language/Rust/Docs/02.Intermediate/07.00.Lifetime_Basic.md",
+    "UI_UX/ui_ux_roadmap.md",
+    "UI_UX/Docs/01.Design_Principles.md",
+    "UI_UX/Docs",
+    "UI_UX",
+    "Language/Rust/Docs/02.Intermediate/09.Concurrency.md",
     "AI/Books/AI_Engineering/chapter_2.md",
+    "Language/Rust/Docs/02.Intermediate/07.00.Lifetime_Basic.md",
     "AI/Books/AI_Engineering",
     "AI/Books",
     "Language/Rust/Docs/02.Intermediate/07.01.life_time.md",
     "Language/Rust/Docs/02.Intermediate/10.advance_traits.md",
-    "Language/Rust/Docs/02.Intermediate/09.Concurrency.md",
     "Language/Rust/Docs/02.Intermediate/08.smart_pointer.md",
     "Language/Rust/readme.md",
     "Language/Rust/Docs/Rust_Learning_Path.md",
@@ -247,7 +236,6 @@
     "Language/Rust/Code/target/debug/incremental/Code-28mo31lxc2x2f/s-hfr170o2dm-0zdbo8v.lock",
     "Language/Rust/Code/target/debug/incremental/Code-0c7rhq60rgenk/s-hfr170o2ee-177lhiz.lock",
     "Language/Rust/Code/src/onwership/readme.md",
-    "Language/Rust/Code/src/onwership",
     "Language/Rust/Docs/02.Intermediate/02.option_and_Result.md",
     "Language/Rust/Docs/02.Intermediate/01.emun.md",
     "Language/Rust/Docs/01.Basic/04.Pattern_matching.md",
@@ -257,9 +245,6 @@
     "Networking/OSI_Model/02.Explain_Like_Begineers.md",
     "AI/Langchain/01.Basic.md",
     "README.md",
-    "AI/Langchain/Untitled",
-    "Roadmap.md",
-    "Learning_List.md",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
     "Docker/Untitled 2.canvas",
