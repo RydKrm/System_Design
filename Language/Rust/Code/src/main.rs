@@ -1,4 +1,4 @@
-use crate::structs::structs::{BankAccount, Transaction};
+use crate::structs::structs::BankAccount;
 
 
 mod structs;
