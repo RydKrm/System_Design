@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5a592b764bac27f9",
+        "id": "21d00d1b869d0410",
         "type": "tabs",
         "children": [
           {
-            "id": "9df96033c0bd6d0c",
+            "id": "b40aaf079b842cd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -207,9 +207,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9df96033c0bd6d0c",
+  "active": "b40aaf079b842cd7",
   "lastOpenFiles": [
+    "Books/Philosophy.md",
+    "Books/Psychology.md",
+    "Blog/Architecture/GO-Even-Driven-Design.md",
     "UI_UX/ui_ux_roadmap.md",
+    "Authentication/JWT_Auth/JWT_Auth.md",
+    "Authentication/Auth_Learning_Path.md",
+    "Authentication/What_is_Auth.md",
+    "UI_UX/Docs/CognitivePsychologyforDesigners/Fitt's_Law.md",
+    "UI_UX/Docs/CognitivePsychologyforDesigners",
+    "Books/Philosophy/Untitled.md",
+    "Books/Philosophy",
+    "Books",
     "UI_UX/Docs/01.Design_Principles.md",
     "UI_UX/Docs",
     "UI_UX",
@@ -232,19 +243,8 @@
     "Language/Rust/Code/target/debug/incremental/Code-28mo31lxc2x2f/s-hfr170o2dm-0zdbo8v-working/dep-graph.part.bin",
     "Language/Rust/Code/target/debug/incremental/Code-28mo31lxc2x2f/s-hfr170o2dm-0zdbo8v-working",
     "Language/Rust/Code/target/debug/incremental/Code-0c7rhq60rgenk/s-hfr170o2ee-177lhiz-working/dep-graph.part.bin",
-    "Language/Rust/Code/target/debug/incremental/Code-0c7rhq60rgenk/s-hfr170o2ee-177lhiz-working",
-    "Language/Rust/Code/target/debug/incremental/Code-28mo31lxc2x2f/s-hfr170o2dm-0zdbo8v.lock",
-    "Language/Rust/Code/target/debug/incremental/Code-0c7rhq60rgenk/s-hfr170o2ee-177lhiz.lock",
     "Language/Rust/Code/src/onwership/readme.md",
     "Language/Rust/Docs/02.Intermediate/02.option_and_Result.md",
-    "Language/Rust/Docs/02.Intermediate/01.emun.md",
-    "Language/Rust/Docs/01.Basic/04.Pattern_matching.md",
-    "Language/Rust/Docs/01.Basic/03.Controll_flow.md",
-    "Language/Rust/Docs/01.Basic/02.Function.md",
-    "Language/Rust/Docs/01.Basic/01.Variable.md",
-    "Networking/OSI_Model/02.Explain_Like_Begineers.md",
-    "AI/Langchain/01.Basic.md",
-    "README.md",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
     "Docker/Untitled 2.canvas",
