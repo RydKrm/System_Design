@@ -91,38 +91,24 @@ Now we go practical.
 ### 4. Layout Systems
 
 - Grid systems (4pt / 8pt grid)
-    
 - Spacing systems
-    
 - Safe areas (notch, status bar)
-    
 - Responsive scaling
-    
 - Flex layout thinking
-    
 
 ---
 
 ### 5. Components & UI Patterns
 
 - Buttons (primary, secondary, destructive)
-    
 - Cards
-    
 - Input fields
-    
 - Bottom navigation
-    
 - Tab bars
-    
 - Modals & sheets
-    
 - Lists
-    
 - Empty states
-    
 - Error states
-    
 
 Study:
 
@@ -138,13 +124,9 @@ These are gold mines.
 ### 6. Icons & Visual Language
 
 - Icon consistency
-    
 - Filled vs outline styles
-    
 - Stroke width balance
-    
 - When to use illustration vs icon
-    
 
 ---
 
@@ -163,7 +145,6 @@ This is where you become dangerous (in a good way).
 - Recognition vs Recall
     
 - Cognitive load
-    
 
 ---
 
@@ -219,7 +200,7 @@ Since you're a software engineer, this is your power zone.
 - Theming (light/dark)
     
 - Atomic design
-    
+
 
 ---
 
