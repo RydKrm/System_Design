@@ -256,7 +256,6 @@ Now we refine taste.
 - Blur usage
     
 - Depth layering
-    
 
 But remember: trends change. Principles stay.
 
@@ -284,7 +283,6 @@ This separates UI designer from product designer.
 - User analytics
     
 - Iterative improvement
-    
 
 ---
 
@@ -295,7 +293,6 @@ This separates UI designer from product designer.
 - Lazy loading visuals
     
 - Perceived speed optimization
-    
 
 ---
 
@@ -316,7 +313,6 @@ Knowledge alone won’t build taste. Do this:
     - Dribbble
         
     - Behance
-        
 
 ---
 
@@ -327,35 +323,3 @@ Knowledge alone won’t build taste. Do this:
 - **Don’t Make Me Think**
     
 - **The Design of Everyday Things**
-    
-
----
-
-# 💡 Since You're a Developer
-
-You already think in systems. That’s your unfair advantage.
-
-If you combine:
-
-- Engineering mindset
-    
-- Clean component architecture
-    
-- Strong UI fundamentals
-    
-
-You won’t just design pretty screens.  
-You’ll design scalable products.
-
----
-
-If you want, I can now:
-
-- Create a **6-month structured learning plan**
-    
-- Or give you **daily practice exercises**
-    
-- Or analyze your current UI and give feedback
-    
-
-What direction do you want to go next?
