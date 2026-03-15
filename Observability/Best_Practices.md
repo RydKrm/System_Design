@@ -37,7 +37,7 @@
 
 The word "observability" comes from control theory — the mathematical study of dynamic systems. In that field, a system is said to be _observable_ if its internal state can be inferred from its external outputs alone. You do not need to open the box, peer inside, or attach a debugger. By measuring what comes out, you can reason about what is happening within.
 
-This definition, when applied to software systems, carries a profound implication: an observable system is one where **any question about its internal behavior can be answered using only the data it produces, without modifying the system, redeploying code, or attaching a debugger**. Observability is not a tool you buy. It is a property of the system itself — a property you deliberately engineer into it.
+This definition, when applied to software systems, carries a profound implication: an observable system is one where **any question about its internal behaviour can be answered using only the data it produces, without modifying the system, redeploying code, or attaching a debugger**. Observability is not a tool you buy. It is a property of the system itself — a property you deliberately engineer into it.
 
 Cindy Sridharan, who wrote the foundational book on distributed systems observability, puts it this way: observability is about being able to ask _any_ question of a system, including questions you did not know you would need to ask when you built it. This is the hardest part of the definition, and the part that separates true observability from mere monitoring. Monitoring is about asking the questions you anticipated. Observability is about being able to ask the questions you never anticipated — the ones that arise for the first time at 2 AM when something novel and unexpected breaks.
 
@@ -47,41 +47,41 @@ ASCII Diagram: The Core Concept of Observability
   Traditional Monitoring (known unknowns):
   ┌──────────────────────────────────────────────────────────────────────────┐
   │                                                                          │
-  │   "I know my DB can fail, so I watch DB error count"                     │
-  │   "I know latency can spike, so I alert on P99 > 500ms"                  │
-  │   "I know disk can fill, so I watch disk usage"                          │
+  │   "I know my DB can fail, so I watch DB error count"                    │
+  │   "I know latency can spike, so I alert on P99 > 500ms"                 │
+  │   "I know disk can fill, so I watch disk usage"                         │
   │                                                                          │
-  │   You can only answer questions you thought to ask BEFORE the incident   │
+  │   You can only answer questions you thought to ask BEFORE the incident  │
   │                                                                          │
   └──────────────────────────────────────────────────────────────────────────┘
                          ▼
   Observability (known + unknown unknowns):
   ┌──────────────────────────────────────────────────────────────────────────┐
   │                                                                          │
-  │   System continuously emits rich, structured telemetry data              │
+  │   System continuously emits rich, structured telemetry data             │
   │                                                                          │
-  │   During an incident, engineer can ask ANY question:                     │
-  │   "What were ALL the DB queries made by requests from user 42            │
-  │    between 2:45 and 2:50 PM that had response time > 2s,                 │
+  │   During an incident, engineer can ask ANY question:                    │
+  │   "What were ALL the DB queries made by requests from user 42           │
+  │    between 2:45 and 2:50 PM that had response time > 2s,                │
   │    grouped by which replica they hit?"                                   │
   │                                                                          │
-  │   This question was never anticipated. The system can still answer it.   │
+  │   This question was never anticipated. The system can still answer it.  │
   │                                                                          │
   └──────────────────────────────────────────────────────────────────────────┘
 
   Observable System Properties:
   ┌──────────────────┬─────────────────────────────────────────────────────┐
-  │  Rich data       │ Telemetry captures enough detail to reconstruct     │
-  │                  │ any event, not just the ones you anticipated        │
+  │  Rich data       │ Telemetry captures enough detail to reconstruct      │
+  │                  │ any event, not just the ones you anticipated         │
   ├──────────────────┼─────────────────────────────────────────────────────┤
   │  Low query time  │ Tools exist to explore the data interactively, in   │
-  │                  │ seconds, not hours of log grepping                  │
+  │                  │ seconds, not hours of log grepping                   │
   ├──────────────────┼─────────────────────────────────────────────────────┤
-  │  High context    │ Every data point carries enough context to be       │
-  │                  │ meaningful in isolation (who, what, where, when)    │
+  │  High context    │ Every data point carries enough context to be        │
+  │                  │ meaningful in isolation (who, what, where, when)     │
   ├──────────────────┼─────────────────────────────────────────────────────┤
-  │  Correlated      │ Logs, metrics, and traces are linked so you can     │
-  │                  │ navigate between them during investigation          │
+  │  Correlated      │ Logs, metrics, and traces are linked so you can      │
+  │                  │ navigate between them during investigation           │
   └──────────────────┴─────────────────────────────────────────────────────┘
 ```
 
@@ -131,10 +131,10 @@ The three pillars of observability — logs, metrics, and traces — are not int
 ```
 ASCII Diagram: The Three Pillars and What Each One Answers
 
-  ┌─────────────────────────────────────────────────────────────────────────────┐
-  │                        THE THREE PILLARS                                    │
-  ├─────────────────────────────────────────────────────────────────────────────┤
-  │                                                                             │
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                        THE THREE PILLARS                                     │
+  ├──────────────────────────────────────────────────────────────────────────────┤
+  │                                                                              │
   │  LOGS — "What happened?"                                                    │
   │  ┌────────────────────────────────────────────────────────────────────────┐ │
   │  │  Discrete, timestamped records of events. The narrative of the system. │ │
@@ -143,7 +143,7 @@ ASCII Diagram: The Three Pillars and What Each One Answers
   │  │  Tools:      Zap (Go), Grafana Loki, Elasticsearch                     │ │
   │  │  Example:    {"msg":"payment failed","user_id":42,"error":"declined"}  │ │
   │  └────────────────────────────────────────────────────────────────────────┘ │
-  │                                                                             │
+  │                                                                              │
   │  METRICS — "How much, how often, how fast?"                                 │
   │  ┌────────────────────────────────────────────────────────────────────────┐ │
   │  │  Numeric time-series measurements. The heartbeat of the system.        │ │
@@ -152,17 +152,17 @@ ASCII Diagram: The Three Pillars and What Each One Answers
   │  │  Tools:      Prometheus, Grafana, InfluxDB                             │ │
   │  │  Example:    http_request_duration_p99{path="/checkout"} = 2.3s        │ │
   │  └────────────────────────────────────────────────────────────────────────┘ │
-  │                                                                             │
+  │                                                                              │
   │  TRACES — "Where did the time go?"                                          │
   │  ┌────────────────────────────────────────────────────────────────────────┐ │
   │  │  A recording of the journey of one request across all services.        │ │
   │  │  Strengths:  End-to-end latency breakdown, dependency mapping          │ │
   │  │  Weaknesses: High overhead if sampling 100%, complex to implement      │ │
   │  │  Tools:      OpenTelemetry, Grafana Tempo, Jaeger, Zipkin              │ │
-  │  │  Example:    order-svc(45ms) → payment-svc(1200ms) → stripe-api(900ms) │ │
+  │  │  Example:    order-svc(45ms) → payment-svc(1200ms) → stripe-api(900ms)│ │
   │  └────────────────────────────────────────────────────────────────────────┘ │
-  │                                                                             │
-  └─────────────────────────────────────────────────────────────────────────────┘
+  │                                                                              │
+  └──────────────────────────────────────────────────────────────────────────────┘
 
   The Question Each Pillar Answers:
   ┌─────────────────────────────────────────────────────────────────────────┐
@@ -173,7 +173,7 @@ ASCII Diagram: The Three Pillars and What Each One Answers
   │  "How often does this happen?"   → Metrics  (rate over time)            │
   │  "What was the full context?"    → Logs     (all fields of the event)   │
   │  "Is this a regression?"         → Metrics  (compare to historical data)│
-  │  "What did the user experience?" → Traces + RUM (end-to-end journey)    │
+  │  "What did the user experience?" → Traces + RUM (end-to-end journey)   │
   └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -197,8 +197,8 @@ ASCII Diagram: Correlation Flow During an Incident Investigation
   STEP 1: Start with METRICS (fast to query, gives you the "what")
   ┌────────────────────────────────────────────────────────────────────────┐
   │  Grafana dashboard shows:                                              │
-  │  • P99 latency for POST /api/v1/checkout spiked from 120ms → 4.2s      │
-  │  • Error rate unchanged (0.02%) — it's slowness, not errors            │
+  │  • P99 latency for POST /api/v1/checkout spiked from 120ms → 4.2s     │
+  │  • Error rate unchanged (0.02%) — it's slowness, not errors           │
   │  • Spike started at exactly 3:14:52 PM                                 │
   │  • Only affects the checkout endpoint, not GET endpoints               │
   └────────────────────────────────────────────────────────────────────────┘
@@ -210,30 +210,30 @@ ASCII Diagram: Correlation Flow During an Incident Investigation
   │  Grafana Tempo shows slow checkout traces:                             │
   │                                                                        │
   │  POST /checkout    total: 4,231ms                                      │
-  │  ├─ auth-service   validate_token        12ms  ✓ normal                │
-  │  ├─ inventory-svc  check_stock           8ms   ✓ normal                │
-  │  ├─ order-service  create_order          45ms  ✓ normal                │
+  │  ├─ auth-service   validate_token        12ms  ✓ normal               │
+  │  ├─ inventory-svc  check_stock           8ms   ✓ normal               │
+  │  ├─ order-service  create_order          45ms  ✓ normal               │
   │  └─ payment-svc    charge_card           4,156ms  ← HERE IS THE PROBLEM│
-  │      └─ stripe-api POST /payment_intents 4,089ms  ← Stripe is slow     │
+  │      └─ stripe-api POST /payment_intents 4,089ms  ← Stripe is slow    │
   │                                                                        │
-  │  Root cause localised: Stripe API calls are taking 4+ seconds          │
+  │  Root cause localised: Stripe API calls are taking 4+ seconds         │
   └────────────────────────────────────────────────────────────────────────┘
                               │
                               ▼ Get the full context: what exactly is happening?
 
   STEP 3: Check LOGS (gives you the "why" and exact details)
   ┌────────────────────────────────────────────────────────────────────────┐
-  │  Query in Loki: {app="payment-svc"} | json | trace_id="abc123"         │
+  │  Query in Loki: {app="payment-svc"} | json | trace_id="abc123"        │
   │                                                                        │
-  │  {"msg":"Calling Stripe API","endpoint":"/v1/payment_intents"}         │
-  │  {"msg":"Stripe API response slow","elapsed_ms":4089,                  │
-  │   "stripe_status":"processing","stripe_error":"api_connection_error",  │
-  │   "retry_count":2,"idempotency_key":"idem-789abc"}                     │
-  │  {"msg":"Stripe API eventually succeeded after retry",                 │
+  │  {"msg":"Calling Stripe API","endpoint":"/v1/payment_intents"}        │
+  │  {"msg":"Stripe API response slow","elapsed_ms":4089,                 │
+  │   "stripe_status":"processing","stripe_error":"api_connection_error", │
+  │   "retry_count":2,"idempotency_key":"idem-789abc"}                    │
+  │  {"msg":"Stripe API eventually succeeded after retry",                │
   │   "total_elapsed_ms":4231}                                             │
   │                                                                        │
-  │  Full picture: Stripe's API is intermittently timing out               │
-  │  and the retry logic is adding the bulk of the latency.                │
+  │  Full picture: Stripe's API is intermittently timing out              │
+  │  and the retry logic is adding the bulk of the latency.               │
   └────────────────────────────────────────────────────────────────────────┘
 
   Total investigation time: ~4 minutes
@@ -253,41 +253,41 @@ ASCII Diagram: Complete Observability Data Lifecycle
 
   ┌──────────────────────────────────────────────────────────────────────────┐
   │  STAGE 1: INSTRUMENTATION                                                │
-  │  Your Go application code emits telemetry                                │
+  │  Your Go application code emits telemetry                               │
   │                                                                          │
   │  go service                                                              │
-  │  ┌────────────────────────────────────────────────────────────┐          │
-  │  │  zap.Logger        → structured JSON log entries           │          │
-  │  │  prometheus client → counter/gauge/histogram increments    │          │
-  │  │  otel SDK          → span.Start(), span.End(), attributes  │          │
-  │  └───────────────────────────────┬────────────────────────────┘          │
+  │  ┌────────────────────────────────────────────────────────────┐         │
+  │  │  zap.Logger        → structured JSON log entries           │         │
+  │  │  prometheus client → counter/gauge/histogram increments    │         │
+  │  │  otel SDK          → span.Start(), span.End(), attributes  │         │
+  │  └───────────────────────────────┬────────────────────────────┘         │
   └──────────────────────────────────┼───────────────────────────────────────┘
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
   │  STAGE 2: COLLECTION                                                     │
   │  Agents and exporters gather raw telemetry from services                 │
   │                                                                          │
-  │  Logs:    Promtail / Fluentbit tails stdout and files                    │
-  │  Metrics: Prometheus scrapes /metrics endpoint every 15s                 │
-  │  Traces:  OTel SDK exports spans to OTel Collector via gRPC              │
+  │  Logs:    Promtail / Fluentbit tails stdout and files                   │
+  │  Metrics: Prometheus scrapes /metrics endpoint every 15s                │
+  │  Traces:  OTel SDK exports spans to OTel Collector via gRPC             │
   └──────────────────────────────────┬───────────────────────────────────────┘
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
   │  STAGE 3: PROCESSING                                                     │
-  │  Raw telemetry is transformed, enriched, and filtered                    │
+  │  Raw telemetry is transformed, enriched, and filtered                   │
   │                                                                          │
-  │  OTel Collector: batches spans, adds k8s metadata, drops debug traces    │
-  │  Promtail:       parses JSON, extracts labels, drops health check logs   │
-  │  Prometheus:     records/storage scrape, evaluates recording rules       │
+  │  OTel Collector: batches spans, adds k8s metadata, drops debug traces  │
+  │  Promtail:       parses JSON, extracts labels, drops health check logs  │
+  │  Prometheus:     records/storage scrape, evaluates recording rules      │
   └──────────────────────────────────┬───────────────────────────────────────┘
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
   │  STAGE 4: STORAGE                                                        │
-  │  Processed telemetry is persisted in purpose-built databases             │
+  │  Processed telemetry is persisted in purpose-built databases            │
   │                                                                          │
-  │  Logs:    Grafana Loki     (compressed chunks by label set)              │
-  │  Metrics: Prometheus TSDB  (time-series optimised storage)               │
-  │  Traces:  Grafana Tempo    (object storage: S3/GCS)                      │
+  │  Logs:    Grafana Loki     (compressed chunks by label set)             │
+  │  Metrics: Prometheus TSDB  (time-series optimised storage)              │
+  │  Traces:  Grafana Tempo    (object storage: S3/GCS)                     │
   └──────────────────────────────────┬───────────────────────────────────────┘
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
@@ -302,10 +302,10 @@ ASCII Diagram: Complete Observability Data Lifecycle
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
   │  STAGE 6: ALERTING AND ACTION                                            │
-  │  Anomalies trigger notifications and automated responses                 │
+  │  Anomalies trigger notifications and automated responses                │
   │                                                                          │
-  │  Prometheus Alertmanager: routes alerts to Slack, PagerDuty              │
-  │  Grafana Alerting:        unified alert rules across all data sources    │
+  │  Prometheus Alertmanager: routes alerts to Slack, PagerDuty            │
+  │  Grafana Alerting:        unified alert rules across all data sources   │
   │  On-call runbooks:        engineers follow documented investigation paths│
   └──────────────────────────────────────────────────────────────────────────┘
 ```
@@ -331,18 +331,18 @@ ASCII Diagram: Anatomy of a Distributed Trace
       ├── api-gateway     route_request   [0ms ── 3ms]
       │
       ├── auth-service    validate_token  [3ms ──── 15ms]
-      │       └── redis   GET token:xyz   [4ms -- 6ms]
+      │       └── redis   GET token:xyz  [4ms -- 6ms]
       │
-      ├── inventory-svc    check_stock     [15ms ──── 23ms]
-      │       └── postgres SELECT items   [16ms -- 22ms]
+      ├── inventory-svc   check_stock     [15ms ──── 23ms]
+      │       └── postgres SELECT items  [16ms -- 22ms]
       │
-      ├── order-service    create_order    [23ms ────────── 68ms]
-      │       ├── postgres INSERT order   [24ms -- 45ms]
-      │       └── rabbitmq publish msg    [45ms -- 67ms]
+      ├── order-service   create_order    [23ms ────────── 68ms]
+      │       ├── postgres INSERT order  [24ms -- 45ms]
+      │       └── rabbitmq publish msg   [45ms -- 67ms]
       │
-      └── payment-svc     charge_card     [68ms ──────────────────── 4,231ms]  ← slow
-              ├── [internal]prepare_req   [68ms - 75ms]
-              └── stripe-api POST /v1/    [75ms ──────────────────── 4,164ms]  ← culprit
+      └── payment-svc     charge_card    [68ms ──────────────────── 4,231ms]  ← slow
+              ├── [internal]prepare_req  [68ms - 75ms]
+              └── stripe-api POST /v1/   [75ms ──────────────────── 4,164ms]  ← culprit
                       [network timeout, retried once]
 
   Reading this trace, the engineer immediately knows:
@@ -477,35 +477,35 @@ ASCII Diagram: OpenTelemetry Architecture
   Your Go Application
   ┌─────────────────────────────────────────────────────────────────────────┐
   │                                                                         │
-  │  OTel API (stable, abstract):                                           │
-  │  tracer.Start(ctx, "span-name")    → creates a span                     │
-  │  span.SetAttributes(...)           → adds context to span               │
-  │  span.RecordError(err)             → marks span as failed               │
-  │  meter.Int64Counter(...)           → creates a metric                   │
-  │  logger.Emit(record)               → emits a log record                 │
+  │  OTel API (stable, abstract):                                          │
+  │  tracer.Start(ctx, "span-name")    → creates a span                    │
+  │  span.SetAttributes(...)           → adds context to span              │
+  │  span.RecordError(err)             → marks span as failed              │
+  │  meter.Int64Counter(...)           → creates a metric                  │
+  │  logger.Emit(record)               → emits a log record                │
   │                                                                         │
-  │  OTel SDK (configurable, pluggable):                                    │
-  │  TracerProvider  → manages span lifecycle and export                    │
-  │  MeterProvider   → manages metric collection and export                 │
-  │  LoggerProvider  → manages log record export                            │
+  │  OTel SDK (configurable, pluggable):                                   │
+  │  TracerProvider  → manages span lifecycle and export                   │
+  │  MeterProvider   → manages metric collection and export                │
+  │  LoggerProvider  → manages log record export                           │
   │                                                                         │
-  │  Exporters (swap without code changes):                                 │
-  │  OTLP (gRPC/HTTP) → OTel Collector → any backend                        │
-  │  Jaeger exporter  → Jaeger directly                                     │
-  │  Stdout exporter  → terminal (development only)                         │
+  │  Exporters (swap without code changes):                                │
+  │  OTLP (gRPC/HTTP) → OTel Collector → any backend                      │
+  │  Jaeger exporter  → Jaeger directly                                    │
+  │  Stdout exporter  → terminal (development only)                        │
   └─────────────────────────────────────┬───────────────────────────────────┘
                                         │ OTLP protocol (gRPC port 4317)
                                         ▼
   ┌─────────────────────────────────────────────────────────────────────────┐
   │              OTel Collector (optional but recommended)                  │
   │                                                                         │
-  │  Receivers:    otlp, jaeger, zipkin, prometheus                         │
-  │  Processors:   batch, attributes, filter, sampling, k8s metadata        │
-  │  Exporters:    loki, tempo, prometheus, datadog, honeycomb, jaeger      │
+  │  Receivers:    otlp, jaeger, zipkin, prometheus                        │
+  │  Processors:   batch, attributes, filter, sampling, k8s metadata       │
+  │  Exporters:    loki, tempo, prometheus, datadog, honeycomb, jaeger     │
   │                                                                         │
   │  Benefits: centralised config, tail-based sampling, fan-out to          │
-  │  multiple backends, secret isolation (app never has backend creds)      │
-  └─────────────────────────────────────────────────────────────────────-───┘
+  │  multiple backends, secret isolation (app never has backend creds)     │
+  └────────────────────────────────────────────────────────────────────────┘
                                         │
               ┌─────────────────────────┼──────────────────────┐
               ▼                         ▼                       ▼
@@ -593,34 +593,34 @@ ASCII Diagram: Three-Pillar Integration in a Single Go Service
 
   main.go
   ┌────────────────────────────────────────────────────────────────────────────┐
-  │  1. Init Logger   (Zap, JSON, to stdout + Loki)                            │
-  │  2. Init Metrics  (Prometheus custom registry, /metrics endpoint)          │
-  │  3. Init Tracer   (OTel SDK, OTLP exporter to OTel Collector)              │
-  │  4. Wire deps:    handler(logger, metrics, tracer) → service → repo        │
+  │  1. Init Logger   (Zap, JSON, to stdout + Loki)                           │
+  │  2. Init Metrics  (Prometheus custom registry, /metrics endpoint)         │
+  │  3. Init Tracer   (OTel SDK, OTLP exporter to OTel Collector)            │
+  │  4. Wire deps:    handler(logger, metrics, tracer) → service → repo       │
   └────────────────────────────────────────────────────────────────────────────┘
 
   HTTP Request enters:
   ┌────────────────────────────────────────────────────────────────────────────┐
   │  middleware stack (applied in order):                                      │
   │                                                                            │
-  │  TraceMiddleware     → starts root span, extracts parent if present        │
+  │  TraceMiddleware     → starts root span, extracts parent if present       │
   │                        injects trace_id into request context               │
   │                                                                            │
-  │  RequestIDMiddleware → generates request_id (or reads from header)         │
-  │                        creates request-scoped Zap logger with request_id   │
+  │  RequestIDMiddleware → generates request_id (or reads from header)        │
+  │                        creates request-scoped Zap logger with request_id  │
   │                        AND trace_id both pre-attached                      │
   │                                                                            │
-  │  MetricsMiddleware   → wraps response writer to capture status code        │
+  │  MetricsMiddleware   → wraps response writer to capture status code       │
   │                        records http_requests_total, http_request_duration  │
   │                                                                            │
   │  Handler executes:                                                         │
-  │    span := tracer.Start(ctx, "create_order")    → new child span           │
-  │    log  := L(ctx, logger)                       → gets request logger      │
-  │    reg.OrdersTotal.Inc()                        → increments counter       │
+  │    span := tracer.Start(ctx, "create_order")    → new child span          │
+  │    log  := L(ctx, logger)                       → gets request logger     │
+  │    reg.OrdersTotal.Inc()                        → increments counter      │
   │                                                                            │
-  │  Every log entry carries: request_id + trace_id + span_id                  │
-  │  Every metric carries: service label, path label, status label             │
-  │  Every span carries: service name, version, environment attributes         │
+  │  Every log entry carries: request_id + trace_id + span_id                │
+  │  Every metric carries: service label, path label, status label            │
+  │  Every span carries: service name, version, environment attributes        │
   └────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -668,36 +668,36 @@ In a production Kubernetes environment, the observability data pipeline is a com
 ```
 ASCII Diagram: Production Observability Data Pipeline
 
-  ┌─────────────────────────────────────────────────────────────────────────-┐
+  ┌─────────────────────────────────────────────────────────────────────────┐
   │                    APPLICATION TIER                                      │
   │                                                                          │
-  │  order-svc (×3)  payment-svc (×2)  auth-svc (×2)  inventory-svc (×1)     │
-  │      │                 │                 │                 │             │
-  │      │ stdout (JSON)   │ stdout          │ stdout          │ stdout      │
-  │      │ /metrics        │ /metrics        │ /metrics        │ /metrics    │
+  │  order-svc (×3)  payment-svc (×2)  auth-svc (×2)  inventory-svc (×1)  │
+  │      │                │                │                 │              │
+  │      │ stdout (JSON)   │ stdout          │ stdout          │ stdout       │
+  │      │ /metrics        │ /metrics        │ /metrics        │ /metrics     │
   │      │ OTLP gRPC       │ OTLP gRPC       │ OTLP gRPC       │ OTLP gRPC   │
   └──────┼─────────────────┼─────────────────┼─────────────────┼─────────────┘
          │                 │                 │                 │
   ┌──────▼─────────────────▼─────────────────▼─────────────────▼─────────────┐
-  │                    COLLECTION TIER                                       │
-  │                                                                          │
+  │                    COLLECTION TIER                                        │
+  │                                                                           │
   │  ┌─────────────────┐              ┌────────────────────────────────────┐ │
   │  │  Promtail       │              │   OTel Collector                   │ │
   │  │  (DaemonSet)    │              │   (Deployment, 3 replicas)         │ │
   │  │                 │              │                                    │ │
-  │  │  Tails all pod  │              │   Receives: OTLP (gRPC :4317)      │ │
+  │  │  Tails all pod  │              │   Receives: OTLP (gRPC :4317)     │ │
   │  │  stdout logs    │              │   Processes: batch, k8s attrs,     │ │
   │  │  Parses JSON    │              │              tail sampling         │ │
   │  │  Labels:        │              │   Exports:  → Tempo (traces)       │ │
   │  │  namespace, pod │              │             → Loki (logs via OTLP) │ │
   │  │  app, level     │              │             → Prometheus (metrics) │ │
   │  └────────┬────────┘              └──────────────────┬─────────────────┘ │
-  └───────────┼──────────────────────────────────────────┼───────────────────┘
+  └───────────┼──────────────────────────────────────────┼────────────────────┘
               │                                          │
-  ┌───────────▼──────────────────────────────────────────▼──────────-──────────┐
+  ┌───────────▼──────────────────────────────────────────▼────────────────────┐
   │                    STORAGE TIER                                            │
   │                                                                            │
-  │  ┌────────────────┐  ┌───────────────────-───┐  ┌───────────────────────┐  │
+  │  ┌────────────────┐  ┌──────────────────────┐  ┌───────────────────────┐  │
   │  │  Grafana Loki  │  │  Prometheus + Thanos  │  │   Grafana Tempo       │  │
   │  │                │  │                       │  │                       │  │
   │  │  Logs          │  │  Metrics              │  │  Traces               │  │
@@ -717,14 +717,14 @@ ASCII Diagram: Production Observability Data Pipeline
   │  │  Dashboards:   RED metrics   │  Go runtime  │  Business metrics        │ │
   │  │                DB/Cache      │  K8s cluster  │  SLO dashboards         │ │
   │  │                                                                        │ │
-  │  │  Explore:      Correlate logs ↔ metrics ↔ traces                       │ │
+  │  │  Explore:      Correlate logs ↔ metrics ↔ traces                      │ │
   │  │                                                                        │ │
   │  │  Alerting:     Unified alert rules across all datasources              │ │
   │  └────────────────────────────────────────────────────────────────────────┘ │
   │                              │                                              │
   │  ┌────────────────────────────▼───────────────────────────────────────────┐ │
   │  │                     Alertmanager                                       │ │
-  │  │  Critical → PagerDuty  │  Warning → Slack  │  Info → Email digest      │ │
+  │  │  Critical → PagerDuty  │  Warning → Slack  │  Info → Email digest     │ │
   │  └────────────────────────────────────────────────────────────────────────┘ │
   └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -833,35 +833,35 @@ Symptom-based alerting directly measures user experience. If users are experienc
 ASCII Diagram: Symptom-Based vs Cause-Based Alerting
 
   CAUSE-BASED (noisy, low signal):               SYMPTOM-BASED (quiet, high signal):
-  ┌────────────────────────────────────┐    ┌────────────────────────────────────┐
-  │  ❌ CPU > 85% for 5m               │    │  ✅ Error rate > 1% for 2m        │
-  │  ❌ Memory > 75%                   │    │  ✅ P99 latency > 500ms for 5m    │
-  │  ❌ DB connections > 80%           │    │  ✅ Service not producing metrics | 
-  │  ❌ Goroutines > 500               │    │  ✅ Checkout conversion rate < 80% │
-  │  ❌ GC pause > 100ms               │    │  ✅ Error budget burn rate > 10×   │
-  │  ❌ Cache miss rate > 20%          │    │  ✅No successful worker run in 2h  |
-  │                                    │    │                                    │
-  │  Problem: these fire constantly    │    │  These fire only when users are    │
-  │  and usually without user impact   │    │  actually experiencing problems    │
-  │                                    │    │                                    │
-  │  Result: alert fatigue,            │    │  Result: every page is meaningful, │
-  │  on-call ignores alerts            |    │  on-call trusts alerts             │
-  └────────────────────────────────────┘    └────────────────────────────────────┘
+  ┌────────────────────────────────────┐         ┌────────────────────────────────────┐
+  │  ❌ CPU > 85% for 5m               │         │  ✅ Error rate > 1% for 2m          │
+  │  ❌ Memory > 75%                   │         │  ✅ P99 latency > 500ms for 5m      │
+  │  ❌ DB connections > 80%           │         │  ✅ Service not producing metrics    │
+  │  ❌ Goroutines > 500               │         │  ✅ Checkout conversion rate < 80%  │
+  │  ❌ GC pause > 100ms               │         │  ✅ Error budget burn rate > 10×    │
+  │  ❌ Cache miss rate > 20%          │         │  ✅ No successful worker run in 2h  │
+  │                                    │         │                                    │
+  │  Problem: these fire constantly    │         │  These fire only when users are     │
+  │  and usually without user impact   │         │  actually experiencing problems     │
+  │                                    │         │                                    │
+  │  Result: alert fatigue,            │         │  Result: every page is meaningful, │
+  │  on-call ignores alerts            │         │  on-call trusts alerts             │
+  └────────────────────────────────────┘         └────────────────────────────────────┘
 
   The Multiwindow, Multi-Burn-Rate Alert (Google SRE recommendation):
   ┌────────────────────────────────────────────────────────────────────────────┐
   │                                                                            │
-  │  Page (critical):                                                          │
-  │    Burn rate > 14.4× over 1h AND burn rate > 14.4× over 5m                 │
-  │    Meaning: will exhaust 30-day budget in < 2 days                         │
-  │    Response: wake up, fix immediately                                      │
+  │  Page (critical):                                                         │
+  │    Burn rate > 14.4× over 1h AND burn rate > 14.4× over 5m              │
+  │    Meaning: will exhaust 30-day budget in < 2 days                       │
+  │    Response: wake up, fix immediately                                    │
   │                                                                            │
-  │  Ticket (warning):                                                         │
-  │    Burn rate > 1× over 6h AND burn rate > 1× over 30m                      │
-  │    Meaning: burning budget faster than it accrues                          │
-  │    Response: investigate during business hours                             │
+  │  Ticket (warning):                                                        │
+  │    Burn rate > 1× over 6h AND burn rate > 1× over 30m                   │
+  │    Meaning: burning budget faster than it accrues                        │
+  │    Response: investigate during business hours                           │
   │                                                                            │
-  │  This approach gives you: fast detection + low false positive rate         │
+  │  This approach gives you: fast detection + low false positive rate       │
   └────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -934,17 +934,17 @@ The critical principle for microservices observability is **context propagation*
 ASCII Diagram: Context Propagation Across Service Boundaries
 
   HTTP/gRPC calls (synchronous):
-  ┌─────────────────┐     W3C traceparent header       ┌─────────────────┐
-  │  order-service  │ ──────────────────────────────►  │  payment-service│
+  ┌─────────────────┐     W3C traceparent header      ┌─────────────────┐
+  │  order-service  │ ──────────────────────────────► │  payment-service│
   │  trace_id: abc  │     X-Request-ID: req-xyz        │  trace_id: abc  │
   │  span_id: 001   │                                  │  parent_id: 001 │
   └─────────────────┘                                  └─────────────────┘
 
   Message Queue (asynchronous — context must be in message headers):
   ┌─────────────────┐   RabbitMQ message headers:      ┌─────────────────┐
-  │  order-service  │   traceparent: 00-abc-001-01     │  email-service  │
-  │  publishes msg  │ ──────────────────────────────►  │  consumes msg   │
-  │                 │   X-Request-ID: req-xyz          │  trace_id: abc  │
+  │  order-service  │   traceparent: 00-abc-001-01      │  email-service  │
+  │  publishes msg  │ ──────────────────────────────► │  consumes msg   │
+  │                 │   X-Request-ID: req-xyz           │  trace_id: abc  │
   └─────────────────┘   X-Correlation-ID: corr-123     └─────────────────┘
 
   Without context propagation:
