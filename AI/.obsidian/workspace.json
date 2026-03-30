@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "3135ffd4290136e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "112271e6b25b82ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56f2a673116235cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04.RNN/02.LSTM_RNN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02.LSTM_RNN"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b271e19fbcf947ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2bc5dcf88985f3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92b34dc2560fa2f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "121256e92707e5a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "288c5457031ee929",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.50260543823242
+  },
+  "right": {
+    "id": "5279a2cf24515f85",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b6b982643156c4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31bdfbdc49e21315",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03.Deep_Learning/03.Coding_Example.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03.Coding_Example"
+            }
+          },
+          {
+            "id": "66a0e9e5936ffb5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03.Deep_Learning/03.Coding_Example.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 03.Coding_Example"
+            }
+          },
+          {
+            "id": "eeddee9d03dd7916",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1aa84907ae7356b7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "46ac607bc33f79c1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04.RNN/02.LSTM_RNN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 02.LSTM_RNN"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "56f2a673116235cd",
+  "lastOpenFiles": [
+    "04.RNN/01.Basic_RNN.md",
+    "04.RNN/03.Bidirectional_RNN.md",
+    "04.RNN/02.LSTM_RNN.md",
+    "06.ANN/01.Basic.md",
+    "06.ANN",
+    "03.Deep_Learning/03.Coding_Example.md",
+    "04.RNN",
+    "03.Deep_Learning/02.Deep_Leaning.md",
+    "03.Deep_Learning/01.Learn_Basics.md",
+    "02.Text_Prepossessing/Practical_Example.md",
+    "03.Deep_Learning",
+    "02.Text_Prepossessing/Word_Embedding.md",
+    "02.Text_Prepossessing/Text_2_Vector.md",
+    "02.Text_Prepossessing/Text_Prepossessing.md",
+    "01.Basic/02.Context_Windows.md",
+    "01.Basic/01.Token.md",
+    "01.Basic/00.AI_Model.md",
+    "02.Text_Prepossessing",
+    "Basic/Untitled.md"
+  ]
+}

@@ -26,13 +26,9 @@ struct Container {
 impl UIComponent for Container{}
 
 fn main(){
-
     // first button take memory from stack memory
     let button_a = Button{text: "Blue button".to_string()};
-
     // second button take memory from heap so it's size can be grow and shrink 
     let button_b = Box::new(Button{text: "Green button".to_string()});
-
     let _components = vec![Box::new(button_a), button_b];
-
 }
