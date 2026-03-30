@@ -80,29 +80,29 @@ ASCII Diagram: Prometheus Pull Architecture
   │                         YOUR GO SERVICE                              │
   │                                                                      │
   │   Business Logic                                                     │
-  │   ┌──────────────────────────────────────────────┐                  │
-  │   │  handler.go  → requests_total.Inc()           │                  │
-  │   │  service.go  → order_duration.Observe(d)      │                  │
-  │   │  repo.go     → db_query_duration.Observe(d)   │                  │
-  │   └──────────────────────────────────────────────┘                  │
+  │   ┌──────────────────────────────────────────────┐                   │
+  │   │  handler.go  → requests_total.Inc()          │                   │
+  │   │  service.go  → order_duration.Observe(d)     │                   │
+  │   │  repo.go     → db_query_duration.Observe(d)  │                   │
+  │   └──────────────────────────────────────────────┘                   │
   │                          │                                           │
   │                          ▼                                           │
   │   In-Memory Registry (prometheus.DefaultRegisterer)                  │
-  │   ┌──────────────────────────────────────────────┐                  │
-  │   │  http_requests_total          = 4821          │                  │
-  │   │  http_request_duration_seconds histogram      │                  │
-  │   │  go_goroutines                = 42            │  ◄─────────────┐│
-  │   │  go_memstats_alloc_bytes      = 14MB          │                ││
-  │   │  process_cpu_seconds_total    = 12.4          │                ││
-  │   └──────────────────────────────────────────────┘                  ││
+  │   ┌──────────────────────────────────────────────┐                   │
+  │   │  http_requests_total          = 4821         │                   │
+  │   │  http_request_duration_seconds histogram     │                   │
+  │   │  go_goroutines                = 42           │  ◄─────────────┐  │
+  │   │  go_memstats_alloc_bytes      = 14MB         │                │  │
+  │   │  process_cpu_seconds_total    = 12.4         │                │  │
+  │   └──────────────────────────────────────────────┘                   ││
   │                          │                                           ││
   │   HTTP /metrics endpoint (promhttp.Handler())                        ││
-  │   ┌──────────────────────────────────────────────┐                  ││
+  │   ┌──────────────────────────────────────────────┐                   ││
   │   │  # HELP http_requests_total ...               │                  ││
   │   │  # TYPE http_requests_total counter           │                  ││
   │   │  http_requests_total{...} 4821                │                  ││
   │   │  ...                                          │ ◄── GET /metrics ││
-  │   └──────────────────────────────────────────────┘                  ││
+  │   └──────────────────────────────────────────────┘                   ││
   └──────────────────────────────────────────────────────────────────────┘│
                                                                           │
   ┌───────────────────────────────────┐                                   │
@@ -214,7 +214,7 @@ ASCII Diagram: Full Prometheus Ecosystem
               ▼                  ▼                       ▼
   ┌───────────────┐   ┌────────────────────┐  ┌─────────────────────┐
   │    Grafana    │   │   Alertmanager     │  │  Remote Write       │
-  │               │   │                   │  │  (long-term storage)│
+  │               │   │                    │  │  (long-term storage)│
   │  Dashboards,  │   │  Routes alerts to: │  │                     │
   │  panels,      │   │  - PagerDuty       │  │  Thanos / Cortex /  │
   │  heatmaps,    │   │  - Slack           │  │  Mimir / VictoriaM  │
@@ -1686,28 +1686,28 @@ ASCII Diagram: Recommended Grafana Dashboard Layout
   │   order-service — Production Dashboard          [time range: last 1h]       │
   ├──────────────────────┬──────────────────────┬───────────────────────────────┤
   │  Request Rate        │   Error Rate         │   P99 Latency                 │
-  │  [stat: 142 req/s]   │   [stat: 0.12%]      │   [stat: 87ms]               │
+  │  [stat: 142 req/s]   │   [stat: 0.12%]      │   [stat: 87ms]                │
   ├──────────────────────┴──────────────────────┴───────────────────────────────┤
   │                   Request Rate by Endpoint (timeseries)                     │
-  │  ████████████████████████████████████████████████████████████              │
+  │  ████████████████████████████████████████████████████████████               │
   │  POST /api/v1/orders     ████                                               │
   │  GET  /api/v1/orders     ██████████                                         │
   ├─────────────────────────────────────────────────────────────────────────────┤
-  │                   P50 / P90 / P99 Latency (timeseries)                     │
-  │  99th: ─────────────────────────────────────────── 87ms                    │
-  │  90th: ─────────────────────────────────────── 34ms                        │
-  │  50th: ─────────────────────────────── 12ms                                │
+  │                   P50 / P90 / P99 Latency (timeseries)                      │
+  │  99th: ─────────────────────────────────────────── 87ms                     │
+  │  90th: ─────────────────────────────────────── 34ms                         │
+  │  50th: ─────────────────────────────── 12ms                                 │
   ├──────────────────────┬──────────────────────┬───────────────────────────────┤
   │  DB Query Rate       │  DB Error Rate       │  DB P99 Duration              │
   │  (timeseries)        │  (timeseries)        │  (timeseries)                 │
   ├──────────────────────┼──────────────────────┼───────────────────────────────┤
   │  Cache Hit Ratio     │  Active DB Conns     │  Queue Depth                  │
-  │  [gauge: 94.3%]      │  [bargauge: 12/50]   │  [stat: 342]                 │
+  │  [gauge: 94.3%]      │  [bargauge: 12/50]   │  [stat: 342]                  │
   ├──────────────────────┴──────────────────────┴───────────────────────────────┤
   │                   Go Runtime (timeseries)                                   │
-  │  Goroutines: ──────────────────────────────── 42                           │
-  │  Heap Alloc: ──────────────────────────────── 48MB                         │
-  │  GC P99:     ──────────────────────────────── 0.4ms                        │
+  │  Goroutines: ──────────────────────────────── 42                            │
+  │  Heap Alloc: ──────────────────────────────── 48MB                          │
+  │  GC P99:     ──────────────────────────────── 0.4ms                         │
   └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -1882,7 +1882,7 @@ func TestPrometheusMiddleware_RecordsErrors(t *testing.T) {
 │  METRIC DESIGN                                                               │
 │  ✅ Use Namespace and Subsystem in all metric names (service_subsystem_name) │
 │  ✅ Keep label cardinality low — no user IDs, request IDs, or IPs as labels  │
-│  ✅ Normalize URL paths in HTTP metrics to avoid cardinality explosion        │
+│  ✅ Normalize URL paths in HTTP metrics to avoid cardinality explosion       │
 │  ✅ Follow RED Method: rate, errors, duration for every service endpoint     │
 │  ✅ Follow USE Method: utilization, saturation, errors for every resource    │
 │  ✅ Add business metrics (conversion rate, revenue, active sessions)         │
@@ -1899,17 +1899,17 @@ func TestPrometheusMiddleware_RecordsErrors(t *testing.T) {
 │  ✅ Record worker last-success timestamp for every background job            │
 │                                                                              │
 │  ALERTING                                                                    │
-│  ✅ Alert on high error rate (>1% 5xx for 2 minutes)                        │
-│  ✅ Alert on high P99 latency (>500ms for 5 minutes)                        │
-│  ✅ Alert on service silence (absent metric for 1 minute)                   │
-│  ✅ Alert on goroutine leak (>1000 goroutines for 10 minutes)               │
-│  ✅ Alert on worker staleness (last success > 2 hours ago)                  │
-│  ✅ Alert on DB pool near exhaustion (>80% in_use for 5 minutes)            │
-│  ✅ Alert on business metric anomalies (conversion rate drop)               │
+│  ✅ Alert on high error rate (>1% 5xx for 2 minutes)                         │
+│  ✅ Alert on high P99 latency (>500ms for 5 minutes)                         │
+│  ✅ Alert on service silence (absent metric for 1 minute)                    │
+│  ✅ Alert on goroutine leak (>1000 goroutines for 10 minutes)                │
+│  ✅ Alert on worker staleness (last success > 2 hours ago)                   │
+│  ✅ Alert on DB pool near exhaustion (>80% in_use for 5 minutes)             │
+│  ✅ Alert on business metric anomalies (conversion rate drop)                │
 │                                                                              │
 │  OPERATIONS                                                                  │
 │  ✅ Set Prometheus retention to at least 30 days                             │
-│  ✅ Use remote write (Thanos / Mimir) for long-term storage beyond 30 days  │
+│  ✅ Use remote write (Thanos / Mimir) for long-term storage beyond 30 days   │
 │  ✅ Test metrics in unit tests with prometheus/testutil                      │
 │  ✅ Document every metric with a clear Help string                           │
 │  ✅ Periodically audit cardinality with the Prometheus TSDB status page      │
@@ -1934,33 +1934,33 @@ ASCII Diagram: Complete Production Prometheus Architecture
   │      │                                                                       │
   │      ▼                                                                       │
   │  ┌────────────────────────────────────────────────────────────────────────┐  │
-  │  │              Middleware Stack                                           │  │
-  │  │  ┌─────────────────────────────────────────────────────────────────┐  │  │
-  │  │  │  PrometheusMiddleware                                            │  │  │
-  │  │  │  → HTTPRequestsTotal.WithLabelValues(method, path, status).Inc() │  │  │
-  │  │  │  → HTTPRequestDuration.WithLabelValues(method, path).Observe(d) │  │  │
-  │  │  │  → HTTPActiveRequests.Inc() / defer Dec()                       │  │  │
-  │  │  └─────────────────────────────────────────────────────────────────┘  │  │
+  │  │              Middleware Stack                                          │  │
+  │  │  ┌─────────────────────────────────────────────────────────────────┐   │  │
+  │  │  │  PrometheusMiddleware                                           │   │  │
+  │  │  │  → HTTPRequestsTotal.WithLabelValues(method, path, status).Inc()│   │  │
+  │  │  │  → HTTPRequestDuration.WithLabelValues(method, path).Observe(d) │   │  │
+  │  │  │  → HTTPActiveRequests.Inc() / defer Dec()                       │   │  │
+  │  │  └─────────────────────────────────────────────────────────────────┘   │  │
   │  └────────────────────────────────────────────────────────────────────────┘  │
   │      │                                                                       │
   │      ▼                                                                       │
-  │  ┌──────────────────────────────────────────────────────────────────────┐   │
-  │  │  Handler → Service → Repository → Cache                              │   │
-  │  │                                                                      │   │
-  │  │  Each layer uses metrics.Registry:                                   │   │
-  │  │  • Service:    OrdersCreatedTotal.Inc()                              │   │
-  │  │  •             PaymentErrorsTotal.WithLabelValues(...).Inc()         │   │
-  │  │  •             CheckoutCompletedTotal.Inc()                          │   │
-  │  │  • Repository: DBQueryDuration timer, DBQueriesTotal counter         │   │
-  │  │  • Cache:      CacheHitsTotal / CacheMissesTotal                     │   │
-  │  └──────────────────────────────────────────────────────────────────────┘   │
+  │  ┌──────────────────────────────────────────────────────────────────────┐    │
+  │  │  Handler → Service → Repository → Cache                              │    │
+  │  │                                                                      │    │
+  │  │  Each layer uses metrics.Registry:                                   │    │
+  │  │  • Service:    OrdersCreatedTotal.Inc()                              │    │
+  │  │  •             PaymentErrorsTotal.WithLabelValues(...).Inc()         │    │
+  │  │  •             CheckoutCompletedTotal.Inc()                          │    │
+  │  │  • Repository: DBQueryDuration timer, DBQueriesTotal counter         │    │
+  │  │  • Cache:      CacheHitsTotal / CacheMissesTotal                     │    │
+  │  └──────────────────────────────────────────────────────────────────────┘    │
   │      │                                                                       │
   │  Background goroutines:                                                      │
-  │  • DBPoolMonitor  → DBConnectionsActive gauge (every 15s)                   │
-  │  • QueueMonitor   → RabbitMQQueueDepth gauge  (every 30s)                   │
+  │  • DBPoolMonitor  → DBConnectionsActive gauge (every 15s)                    │
+  │  • QueueMonitor   → RabbitMQQueueDepth gauge  (every 30s)                    │
   │  • Workers        → WorkerLastSuccess gauge, WorkerDuration histogram        │
   │                                                                              │
-  │  /metrics endpoint (promhttp.HandlerFor(customRegistry, ...))               │
+  │  /metrics endpoint (promhttp.HandlerFor(customRegistry, ...))                │
   │  Exposes: all custom metrics + Go runtime + process metrics                  │
   └──────────────────────────────────────────────┬───────────────────────────────┘
                                                  │
@@ -1970,35 +1970,35 @@ ASCII Diagram: Complete Production Prometheus Architecture
   ┌──────────────────────────────────────────────────────────────────────────────┐
   │  monitoring namespace                                                        │
   │                                                                              │
-  │  ┌─────────────────────────────────────────────────────────────────────┐    │
-  │  │  Prometheus Operator                                                 │    │
-  │  │  watches ServiceMonitor CRDs → configures Prometheus scrape targets │    │
-  │  └──────────────────────────────────────────────────────────────────────┘   │
+  │  ┌─────────────────────────────────────────────────────────────────────┐     │
+  │  │  Prometheus Operator                                                │     │
+  │  │  watches ServiceMonitor CRDs → configures Prometheus scrape targets │     │
+  │  └─────────────────────────────────────────────────────────────────────┘     │
   │                                                                              │
-  │  ┌──────────────────────────┐     remote write      ┌───────────────────┐  │
-  │  │  Prometheus              │ ─────────────────────► │  Thanos / Mimir   │  │
-  │  │  (TSDB, 30d retention)   │                        │  (long-term store,│  │
-  │  │  evaluates alert rules   │                        │  multi-year data) │  │
-  │  └───────────┬──────────────┘                        └───────────────────┘  │
+  │  ┌──────────────────────────┐     remote write       ┌───────────────────┐   │
+  │  │  Prometheus              │ ─────────────────────► │  Thanos / Mimir   │   │
+  │  │  (TSDB, 30d retention)   │                        │  (long-term store,│   │
+  │  │  evaluates alert rules   │                        │  multi-year data) │   │
+  │  └───────────┬──────────────┘                        └───────────────────┘   │
   │              │ fires alerts                                                  │
   │              ▼                                                               │
-  │  ┌──────────────────────────┐                                               │
-  │  │  Alertmanager            │                                               │
-  │  │  deduplicates, groups,   │                                               │
-  │  │  routes to:              │                                               │
-  │  │  → PagerDuty (critical)  │                                               │
-  │  │  → Slack (warning)       │                                               │
-  │  └──────────────────────────┘                                               │
+  │  ┌──────────────────────────┐                                                │
+  │  │  Alertmanager            │                                                │
+  │  │  deduplicates, groups,   │                                                │
+  │  │  routes to:              │                                                │
+  │  │  → PagerDuty (critical)  │                                                │
+  │  │  → Slack (warning)       │                                                │
+  │  └──────────────────────────┘                                                │
   │                                                                              │
-  │  ┌──────────────────────────┐                                               │
-  │  │  Grafana                 │                                               │
-  │  │  datasource: Prometheus  │                                               │
-  │  │  dashboards:             │                                               │
-  │  │  → RED metrics per svc   │                                               │
-  │  │  → DB/Cache/Queue panels │                                               │
-  │  │  → Go runtime panels     │                                               │
-  │  │  → Business metrics      │                                               │
-  │  └──────────────────────────┘                                               │
+  │  ┌──────────────────────────┐                                                │
+  │  │  Grafana                 │                                                │
+  │  │  datasource: Prometheus  │                                                │
+  │  │  dashboards:             │                                                │
+  │  │  → RED metrics per svc   │                                                │
+  │  │  → DB/Cache/Queue panels │                                                │
+  │  │  → Go runtime panels     │                                                │
+  │  │  → Business metrics      │                                                │
+  │  └──────────────────────────┘                                                │
   └──────────────────────────────────────────────────────────────────────────────┘
 
   On Incident:

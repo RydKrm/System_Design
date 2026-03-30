@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f92892cbfb9351c",
+        "id": "9cf95cc25032721f",
         "type": "tabs",
         "children": [
           {
-            "id": "1579dc3b0c8179a2",
+            "id": "6a6709c66f694704",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swagger/Basic.md",
+                "file": "Observability/Prometheus/Prometheus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic"
+              "title": "Prometheus"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 293.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -207,16 +207,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1579dc3b0c8179a2",
+  "active": "6a6709c66f694704",
   "lastOpenFiles": [
+    "Observability/Prometheus/How_To_Add_Production_Project.md",
+    "Observability/Prometheus/Prometheus.md",
+    "Observability/Logging/02.Apply_For_Production.md",
+    "Observability/What_Why_How.md",
+    "Observability/How_to_add_real_world_project.md",
+    "Observability/Logging/03.Production_Logging_Best_Practices.md",
     "Observability/Logging/01.Zap_logging.md",
+    "Observability/Swagger",
+    "Observability/Best_Practices.md",
+    "Nginx/README.md",
+    "Nginx/Images/load_balancer.png",
+    "Networking/TCP/01.Basic.md",
+    "Networking/OSI_Model/01.Basic.md",
+    "Networking/OSI_Model/02.Explain_Like_Begineers.md",
+    "Networking/Network_Mothods/FTP_SFTP_UDP.md",
+    "Monitor/Monitoring.md",
+    "System_Design/Folder_Structure/01.Basic_Folder_Structure.md",
     "Swagger/Basic.md",
     "Swagger",
-    "Observability/What_Why_How.md",
-    "System_Design/Folder_Structure/01.Basic_Folder_Structure.md",
-    "Observability/Best_Practices.md",
-    "Observability/Logging/Production_Logging_Best_Practices.md",
-    "Observability/Prometheus/Prometheus.md",
     "Observability/Loki/Loki.md",
     "Observability/Prometheus",
     "Observability/Loki",
@@ -232,19 +243,9 @@
     "UI_UX/Docs/16.Data_Driven_UI_Decisions/08.Segmantation.md",
     "UI_UX/Docs/16.Data_Driven_UI_Decisions/11.Duilding_Data_Informed_Design.md",
     "UI_UX/Docs/16.Data_Driven_UI_Decisions/10.Iterative_Movements.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/09.Qualitative_Layer.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/05.Session_Recordings.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/13.Data_Ecosystem.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/03.Iterative_Improvement.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/04.Click_Maps_Scroll_maps_and_Move_Maps.md",
-    "UI_UX/Docs/09.User_Flow/01.User_Journey_Mapping.md",
-    "UI_UX/Docs/10.Micro_Interactions/04.Transistion_Timing.md",
-    "UI_UX/ui_ux_roadmap.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/00.Intro.md",
     "UI_UX/Docs/16.Data_Driven_UI_Decisions",
     "UI_UX/Docs/15.Conversion_Oriented_Design'",
     "UI_UX/Docs/14.Visual_Polish_Techniques",
-    "UI_UX/Docs/13.Advanced_Typography",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
     "Docker/Untitled 2.canvas",
