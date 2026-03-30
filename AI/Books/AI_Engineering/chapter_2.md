@@ -1,0 +1,2 @@
+- Small high quality data is better than large low quality data while training AI Model
+- 

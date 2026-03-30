@@ -2,8 +2,8 @@ fn main(){
     // basic closures
 
     // let's checker 
-    let mut is_checker = false;
-    let mut before_value = 10;
+    let is_checker = false;
+    let before_value = 10;
 
     let prefix_value_sum = move |a:i32, b:i32| {
         if is_checker {
