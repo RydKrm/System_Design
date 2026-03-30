@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d44788ce7cb2c30a",
+        "id": "4a926082e0726688",
         "type": "tabs",
         "children": [
           {
-            "id": "d529b64f9cd9d6d3",
+            "id": "0ef9bd86ad7a6456",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Golang/Docs/28.Go_Concurrent_Request.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "28.Go_Concurrent_Request"
-            }
-          },
-          {
-            "id": "883a86efc155c479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "13.06.Goroutines_GMP_Model"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +61,7 @@
             }
           },
           {
-            "id": "7c3f15b0becc7599",
+            "id": "603bb42945f33ebb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 260.51103591918945
   },
   "right": {
     "id": "3758031abf639b10",
@@ -109,8 +90,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/MySQL/Theory/03.index/scaning.md",
-                "collapseAll": false,
+                "file": "README.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -119,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for scaning"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -166,21 +147,6 @@
             }
           },
           {
-            "id": "623ddaa206eaf8b4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 13.06.Goroutines_GMP_Model"
-            }
-          },
-          {
             "id": "9a6afce1f1b198fa",
             "type": "leaf",
             "state": {
@@ -201,7 +167,7 @@
             }
           },
           {
-            "id": "ad129e55fc32c2e7",
+            "id": "8f04d48ed22d1095",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -209,75 +175,92 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "623ddaa206eaf8b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Language/Golang/Docs/06.Pointer.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 06.Pointer"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
-      "graph:Open graph view": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e4e63f68877866b4",
+  "active": "0ef9bd86ad7a6456",
   "lastOpenFiles": [
-    "Language/Golang/Docs/28.Go_Concurrent_Request.md",
-    "Language/Golang/Docs/27.GO_Request_Response_Cycle.md",
-    "Language/Golang/Docs/26.Go_Server.md",
-    "Language/Golang/Docs/25.Go_Runtimes.md",
-    "Language/Golang/Docs/22.01.HTTP_Server_Client.md",
-    "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
-    "Language/Golang/Docs/24.OOP.md",
-    "Language/Golang/Docs/22.02.HTTP_Context.md",
-    "Language/Golang/Docs/22.00.HTTP_Internal_Archetecture.md",
-    "Language/Golang/Docs/21.Command.md",
-    "Language/Golang/Docs/18.Files.md",
-    "Language/Golang/Docs/17.Encryption_Decryption.md",
-    "Language/Golang/Docs/16.Time.md",
-    "Language/Golang/Docs/19.Sorting.md",
-    "Learning_List.md",
-    "README.md",
-    "Tools/Make_File/01.Make_File.md",
-    "Language/Golang/Golang_Learning_List.md",
-    "Language/Golang/Docs/15.Concurrency_Patterns.md",
-    "Database/MySQL/Theory/10.Database_View/01.Database_View.md",
-    "Tools/Make_File",
-    "Tools",
-    "Language/Golang/Docs/29.Build_A_CLI_Tool.md",
-    "Database/MySQL/Theory/10.Database_View",
-    "Language/Rust/Docs/02.Intermediate/02.option_and_Result.md",
-    "Language/Rust/Docs/02.Intermediate/01.emun.md",
-    "Language/Rust/Docs/01.Basic/05.code_compailation.md",
-    "Language/Rust/Docs/01.Basic/04.Structure_and_methods.md",
-    "Language/Rust/Docs/01.Basic/04.Pattern_matching.md",
-    "TradeOff/Docs",
-    "Socket/Docs",
-    "Road_Maps/Docs",
-    "Redis/Docs",
-    "Database/MySQL/Theory/09.Database_Replica",
-    "Language/Golang/Code/14.0.Channels/Closing_Channel/Closing_Channel.go",
-    "Language/Golang/Code/14.0.Channels/Closing_Channel",
+    "React_Native/10.Folder_structure/01.Production_Grade_Folder_Structure.md",
+    "React_Native/01.Basics/02.Folder_Structure.md",
+    "React_Native/10.Folder_structure",
+    "React_Native/07.Networking/01.Connectivity_Status.md",
+    "React_Native/06.Navigation/01.Basic_Navigation.md",
+    "React_Native/06.Navigation/02.Screen_Navigation.md",
+    "React_Native/08.Storage/00.Basic_Storage.md",
+    "React_Native/09.Animation/01.Animation.md",
+    "React_Native/09.Animation",
+    "React_Native/08.Storage/03.SQLite_Storage.md",
+    "React_Native/08.Storage/02.File_Storage.md",
+    "React_Native/08.Storage/01.Secure_Storage.md",
+    "React_Native/07.Networking/02.Web_Sockets.md",
+    "React_Native/08.Storage",
+    "React_Native/07.Networking",
+    "React_Native/02.Core_Components/01.Core_Component.md",
+    "React_Native/01.Basics/03.Metro_Babel_Config.md",
+    "React_Native/06.Navigation",
+    "React_Native/01.Basics/Untitled",
+    "React_Native/05.Authentication/01.Auth.md",
+    "React_Native/04.API_integration/01.API_Integration.md",
+    "React_Native/05.Authentication",
+    "React_Native/02.Core_Components/05.Virtual_DOM.md",
+    "React_Native/04.API_integration",
+    "React_Native/02.Core_Components/06.Context_API.md",
+    "React_Native/02.Core_Components/04.Components_Reconsilations.md",
+    "React_Native/02.Core_Components/03.Controlled_Vs_Uncontrolled_Components.md",
+    "React_Native/02.Core_Components/02.Components_Lifecycle.md",
+    "React_Native/03.React_Hooks/01.React_Hooks.md",
+    "React_Native/03.React_Hooks",
+    "React_Native/01.Basics/01.Fundamentals.md",
+    "React_Native/02.Core_Components",
+    "Language/Rust/Docs/02.Intermediate/04.module_and_crates.md",
+    "Language/Rust/readme.md",
+    "Language/Rust/Docs/Rust_Learning_Path.md",
+    "Language/Rust/Docs/01.Basic/02.Function.md",
+    "Nginx/Images/load_balancer.png",
     "Database/Database.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 1.canvas",
     "Docker/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
-    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
-    "Untitled.canvas"
+    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg"
   ]
 }
