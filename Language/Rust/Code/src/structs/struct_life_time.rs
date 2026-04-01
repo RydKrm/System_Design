@@ -2,18 +2,17 @@ struct Tweet<'a>{
     content: &'a str
 }  
 
-impl <'a> Tweet<'a> {
+pub const test_var:f32 = 13.13;
 
+impl <'a> Tweet<'a> {
     fn new(content:&'a str)->Self {
         Tweet { content }
     }
-
     fn replace_content(&mut self, new_content: &'a str) -> &'a str{
         let old_content = self.content;
         self.content = new_content;
         old_content
     }
-
 }
 
 fn main(){
