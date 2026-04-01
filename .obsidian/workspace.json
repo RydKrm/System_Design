@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Observability/Prometheus/Prometheus.md",
+                "file": "Infra/go_infra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prometheus"
+              "title": "go_infra"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 239.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -209,8 +209,11 @@
   },
   "active": "6a6709c66f694704",
   "lastOpenFiles": [
-    "Observability/Prometheus/How_To_Add_Production_Project.md",
     "Observability/Prometheus/Prometheus.md",
+    "Infra/go_infra.md",
+    "Infra",
+    "Untitled.md",
+    "Observability/Prometheus/How_To_Add_Production_Project.md",
     "Observability/Logging/02.Apply_For_Production.md",
     "Observability/What_Why_How.md",
     "Observability/How_to_add_real_world_project.md",
@@ -241,11 +244,8 @@
     "UI_UX/Docs/16.Data_Driven_UI_Decisions/02.User_Analytics.md",
     "UI_UX/Docs/16.Data_Driven_UI_Decisions/06.Funnel_Analysis.md",
     "UI_UX/Docs/16.Data_Driven_UI_Decisions/08.Segmantation.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/11.Duilding_Data_Informed_Design.md",
-    "UI_UX/Docs/16.Data_Driven_UI_Decisions/10.Iterative_Movements.md",
     "UI_UX/Docs/16.Data_Driven_UI_Decisions",
     "UI_UX/Docs/15.Conversion_Oriented_Design'",
-    "UI_UX/Docs/14.Visual_Polish_Techniques",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
     "Docker/Untitled 2.canvas",
