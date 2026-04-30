@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9215198197fd13a6",
+        "id": "aecc467a8149cdab",
         "type": "tabs",
         "children": [
           {
-            "id": "de830c249dfaa02b",
+            "id": "5083419fc0dc6368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Socket/Docs/Golang_Socket.md",
+                "file": "RabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Golang_Socket"
+              "title": "03.dead_latter_retry_mechanisms"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 250.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -207,10 +207,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de830c249dfaa02b",
+  "active": "5083419fc0dc6368",
   "lastOpenFiles": [
-    "Socket/Docs/03.file_transfer.md",
+    "RabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
+    "RabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
+    "RabbitMQ/Advance/01.What_How.md",
+    "RabbitMQ/Basic/09.direct_exchange.md",
+    "RabbitMQ/Advance",
+    "RabbitMQ/Basic/08.Exchance_bref.md",
+    "RabbitMQ/Basic/07.Exchange.md",
+    "RabbitMQ/Basic/06.queue.md",
+    "RabbitMQ/Basic/05.Producer.md",
+    "Kubernetes/01.What_And_Why.md",
     "Socket/Docs/Golang_Socket.md",
+    "Language/Golang/Docs/14.01.Channel.md",
+    "Language/Golang/Docs/17.Encryption_Decryption.md",
+    "Language/Golang/Docs/14.00.Channel_Basic.md",
+    "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
+    "Language/Golang/Docs/13.05.Goroutines_Concurrancy_And_Parallalism.md",
+    "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
+    "Language/Golang/Docs/13.0.Goroutines.md",
+    "Untitled.base",
+    "Socket/Docs/03.file_transfer.md",
     "Socket/Docs/02.simple_socket_app.md",
     "Socket/Docs/01.what_why.md",
     "Socket/Socket_Learning_List.md",
@@ -219,22 +237,6 @@
     "Cacheing/03.Advanced/01.CachingConsistance.md",
     "Cacheing/03.Advanced/05.RedisWIthSocket.md",
     "Cacheing/03.Advanced/04.RedisInMicroservices.md",
-    "Cacheing/03.Advanced/03.RedisPub_Sub.md",
-    "Cacheing/03.Advanced/02.DistributedCachingStrategies.md",
-    "Cacheing/02.Backend_Caching/05.CachingSerializationAndCompression.md",
-    "Cacheing/02.Backend_Caching/03.keyNamingConvention.md",
-    "Cacheing/02.Backend_Caching/04.TTL&PropagationStrategies.md",
-    "Cacheing/02.Backend_Caching/02.CoreCachingPattern.md",
-    "Cacheing/02.Backend_Caching/01.WhereToCaching.md",
-    "Observability/Logging/03.Production_Logging_Best_Practices.md",
-    "Observability/Logging/02.Apply_For_Production.md",
-    "Observability/Logging/01.Zap_logging.md",
-    "Observability/Best_Practices.md",
-    "Observability/What_Why_How.md",
-    "Observability/How_to_add_real_world_project.md",
-    "System_Design/Folder_Structure/01.Basic_Folder_Structure.md",
-    "Infra/go_infra.md",
-    "Learning_List.md",
     "Kubernetes",
     "React_Native/10.Folder_structure",
     "React_Native/09.Animation",
@@ -243,8 +245,6 @@
     "React_Native/06.Navigation",
     "React_Native/05.Authentication",
     "React_Native/02.Core_Components",
-    "React_Native/03.React_Hooks",
-    "React_Native/04.API_integration",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
