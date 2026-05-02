@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "aecc467a8149cdab",
+        "id": "e7624ebbc9bdf317",
         "type": "tabs",
         "children": [
           {
-            "id": "5083419fc0dc6368",
+            "id": "485ed11f374df3f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "RabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
-                "mode": "source",
-                "source": true
+                "file": "Operating_System/01.Code_Executionn/00.Code_Execution.md"
               },
-              "icon": "lucide-file",
-              "title": "03.dead_latter_retry_mechanisms"
+              "icon": "excalidraw-icon",
+              "title": "00.Code_Execution"
+            }
+          },
+          {
+            "id": "26c50059d280f8fa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "RabbitMQ/Advance/01.what_how.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "01.what_how.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 385.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -207,36 +218,75 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5083419fc0dc6368",
+  "floating": {
+    "id": "ad5a75a784da50e6",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f1db5fdb88931a71",
+        "type": "window",
+        "children": [
+          {
+            "id": "35b80f78948a5b5e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "40a668f0d17a7816",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "RabbitMQ/Advance/01.What_How.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "01.What_How"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 243,
+        "y": 3,
+        "width": 1045,
+        "height": 719,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "26c50059d280f8fa",
   "lastOpenFiles": [
-    "RabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
-    "RabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
     "RabbitMQ/Advance/01.What_How.md",
-    "RabbitMQ/Basic/09.direct_exchange.md",
+    "RabbitMQ/Advance/01.what_how.excalidraw.md",
+    "Operating_System/readme.md",
+    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
+    "Operating_System/03.CPU/02.Pipeline_and_Paralalism.md",
+    "Operating_System/03.CPU/01.CPU_Components.md",
+    "Operating_System/01.Code_Executionn/05.Heap_Section.md",
+    "Operating_System/01.Code_Executionn/04.Stack_Section.md",
+    "Operating_System/01.Code_Executionn/03.Code_sections.md",
+    "Operating_System/01.Code_Executionn/02.Execution_Example.md",
+    "Operating_System/01.Code_Executionn/01.How_code_execute.md",
+    "Docker/Learning_List.md",
+    "Language/Golang/Docs/29.Build_A_CLI_Tool.md",
+    "Language/Golang/Docs/27.GO_Request_Response_Cycle.md",
+    "Language/Golang/Docs/26.Go_Server.md",
+    "Language/Golang/Docs/25.Go_Runtimes.md",
+    "Language/Golang/Docs/12.Panic_Recover_And_Defer.md",
+    "Language/Golang/Docs/11.Error.md",
+    "Language/Golang/Docs/07.Interface.md",
+    "Language/Golang/Docs/07.Closure.md",
+    "Language/Golang/Docs/06.Pointer.md",
+    "Language/Golang/Docs/06.Functions.md",
+    "Language/Golang/Docs/05.String.md",
+    "Language/Golang/Docs/04.Structs.md",
+    "Language/Golang/Docs/04.01.Methods_Of_Structure.md",
+    "Language/Golang/Docs/03.Maps.md",
     "RabbitMQ/Advance",
-    "RabbitMQ/Basic/08.Exchance_bref.md",
-    "RabbitMQ/Basic/07.Exchange.md",
-    "RabbitMQ/Basic/06.queue.md",
-    "RabbitMQ/Basic/05.Producer.md",
-    "Kubernetes/01.What_And_Why.md",
-    "Socket/Docs/Golang_Socket.md",
-    "Language/Golang/Docs/14.01.Channel.md",
-    "Language/Golang/Docs/17.Encryption_Decryption.md",
-    "Language/Golang/Docs/14.00.Channel_Basic.md",
-    "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
-    "Language/Golang/Docs/13.05.Goroutines_Concurrancy_And_Parallalism.md",
-    "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
-    "Language/Golang/Docs/13.0.Goroutines.md",
     "Untitled.base",
-    "Socket/Docs/03.file_transfer.md",
-    "Socket/Docs/02.simple_socket_app.md",
-    "Socket/Docs/01.what_why.md",
-    "Socket/Socket_Learning_List.md",
-    "Socket/topic_list.md",
-    "Cacheing/Redis_Learning_Path.md",
-    "Cacheing/03.Advanced/01.CachingConsistance.md",
-    "Cacheing/03.Advanced/05.RedisWIthSocket.md",
-    "Cacheing/03.Advanced/04.RedisInMicroservices.md",
     "Kubernetes",
     "React_Native/10.Folder_structure",
     "React_Native/09.Animation",
