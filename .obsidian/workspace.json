@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design_Pattern/Advance_Design_Pattern/01.SOLID_Principles.md",
+                "file": "Design_Pattern/Advance_Design_Pattern/04.YAGNI_Principle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.SOLID_Principles"
+              "title": "04.YAGNI_Principle"
             }
           }
         ]
@@ -209,6 +209,12 @@
   },
   "active": "ea3a44a8937fccd0",
   "lastOpenFiles": [
+    "RabbitMQ/Advance/01.what_how.excalidraw.md",
+    "RabbitMQ/Advance/01.What_How.md",
+    "RabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
+    "Design_Pattern/Advance_Design_Pattern/03.KISS_Principle.md",
+    "Design_Pattern/Advance_Design_Pattern/02.DRY_Principle.md",
+    "Design_Pattern/Advance_Design_Pattern/01.SOLID_Principles.md",
     "Clean_Code/05.Code_Structure/01.Code_Structure.md",
     "Clean_Code/06.Principle/02.SOLID.md",
     "Design_Pattern/Structural_Design_Patterns/06.Flyweight_Pattern.md",
@@ -228,15 +234,9 @@
     "Design_Pattern/Advance_Design_Pattern/06.Event_Driven_Archecture.md",
     "Design_Pattern/Advance_Design_Pattern/05.Dependency_Injection_Pattern.md",
     "Design_Pattern/Advance_Design_Pattern/04.YAGNI_Principle.md",
-    "Design_Pattern/Advance_Design_Pattern/03.KISS_Principle.md",
-    "Design_Pattern/Advance_Design_Pattern/02.DRY_Principle.md",
-    "Design_Pattern/Advance_Design_Pattern/01.SOLID_Principles.md",
     "Design_Pattern/Behavioral_Design_Pattern/10.Visitor_Pattern.md",
     "Design_Pattern/Advance_Design_Pattern",
     "Design_Pattern/Behavioral_Design_Pattern/09.Memento_Pattern.md",
-    "Design_Pattern/Behavioral_Design_Pattern/08.Mediator_Pattern.md",
-    "Design_Pattern/Behavioral_Design_Pattern/07.State_Pattern.md",
-    "Design_Pattern/Behavioral_Design_Pattern/06.Iterator_Pattern.md",
     "Design_Pattern/Behavioral_Design_Pattern",
     "Clippings",
     "Design_Pattern/Structural_Design_Patterns",
