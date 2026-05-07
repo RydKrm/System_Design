@@ -79,12 +79,15 @@
   },
   "additionalProperties": {},
   "backupGraphOptions": {
-    "collapse-filter": false,
+    "collapse-filter": true,
     "search": "",
+    "localJumps": 1,
+    "localBacklinks": true,
+    "localForelinks": true,
+    "localInterlinks": false,
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
-    "showOrphans": false,
     "collapse-color-groups": true,
     "colorGroups": [],
     "collapse-display": true,
@@ -97,8 +100,8 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 2.8375132361036925,
-    "close": true
+    "scale": 1,
+    "close": false
   },
   "openInNewTab": false,
   "canonicalizePropertiesWithDataview": true,
