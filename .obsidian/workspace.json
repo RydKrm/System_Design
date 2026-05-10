@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3b441b90d6aa612a",
+        "id": "1b50582d6685d0f2",
         "type": "tabs",
         "children": [
           {
-            "id": "ea3a44a8937fccd0",
+            "id": "66de9c7e7c5a7acf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design_Pattern/Advance_Design_Pattern/04.YAGNI_Principle.md",
+                "file": "Design_Pattern/Advance_Design_Pattern/07.CQRS_Design_Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04.YAGNI_Principle"
+              "title": "07.CQRS_Design_Pattern"
             }
           }
         ]
@@ -207,36 +207,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea3a44a8937fccd0",
+  "active": "66de9c7e7c5a7acf",
   "lastOpenFiles": [
-    "RabbitMQ/Advance/01.what_how.excalidraw.md",
-    "RabbitMQ/Advance/01.What_How.md",
-    "RabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
-    "Design_Pattern/Advance_Design_Pattern/03.KISS_Principle.md",
-    "Design_Pattern/Advance_Design_Pattern/02.DRY_Principle.md",
-    "Design_Pattern/Advance_Design_Pattern/01.SOLID_Principles.md",
-    "Clean_Code/05.Code_Structure/01.Code_Structure.md",
-    "Clean_Code/06.Principle/02.SOLID.md",
-    "Design_Pattern/Structural_Design_Patterns/06.Flyweight_Pattern.md",
-    "Design_Pattern/Structural_Design_Patterns/05.Bridge_Pattern.md",
-    "Design_Pattern/Structural_Design_Patterns/04.Composite_Pattern.md",
-    "Design_Pattern/Structural_Design_Patterns/03.Facade_Pattern.md",
-    "Design_Pattern/Structural_Design_Patterns/02.Decorator_Patterns.md",
-    "Design_Pattern/Behavioral_Design_Pattern/01.Observer_Pattern.md",
-    "Design_Pattern/Behavioral_Design_Pattern/02.Strategy_Pattern.md",
-    "Design_Pattern/Behavioral_Design_Pattern/03.Command_Pattern.md",
-    "Micro_Service/01.what_and_why.md",
-    "Design_Pattern/Advance_Design_Pattern/10.MVC Design Pattern.md",
-    "Micro_Service",
-    "Design_Pattern/Advance_Design_Pattern/09.Repository Pattern.md",
     "Design_Pattern/Advance_Design_Pattern/08.Event Sourcing Patterns.md",
-    "Design_Pattern/Advance_Design_Pattern/07.CQRS_Design_Pattern.md",
+    "Design_Pattern/Advance_Design_Pattern/09.Repository Pattern.md",
     "Design_Pattern/Advance_Design_Pattern/06.Event_Driven_Archecture.md",
     "Design_Pattern/Advance_Design_Pattern/05.Dependency_Injection_Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern/04.YAGNI_Principle.md",
-    "Design_Pattern/Behavioral_Design_Pattern/10.Visitor_Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern",
+    "RabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
+    "RabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
+    "RabbitMQ/Advance/01.What_How.md",
+    "RabbitMQ/Advance/01.what_how.excalidraw.md",
+    "GeeksforGeeks.md",
+    "Clippings/Facade Method Design Pattern.md",
+    "Docker/Learning_List.md",
+    "Design_Pattern/Creational_Design_Patterns/07.Lazy_Initialization_Pattern.md",
+    "Design_Pattern/Creational_Design_Patterns/06.Object_Pool_Pattern.md",
+    "Design_Pattern/Creational_Design_Patterns/05.Prototype_Pattern.md",
     "Design_Pattern/Behavioral_Design_Pattern/09.Memento_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/10.Visitor_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/08.Mediator_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/07.State_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/06.Iterator_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/05.Template_Methods.md",
+    "Design_Pattern/Behavioral_Design_Pattern/04.Chain_of_Responsibility.md",
+    "Design_Pattern/Behavioral_Design_Pattern/03.Command_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/02.Strategy_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/01.Observer_Pattern.md",
+    "Design_Pattern/Advance_Design_Pattern/10.MVC Design Pattern.md",
+    "Design_Pattern/Advance_Design_Pattern/07.CQRS_Design_Pattern.md",
+    "Micro_Service",
+    "Design_Pattern/Advance_Design_Pattern",
     "Design_Pattern/Behavioral_Design_Pattern",
     "Clippings",
     "Design_Pattern/Structural_Design_Patterns",
