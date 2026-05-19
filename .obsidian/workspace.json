@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "52d7cdca46c820e5",
+        "id": "8d6ec4abcddfdd0d",
         "type": "tabs",
         "children": [
           {
-            "id": "7e7dfe05b1977c90",
+            "id": "693c11fc6cce27d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/cmd/all_type_cmd.md",
+                "file": "Observability/Open_Telemetry/01.Why_How.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "all_type_cmd"
+              "title": "01.Why_How"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 349.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -207,34 +207,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e7dfe05b1977c90",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
+    "Observability/Prometheus/Prometheus.md",
+    "Observability/Open_Telemetry/01.Why_How.md",
+    "Observability/Open_Telemetry",
+    "Observability/Prometheus/How_To_Add_Production_Project.md",
+    "RabbitMQ/Advance/06.Limitations.md",
+    "RabbitMQ/Advance/05.Pub_Sub_Archetecture.md",
+    "Language/Golang/Docs/25.Go_Runtimes.md",
+    "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
+    "Language/Golang/Docs/24.OOP.md",
+    "Language/Golang/Docs/14.01.Channel.md",
+    "Language/Golang/Docs/14.00.Channel_Basic.md",
+    "Language/Golang/Docs/13.05.Goroutines_Concurrancy_And_Parallalism.md",
+    "Language/Golang/Docs/13.04.Gorourines_Concurrancy.md",
+    "Language/Golang/Docs/13.02.Goroutines_Usecase.md",
+    "Language/Golang/Docs/13.1.Goroutines_Internal_Archetecture.md",
+    "Language/Golang/Docs/13.0.Goroutines.md",
+    "Language/Golang/Docs/11.Error.md",
+    "Language/Golang/Docs/08.Generic.md",
+    "Language/Golang/Docs/07.Interface.md",
+    "Language/Golang/Docs/07.Closure.md",
+    "Language/Golang/Docs/06.Pointer.md",
+    "Language/Golang/Docs/06.Functions.md",
+    "Language/Golang/Docs/05.String.md",
+    "Design_Pattern/Advance_Design_Pattern/01.SOLID_Principles.md",
     "linux/cmd/04.package_management.md",
     "linux/cmd/03.sudo_command.md",
     "linux/cmd/02.file_permission.md",
-    "linux/cmd/01.basic_cmd.md",
-    "linux/Linux Learning Path.md",
-    "RabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
-    "RabbitMQ/Advance/01.what_how.excalidraw.md",
-    "RabbitMQ/Advance/01.What_How.md",
-    "Infra/go_infra.md",
-    "README.md",
-    "Design_Pattern/Behavioral_Design_Pattern/04.Chain_of_Responsibility.md",
-    "Design_Pattern/Behavioral_Design_Pattern/02.Strategy_Pattern.md",
-    "Design_Pattern/Behavioral_Design_Pattern/01.Observer_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/07.Lazy_Initialization_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/06.Object_Pool_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/05.Prototype_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/04.Builder_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/03.Abstract_Factory_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/02.Factory_Pattern.md",
-    "Design_Pattern/Creational_Design_Patterns/01.Singleton_Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern/08.Event Sourcing Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern/10.MVC Design Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern/09.Repository Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern/07.CQRS_Design_Pattern.md",
-    "Design_Pattern/Advance_Design_Pattern/06.Event_Driven_Archecture.md",
-    "Design_Pattern/Advance_Design_Pattern/05.Dependency_Injection_Pattern.md",
     "Micro_Service",
     "Design_Pattern/Advance_Design_Pattern",
     "Design_Pattern/Behavioral_Design_Pattern",
@@ -244,7 +245,6 @@
     "Design_Pattern",
     "RabbitMQ/Advance",
     "Untitled.base",
-    "Kubernetes",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
