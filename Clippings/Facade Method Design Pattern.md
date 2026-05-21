@@ -1,13 +1,13 @@
 ---
-title: "Facade Method Design Pattern"
-source: "https://www.geeksforgeeks.org/system-design/facade-design-pattern-introduction/"
+title: Facade Method Design Pattern
+source: https://www.geeksforgeeks.org/system-design/facade-design-pattern-introduction/
 author:
-  - "[[GeeksforGeeks]]"
+  - "[[Current_Tech_Stack]]"
 published: 2017-07-05
 created: 2026-05-05
 description: "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more."
 tags:
-  - "clippings"
+  - clippings
 ---
 The Facade Design Pattern is a [structural pattern](https://www.geeksforgeeks.org/system-design/structural-design-patterns/) pattern that provides a simple and unified interface to a complex subsystem. It hides the internal complexity of the system, making it easier to use and maintain.
 
