@@ -1,0 +1,24 @@
+## List of technology 
+
+- Golang 
+- PostgreSQL 
+- GORM
+- GIN (Routing) 
+- JWT (Authentication)
+- Rate Limiter 
+- API Gateway
+- Request Logger 
+- RabbitMQ (Event Broker)
+- gRPC
+- Redis 
+- Web Socket 
+- consul (Service Discovery)
+- Viper (Configuration Management)
+- ELK Stack (Elastic Search, Logistash, Kibana)
+- Grafana (Monitoring and Alert)
+- Open Telemetry (Tracing)
+- Vault (Secret management)
+- Docker 
+- Kubernetes
+- VPS Server (own server)
+- CI/CD (github_action / jenkins)

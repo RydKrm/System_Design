@@ -292,12 +292,12 @@ ASCII Diagram: Complete Observability Data Lifecycle
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
   │  STAGE 5: QUERY AND VISUALISATION                                        │
-  │  Engineers explore telemetry data to answer questions                   │
+  │  Engineers explore telemetry data to answer questions                    │
   │                                                                          │
-  │  Grafana: unified UI for dashboards, exploration, correlation           │
-  │  LogQL:   query language for Loki log data                              │
-  │  PromQL:  query language for Prometheus metric data                     │
-  │  TraceQL: query language for Tempo trace data                           │
+  │  Grafana: unified UI for dashboards, exploration, correlation            │
+  │  LogQL:   query language for Loki log data                               │
+  │  PromQL:  query language for Prometheus metric data                      │
+  │  TraceQL: query language for Tempo trace data                            │
   └──────────────────────────────────┬───────────────────────────────────────┘
                                      │
   ┌──────────────────────────────────▼───────────────────────────────────────┐
