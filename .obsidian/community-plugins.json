@@ -6,12 +6,13 @@
   "obsidian-icon-folder",
   "obsidian-mind-map",
   "obsidian-tracker",
-  "obsidian-kanban",
   "obsidian-minimal-settings",
   "buttons",
   "contribution-graph",
   "persistent-graph",
   "extended-graph",
   "obsidian-living-graph",
-  "dataview"
+  "dataview",
+  "obsidian-kanban",
+  "proletarian-wizard"
 ]
