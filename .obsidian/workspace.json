@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e9ab7930992ceb2",
+        "id": "f405b1def6761d34",
         "type": "tabs",
         "children": [
           {
-            "id": "3d6a1c49a60edb97",
+            "id": "dd430782b65fe6ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Kafka/06.how_consumer_connected_to_partition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "06.how_consumer_connected_to_partition"
             }
           }
         ]
@@ -228,12 +228,18 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "e4e63f68877866b4",
+  "active": "dd430782b65fe6ac",
   "lastOpenFiles": [
+    "Kafka/04.Why_partition_and_group_id_need.md",
+    "rabbitMQ/Basic/11.topic_exchange.md",
+    "rabbitMQ/Basic/10.fanout_exchange.md",
+    "rabbitMQ/Basic/09.direct_exchange.md",
+    "rabbitMQ/Basic/08.Exchance_bref.md",
+    "rabbitMQ/Basic/07.Exchange.md",
+    "Kafka/05.Producer_to_Consumer.md",
+    "Kafka/06.how_consumer_connected_to_partition.md",
     "conflict-files-obsidian-git.md",
     "rabbitMQ/RabbitMQ_VS_Kafka.md",
-    "Kafka/05.Producer_to_Consumer.md",
-    "Kafka/04.Why_partition_and_group_id_need.md",
     "Kafka/03.How_Data_Flow.md",
     "Kafka/02.Core_Architecture.md",
     "Kafka/01.what_and_why.md",
@@ -251,15 +257,9 @@
     "rabbitMQ/Advance/04.Event_Driven_Archetecture.md",
     "rabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
     "rabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
-    "rabbitMQ/Advance/01.What_How.md",
-    "rabbitMQ/Advance/01.what_how.excalidraw.md",
     "rabbitMQ/Advance",
-    "Socket/Docs/Golang_Socket.md",
-    "Observability/Open_Telemetry/02.How_to_add_with_distributed_system.md",
-    "Observability/Open_Telemetry/01.Why_How.md",
     "Observability/Open_Telemetry",
     "Micro_Service",
-    "Kubernetes/01.What_And_Why.md",
     "Kubernetes",
     "Design_Pattern/Structural_Design_Patterns",
     "Design_Pattern/Creational_Design_Patterns",
