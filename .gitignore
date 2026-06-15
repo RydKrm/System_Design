@@ -2,3 +2,5 @@
 /Docker/Code/project-01/node_modules
 /Cacheing/04.Practical/node-app/node_modules
 /Language/Rust/Code/target
+.vscode/
+.obsidian/
