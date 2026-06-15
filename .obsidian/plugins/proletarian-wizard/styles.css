@@ -1,0 +1,443 @@
+.HyperMD-task-line {
+    color: var(--color-purple);
+}
+
+.pw-todo-text-complete {
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.pw-todo-checkbox {
+    /* height: 100%; */
+    display: inline-block;
+    width: 20px;
+}
+
+.pw-todo-text {
+    display: inline;
+}
+
+.pw-todo-panel {
+    font-size: small;
+}
+
+.pw-todo-duration {
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.pw-todo-container {
+    cursor: pointer;
+    /* display: inline; */
+    flex-direction: row;
+}
+
+.pw-todo-container:hover {
+    border-color: var(--background-modifier-border-hover);
+    background-color: var(--background-modifier-hover);
+}
+
+.pw-todo-sub-container {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid var(--background-modifier-border);
+}
+
+.pw-planning-subsection-title {
+    font-weight: bold;
+    padding: 2px 0;
+    margin-bottom: 5px;
+    color: var(--text-accent);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.pw-planning-subsection-divider {
+    border-top: 1px dashed var(--background-modifier-border);
+    margin: 10px 0;
+}
+
+.pw-planning--settings {
+    display: block;
+}
+
+.ub-color_474d66 {
+    color: var(--text-normal) !important
+}
+
+.pw-planning--settings--search {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pw-planning--settings--wip {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pw-planning--settings--hide-checkbox {
+    display: inline-block;
+}
+
+.pw-planning-column {
+    width: 260px;
+    margin: 5px;
+    display: inline-block;
+    height: 260px;
+}
+
+.pw-planning-column-title { 
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pw-planning-column-title-icon { 
+    margin-right: 10px;
+}
+
+.pw-planning-column-content {
+    padding: 8px;
+    font-size: .8em;
+    border: 1px solid var(--background-modifier-border);
+    height: 100%;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+/* TODAY */
+
+.pw-planning-today {
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.pw-planning-today h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.pw-planning-today-icon {
+    color: #fc0
+}
+
+.pw-planning-column--today {
+    width: 30%;
+}
+
+.pw-planning-column--today:nth-of-type(1) {
+    border-right: 1px solid var(--background-modifier-border);
+}
+
+.pw-planning-column--today:nth-of-type(3) {
+    border-left: 1px solid var(--background-modifier-border);
+}
+
+.pw-planning-column-content--today {
+    border: 1px solid transparent;
+}
+
+.pw-planning-column-content--hover {
+    border-color: var(--background-modifier-border-hover);
+    background-color: var(--background-modifier-hover);
+}
+
+.pw-planning-column-content--wip-exceeded {
+    border: 1px solid var(--text-error);
+}
+
+.pw-report {
+    overflow: auto;
+    padding: 10px;
+}
+
+.pw-report-container {
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    min-height: 80px;
+}
+
+.pw-error {
+    color: var(--background-modifier-error)
+}
+
+.pw-tag-pill {
+    background-color: var(--background-modifier-hover);
+    color: var(--text-muted);
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+/* Date Time Progress Bar Styles */
+.pw-date-time-header {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pw-progress-container {
+  margin: auto;
+  width: 400px;
+  height: 10px;
+  background-color: var(--background-secondary);
+  border: 1pt solid var(--interactive-accent);
+  z-index: 0;
+}
+
+.pw-progress-bar {
+  height: 100%;
+  background-color: var(--interactive-accent);
+  opacity: 0.5;
+  transition: width 0.5s ease;
+  z-index: 1;
+}
+
+.pw-current-date-time {
+  color: var(--text-normal);
+  font-size: 1.2em;
+  position: relative;
+  z-index: 2;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pw-current-date-time-icon {
+  margin-right: 8px;
+}
+
+/* Fixed width for time to prevent shifting */
+.pw-time-dynamic {
+  display: inline-block;
+  min-width: 110px;
+  text-align: left;
+}
+
+.pw-time-separator {
+  display: inline-block;
+  width: 15px;
+  text-align: center;
+}
+
+.pw-today-hours-container {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.pw-today-hours-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pw-today-hours-reset {
+  margin-left: auto;
+}
+
+/* Ignored Folders Settings UI */
+.pw-ignored-folders-section {
+  margin-bottom: 20px;
+}
+
+.pw-ignored-folders-list {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.pw-no-ignored-folders {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.pw-ignored-folders-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pw-ignored-folder-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background-color: var(--background-secondary);
+  border-radius: 4px;
+}
+
+.pw-ignored-folder-name {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Folder Selection Modal */
+.pw-folder-selection-list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 15px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+}
+
+.pw-folder-search-container {
+  margin-bottom: 10px;
+}
+
+.pw-folder-search-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.pw-folder-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pw-folder-list-item {
+  padding: 2px 0;
+}
+
+.pw-folder-select-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: var(--text-normal);
+  cursor: pointer;
+}
+
+.pw-folder-select-button:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Report Header and Export Button Styles */
+.pw-report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pw-report-actions {
+    margin: 15px 0;
+    text-align: right;
+}
+
+.pw-report-export-button {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+.pw-report-export-button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+/* Export Modal Styling */
+.pw-tag-selection {
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+}
+
+.pw-tag-selection .setting-item {
+    padding: 6px;
+    border-top: none;
+}
+
+.pw-tag-selection .setting-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.pw-export-modal h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--text-accent);
+}
+
+.pw-export-modal h3 {
+    margin: 10px 0;
+    color: var(--text-normal);
+    font-size: 1rem;
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding-bottom: 5px;
+}
+
+/* Clickable column titles */
+.pw-planning-column-title--clickable {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.pw-planning-column-title--clickable:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Clickable Today title */
+.pw-planning-today-title--clickable {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.pw-planning-today-title--clickable:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Date selection modal */
+.pw-date-selection-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin: 15px 0;
+}
+
+.pw-date-selection-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pw-date-selection-button:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.pw-date-selected {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
