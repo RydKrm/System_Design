@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "b47a5e36afa8a8f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "af52be2da375d0c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "160d8dd466833e6f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ff34c8d26d3150a",
+    "type": "split",
+    "children": [
+      {
+        "id": "77417c31cf4e643f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36fde483d467abb9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "79ee9ae9dc658389",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "603bb42945f33ebb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "right": {
+    "id": "3758031abf639b10",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4a610b41fc5a1c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b473180d5fbc64a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "dd5ac7ee6b05e2cd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Database/MySQL/Theory/03.index/scaning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from scaning"
+            }
+          },
+          {
+            "id": "4a202376d2d6753f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6c7a46ad6e4fea43",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9a6afce1f1b198fa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "e4e63f68877866b4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "8f04d48ed22d1095",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "623ddaa206eaf8b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Language/Golang/Docs/06.Pointer.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 06.Pointer"
+            }
+          },
+          {
+            "id": "74da41d1fd3d1a00",
+            "type": "leaf",
+            "state": {
+              "type": "pw.todo-list",
+              "state": {},
+              "icon": "check-small",
+              "title": "Todo"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false,
+      "workspaces:Manage workspace layouts": false,
+      "proletarian-wizard:Open planning": false
+    }
+  },
+  "active": "160d8dd466833e6f",
+  "lastOpenFiles": [
+    "Micro_Service/05.how_to_communicate.md",
+    "Micro_Service/04.How_to_deploy.md",
+    "Micro_Service/03.How_to_scale.md",
+    "Micro_Service/02.What_why.md",
+    "Micro_Service/01.what_and_why.md",
+    "Operating_System/04.Process_Management/01.Thread_Management.md",
+    "Current_Tech_Stack.md",
+    "gRPC/02.Error_Handling/01.Error_handling.md",
+    "rabbitMQ/Advance/06.Limitations.md",
+    "rabbitMQ/Advance/05.Pub_Sub_Archetecture.md",
+    "rabbitMQ/Advance/04.Event_Driven_Archetecture.md",
+    "rabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
+    "rabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
+    "rabbitMQ/Advance/01.What_How.md",
+    "rabbitMQ/Advance/01.what_how.excalidraw.md",
+    "rabbitMQ/Advance",
+    "Socket/Docs/Golang_Socket.md",
+    "Observability/Open_Telemetry/02.How_to_add_with_distributed_system.md",
+    "Observability/Open_Telemetry/01.Why_How.md",
+    "Observability/Open_Telemetry",
+    "Micro_Service",
+    "Kubernetes/01.What_And_Why.md",
+    "Kubernetes",
+    "Design_Pattern/Structural_Design_Patterns/06.Flyweight_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/05.Bridge_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/04.Composite_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/03.Facade_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/02.Decorator_Patterns.md",
+    "Design_Pattern/Structural_Design_Patterns/01.Adapter_Patterns.md",
+    "Design_Pattern/Creational_Design_Patterns/07.Lazy_Initialization_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns",
+    "Design_Pattern/Creational_Design_Patterns",
+    "Design_Pattern/Behavioral_Design_Pattern",
+    "Design_Pattern/Advance_Design_Pattern",
+    "Design_Pattern",
+    "Clippings",
+    "Database/Database.png",
+    "Nginx/Images/load_balancer.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Docker/Untitled 2.canvas",
+    "Docker/Untitled 1.canvas",
+    "Docker/Untitled.canvas",
+    "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
+    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg"
+  ]
+}
