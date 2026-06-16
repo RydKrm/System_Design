@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f405b1def6761d34",
+        "id": "57dc27d89cf23417",
         "type": "tabs",
         "children": [
           {
-            "id": "dd430782b65fe6ac",
+            "id": "5f753da1eac1630e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/06.how_consumer_connected_to_partition.md",
+                "file": "Kafka/07.How_to_design_consumer_and_producer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06.how_consumer_connected_to_partition"
+              "title": "07.How_to_design_consumer_and_producer"
             }
           }
         ]
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "603bb42945f33ebb",
+            "id": "7c3f15b0becc7599",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 233.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
-                "collapseAll": true,
+                "file": "Database/MySQL/Theory/03.index/scaning.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for scaning"
             }
           },
           {
@@ -151,6 +151,21 @@
             }
           },
           {
+            "id": "623ddaa206eaf8b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Language/Golang/Docs/13.06.Goroutines_GMP_Model.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 13.06.Goroutines_GMP_Model"
+            }
+          },
+          {
             "id": "9a6afce1f1b198fa",
             "type": "leaf",
             "state": {
@@ -171,32 +186,7 @@
             }
           },
           {
-            "id": "8f04d48ed22d1095",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "planner-timeline"
-            }
-          },
-          {
-            "id": "623ddaa206eaf8b4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Language/Golang/Docs/06.Pointer.md",
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 06.Pointer"
-            }
-          },
-          {
-            "id": "74da41d1fd3d1a00",
+            "id": "fcc7620333eaf610",
             "type": "leaf",
             "state": {
               "type": "pw.todo-list",
@@ -206,74 +196,74 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 443.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "proletarian-wizard:Open planning": false,
+      "workspaces:Manage workspace layouts": false,
       "graph:Open graph view": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-kanban:Create new board": false,
-      "workspaces:Manage workspace layouts": false,
-      "proletarian-wizard:Open planning": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd430782b65fe6ac",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
-    "Kafka/04.Why_partition_and_group_id_need.md",
-    "rabbitMQ/Basic/11.topic_exchange.md",
-    "rabbitMQ/Basic/10.fanout_exchange.md",
-    "rabbitMQ/Basic/09.direct_exchange.md",
-    "rabbitMQ/Basic/08.Exchance_bref.md",
-    "rabbitMQ/Basic/07.Exchange.md",
-    "Kafka/05.Producer_to_Consumer.md",
     "Kafka/06.how_consumer_connected_to_partition.md",
-    "conflict-files-obsidian-git.md",
-    "rabbitMQ/RabbitMQ_VS_Kafka.md",
-    "Kafka/03.How_Data_Flow.md",
-    "Kafka/02.Core_Architecture.md",
-    "Kafka/01.what_and_why.md",
-    "Kafka",
+    "Kafka/07.How_to_design_consumer_and_producer.md",
     "Micro_Service/05.how_to_communicate.md",
     "Micro_Service/04.How_to_deploy.md",
     "Micro_Service/03.How_to_scale.md",
     "Micro_Service/02.What_why.md",
+    "Kafka/05.Producer_to_Consumer.md",
+    "conflict-files-obsidian-git.md",
+    "learning_list_for_microservice.md",
+    "Untitled Kanban.md",
+    "Road_Maps/AI_Roadmap.md",
+    "2026-04-14.md",
+    "Language/Golang/Docs/25.Go_Runtimes.md",
     "Micro_Service/01.what_and_why.md",
-    "Operating_System/04.Process_Management/01.Thread_Management.md",
+    "Clippings/Facade Method Design Pattern.md",
+    "Books/Psychology.md",
+    "Books/Philosophy.md",
+    "React_Native/01.Basics/02.Folder_Structure.md",
+    "React_Native/01.Basics/01.Fundamentals.md",
+    "Kafka/04.Why_partition_and_group_id_need.md",
+    "Kafka/02.Core_Architecture.md",
+    "Kafka/03.How_Data_Flow.md",
+    "Kafka/01.what_and_why.md",
+    "RabbitMQ/RabbitMQ_VS_Kafka.md",
+    "Kafka",
+    "Networking/TCP/01.Basic.md",
     "Current_Tech_Stack.md",
-    "gRPC/02.Error_Handling/01.Error_handling.md",
-    "rabbitMQ/Advance/06.Limitations.md",
-    "rabbitMQ/Advance/05.Pub_Sub_Archetecture.md",
-    "rabbitMQ/Advance/04.Event_Driven_Archetecture.md",
-    "rabbitMQ/Advance/03.dead_latter_retry_mechanisms.md",
-    "rabbitMQ/Advance/02.Acknowledgements_Durability_Prefetch.md",
-    "rabbitMQ/Advance",
+    "API_Gateway",
     "Observability/Open_Telemetry",
     "Micro_Service",
-    "Kubernetes",
+    "Design_Pattern/Advance_Design_Pattern",
+    "Design_Pattern/Behavioral_Design_Pattern",
+    "Clippings",
     "Design_Pattern/Structural_Design_Patterns",
     "Design_Pattern/Creational_Design_Patterns",
-    "Design_Pattern/Behavioral_Design_Pattern",
-    "Design_Pattern/Advance_Design_Pattern",
     "Design_Pattern",
-    "Database/Database.png",
     "Nginx/Images/load_balancer.png",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
+    "Language/Golang/Books_Learn/Untitled.canvas",
+    "Database/Database.png",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 1.canvas",
     "Docker/Untitled.canvas",
     "Docker/Docker_Deep/Docker_Technology/Untitled.canvas",
-    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg"
+    "WhatsApp Image 2025-07-22 at 09.54.51_e0d64a51.jpg",
+    "Untitled.canvas"
   ]
 }
