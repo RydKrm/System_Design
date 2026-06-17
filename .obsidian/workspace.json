@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "57dc27d89cf23417",
+        "id": "abbb226a6ceafc62",
         "type": "tabs",
         "children": [
           {
-            "id": "5f753da1eac1630e",
+            "id": "75fb38f46080994b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kafka/07.How_to_design_consumer_and_producer.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "07.How_to_design_consumer_and_producer"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 315.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -220,8 +216,14 @@
   },
   "active": "36fde483d467abb9",
   "lastOpenFiles": [
-    "Kafka/06.how_consumer_connected_to_partition.md",
+    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
+    "Operating_System/readme.md",
+    "Kafka/09.Best_go_kafka_library.md",
+    "Kafka/08.Design_with_fanze_kafka_go.md",
     "Kafka/07.How_to_design_consumer_and_producer.md",
+    "Current_Tech_Stack.md",
+    "2026-04-14.md",
+    "Kafka/06.how_consumer_connected_to_partition.md",
     "Micro_Service/05.how_to_communicate.md",
     "Micro_Service/04.How_to_deploy.md",
     "Micro_Service/03.How_to_scale.md",
@@ -231,7 +233,6 @@
     "learning_list_for_microservice.md",
     "Untitled Kanban.md",
     "Road_Maps/AI_Roadmap.md",
-    "2026-04-14.md",
     "Language/Golang/Docs/25.Go_Runtimes.md",
     "Micro_Service/01.what_and_why.md",
     "Clippings/Facade Method Design Pattern.md",
@@ -241,12 +242,7 @@
     "React_Native/01.Basics/01.Fundamentals.md",
     "Kafka/04.Why_partition_and_group_id_need.md",
     "Kafka/02.Core_Architecture.md",
-    "Kafka/03.How_Data_Flow.md",
-    "Kafka/01.what_and_why.md",
-    "RabbitMQ/RabbitMQ_VS_Kafka.md",
     "Kafka",
-    "Networking/TCP/01.Basic.md",
-    "Current_Tech_Stack.md",
     "API_Gateway",
     "Observability/Open_Telemetry",
     "Micro_Service",
