@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "abbb226a6ceafc62",
+        "id": "30f287ac97491dbe",
         "type": "tabs",
         "children": [
           {
-            "id": "75fb38f46080994b",
+            "id": "d260b65801896a4c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "gRPC/Advance/02.request_response_cycle.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "02.request_response_cycle"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 319.5
   },
   "right": {
     "id": "3758031abf639b10",
@@ -216,32 +220,33 @@
   },
   "active": "36fde483d467abb9",
   "lastOpenFiles": [
-    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
-    "Operating_System/readme.md",
-    "Kafka/09.Best_go_kafka_library.md",
+    "gRPC/Advance/01.why_and_how.md",
+    "Kafka/10.Consumer.md",
     "Kafka/08.Design_with_fanze_kafka_go.md",
-    "Kafka/07.How_to_design_consumer_and_producer.md",
-    "Current_Tech_Stack.md",
-    "2026-04-14.md",
-    "Kafka/06.how_consumer_connected_to_partition.md",
-    "Micro_Service/05.how_to_communicate.md",
-    "Micro_Service/04.How_to_deploy.md",
-    "Micro_Service/03.How_to_scale.md",
-    "Micro_Service/02.What_why.md",
     "Kafka/05.Producer_to_Consumer.md",
-    "conflict-files-obsidian-git.md",
-    "learning_list_for_microservice.md",
-    "Untitled Kanban.md",
-    "Road_Maps/AI_Roadmap.md",
-    "Language/Golang/Docs/25.Go_Runtimes.md",
-    "Micro_Service/01.what_and_why.md",
-    "Clippings/Facade Method Design Pattern.md",
-    "Books/Psychology.md",
-    "Books/Philosophy.md",
-    "React_Native/01.Basics/02.Folder_Structure.md",
-    "React_Native/01.Basics/01.Fundamentals.md",
-    "Kafka/04.Why_partition_and_group_id_need.md",
-    "Kafka/02.Core_Architecture.md",
+    "gRPC/Advance/03.Layer's_in_details.md",
+    "gRPC/Advance/02.request_response_cycle.md",
+    "gRPC/02.Error_Handling/01.Error_handling.md",
+    "gRPC/Advance",
+    "gRPC/01.Basic/Types/04.bidirectional_streaming.md",
+    "gRPC/01.Basic/Types/03.client_stream.md",
+    "gRPC/01.Basic/Types/02.server_streaming.md",
+    "gRPC/01.Basic/Types/01.unary_grpc.md",
+    "gRPC/00.Foundamental/02.Protocol Buffer.md",
+    "gRPC/00.Foundamental/04.syntax_and_datatype.md",
+    "gRPC/00.Foundamental/01.what_and_why.md",
+    "gRPC/00.Foundamental/00.uderstanding_distributed_system.md",
+    "gRPC/01.Basic/01.first_grpc.md",
+    "gRPC/gRPC_Learning_List.md",
+    "gRPC/01.topic_list.md",
+    "Socket/Docs/03.file_transfer.md",
+    "Socket/Docs/02.simple_socket_app.md",
+    "Socket/Docs/01.what_why.md",
+    "Socket/Socket_Learning_List.md",
+    "Language/Golang/Docs/14.02.Channel_Advance.md",
+    "Language/Golang/Docs/14.01.Channel.md",
+    "Language/Golang/Docs/15.Concurrency_Patterns.md",
+    "Language/Golang/Docs/13.1.Goroutines_Internal_Archetecture.md",
     "Kafka",
     "API_Gateway",
     "Observability/Open_Telemetry",
@@ -251,7 +256,6 @@
     "Clippings",
     "Design_Pattern/Structural_Design_Patterns",
     "Design_Pattern/Creational_Design_Patterns",
-    "Design_Pattern",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
