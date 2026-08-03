@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7b758b8820d7cbf2",
+        "id": "51e0e621d9c1ef13",
         "type": "tabs",
         "children": [
           {
-            "id": "085e5639b08a6112",
+            "id": "cf95019200769d59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/Consumer/03.Consumer_Explanations.md",
+                "file": "Redis/Redis_With_Go/02.redis_docker_compose_setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03.Consumer_Explanations"
+              "title": "02.redis_docker_compose_setup"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -218,8 +220,16 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "085e5639b08a6112",
+  "active": "cf95019200769d59",
   "lastOpenFiles": [
+    "Redis/Redis_With_Go/01.What_and_how.md",
+    "Redis/Redis_With_Go/02.redis_docker_compose_setup.md",
+    "Redis/Docs/05.Redis_vs_Database.md",
+    "Redis/Redis_With_Go",
+    "Redis/Docs/04.data_structure.md",
+    "Redis/Docs/03.Architecture.md",
+    "Redis/Docs/02.Data_structure.md",
+    "Redis/Docs/01.Basic.md",
     "Kafka/Consumer/02.Consumer_Persistance.md",
     "Kafka/Consumer/03.Consumer_Explanations.md",
     "Kafka/Consumer/01.Consumer_Config.md",
@@ -240,13 +250,6 @@
     "React_Native/08.Storage/02.File_Storage.md",
     "React_Native/08.Storage/03.SQLite_Storage.md",
     "React_Native/08.Storage/01.Secure_Storage.md",
-    "React_Native/08.Storage/00.Basic_Storage.md",
-    "React_Native/07.Networking/02.Web_Sockets.md",
-    "React_Native/07.Networking/01.Connectivity_Status.md",
-    "React_Native/06.Navigation/02.Screen_Navigation.md",
-    "React_Native/05.Authentication/01.Auth.md",
-    "React_Native/04.API_integration/01.API_Integration.md",
-    "React_Native/02.Core_Components/06.Context_API.md",
     "Micro_Service/why_and_how",
     "Micro_Service/micro_service_design_pattern",
     "Docker/Docker_Deep/Docker_Compose",
@@ -255,7 +258,6 @@
     "gRPC/Advance",
     "Kafka",
     "API_Gateway",
-    "Observability/Open_Telemetry",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
