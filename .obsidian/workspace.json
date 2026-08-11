@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Micro_Service/micro_service_design_pattern/02.SAGA_pattern.md",
-                "bFile": "Micro_Service/micro_service_design_pattern/02.SAGA_pattern.md",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 02.SAGA_pattern  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -228,8 +228,16 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "f7c43c015f535a1b",
+  "active": "e4e63f68877866b4",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Redis/Redis_With_Go/02.redis_docker_compose_setup.md",
+    "Redis/Redis_With_Go/01.What_and_how.md",
+    "Redis/Redis_With_Go",
+    "Kafka/Consumer/03.Consumer_Explanations.md",
+    "Kafka/Consumer/02.Consumer_Persistance.md",
+    "Kafka/Consumer/01.Consumer_Config.md",
+    "Kafka/Consumer",
     "Micro_Service/micro_service_design_pattern/07.Dead_Letter_Queue_Pattern.md",
     "Micro_Service/micro_service_design_pattern/06.Circuit_Breaker_Pattern.md",
     "Micro_Service/micro_service_design_pattern/05.Event_Sourcing_Pattern.md",
@@ -253,19 +261,11 @@
     "Kafka/11.Kafka_Config_Inside_Docker.md",
     "Docker/Docker_Deep/Docker_Compose/How_to_write_docker-file.md",
     "Docker/Docker_Deep/Docker_Compose/How_docker_manage_envirnment_variable.md",
-    "Docker/Docker_Deep/Docker_Compose/Example_01.md",
-    "Docker/Docker_Deep/Docker_Compose/Example_01.confusion.md",
-    "Current_Tech_Stack.md",
     "Docker/Docker_Deep/Docker_Compose",
-    "Roadmap.md",
-    "README.md",
-    "gRPC/Example/01.Example_01.md",
     "gRPC/Example",
     "gRPC/Advance",
     "Docker/Docker_Deep/Docker_Technology/Example",
     "Kafka",
-    "rabbitMQ/Advance",
-    "Observability/Open_Telemetry",
     "Database/Database.png",
     "Nginx/Images/load_balancer.png",
     "Untitled.canvas",
