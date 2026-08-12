@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "89f56a41f7b3ea41",
+        "id": "741345329744c77f",
         "type": "tabs",
         "children": [
           {
-            "id": "e0b81525f0d56d2c",
+            "id": "b315836701045133",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Language/How_And_Why/03.How_Code_is_executed.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03.How_Code_is_executed"
             }
           }
         ]
@@ -76,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.62971878051758
+    "width": 332.70097732543945
   },
   "right": {
     "id": "3758031abf639b10",
@@ -216,8 +220,21 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "2575f83af2e2846d",
+  "active": "b315836701045133",
   "lastOpenFiles": [
+    "Language/How_And_Why/03.How_Code_is_executed.md",
+    "Operating_System/02.Memory_Management/02.CPU_Read_Write_RAM.md",
+    "Operating_System/02.Memory_Management/01.RAM_And_Internals.md",
+    "Operating_System/01.Code_Executionn/05.Heap_Section.md",
+    "Operating_System/01.Code_Executionn/04.Stack_Section.md",
+    "Operating_System/01.Code_Executionn/02.Execution_Example.md",
+    "Operating_System/01.Code_Executionn/01.How_code_execute.md",
+    "Operating_System/01.Code_Executionn/00.Code_Execution.md",
+    "Books/Philosophy.md",
+    "Books/Psychology.md",
+    "Language/How_And_Why/02.Why_x_language_is_slower_than_y_language.md",
+    "Language/How_And_Why/01.why_python_is_slower_than_golang.md",
+    "Language/How_And_Why",
     "conflict-files-obsidian-git.md",
     "Micro_Service/project_idea/project_idea_for_design_pattern.md",
     "Micro_Service/project_idea",
@@ -235,25 +252,12 @@
     "Redis/Docs/04.data_structure.md",
     "Redis/Docs/03.Architecture.md",
     "Redis/Docs/02.Data_structure.md",
-    "Redis/Docs/01.Basic.md",
-    "Kafka/Consumer/02.Consumer_Persistance.md",
-    "Kafka/Consumer/03.Consumer_Explanations.md",
-    "Kafka/Consumer/01.Consumer_Config.md",
-    "gRPC/Advance/02.request_response_cycle.md",
     "Kafka/Consumer",
-    "gRPC/Advance/03.Layer's_in_details.md",
-    "System_Design/Folder_Structure/01.Basic_Folder_Structure.md",
-    "Socket/Docs/Golang_Socket.md",
-    "Socket/Docs/03.file_transfer.md",
-    "Socket/Docs/02.simple_socket_app.md",
-    "Socket/Docs/01.what_why.md",
-    "AI/04.RNN/02.LSTM_RNN.md",
     "Micro_Service/why_and_how",
     "Micro_Service/micro_service_design_pattern",
     "Docker/Docker_Deep/Docker_Compose",
     "Docker/Docker_Deep/Docker_Technology/Example",
     "gRPC/Example",
-    "gRPC/Advance",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
