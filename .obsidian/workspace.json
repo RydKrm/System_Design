@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "51e0e621d9c1ef13",
+        "id": "1bfd342b7ee1bdd7",
         "type": "tabs",
         "children": [
           {
-            "id": "cf95019200769d59",
+            "id": "76de1e750c04cfe0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redis/Redis_With_Go/02.redis_docker_compose_setup.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "02.redis_docker_compose_setup"
+              "title": "New tab"
             }
           }
         ]
@@ -80,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 249.62971878051758
   },
   "right": {
     "id": "3758031abf639b10",
@@ -220,8 +216,14 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "cf95019200769d59",
+  "active": "2575f83af2e2846d",
   "lastOpenFiles": [
+    "skills/00.what_and_why.md",
+    "Learning_List.md",
+    "skills",
+    "Current_Tech_Stack.md",
+    "Redis/Redis_With_Go/04.Redis_Query_With_Statis_Key.md",
+    "Redis/Redis_With_Go/03.Redis_Client_With_Dynamic_Query.md",
     "Redis/Redis_With_Go/01.What_and_how.md",
     "Redis/Redis_With_Go/02.redis_docker_compose_setup.md",
     "Redis/Docs/05.Redis_vs_Database.md",
@@ -245,11 +247,6 @@
     "AI/04.RNN/01.Basic_RNN.md",
     "UI_UX/Docs/05.Layout/02.Spacing_system.md",
     "Road_Maps/Docs/Devops.md",
-    "Road_Maps/Docs/developer_roadmap.md",
-    "React_Native/09.Animation/01.Animation.md",
-    "React_Native/08.Storage/02.File_Storage.md",
-    "React_Native/08.Storage/03.SQLite_Storage.md",
-    "React_Native/08.Storage/01.Secure_Storage.md",
     "Micro_Service/why_and_how",
     "Micro_Service/micro_service_design_pattern",
     "Docker/Docker_Deep/Docker_Compose",
@@ -257,7 +254,6 @@
     "gRPC/Example",
     "gRPC/Advance",
     "Kafka",
-    "API_Gateway",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
