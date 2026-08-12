@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1bfd342b7ee1bdd7",
+        "id": "89f56a41f7b3ea41",
         "type": "tabs",
         "children": [
           {
-            "id": "76de1e750c04cfe0",
+            "id": "e0b81525f0d56d2c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -218,6 +218,10 @@
   },
   "active": "2575f83af2e2846d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Micro_Service/project_idea/project_idea_for_design_pattern.md",
+    "Micro_Service/project_idea",
+    "Micro_Service/micro_service_design_pattern/02.SAGA_With_gRPC.md",
     "skills/00.what_and_why.md",
     "Learning_List.md",
     "skills",
@@ -244,16 +248,12 @@
     "Socket/Docs/02.simple_socket_app.md",
     "Socket/Docs/01.what_why.md",
     "AI/04.RNN/02.LSTM_RNN.md",
-    "AI/04.RNN/01.Basic_RNN.md",
-    "UI_UX/Docs/05.Layout/02.Spacing_system.md",
-    "Road_Maps/Docs/Devops.md",
     "Micro_Service/why_and_how",
     "Micro_Service/micro_service_design_pattern",
     "Docker/Docker_Deep/Docker_Compose",
     "Docker/Docker_Deep/Docker_Technology/Example",
     "gRPC/Example",
     "gRPC/Advance",
-    "Kafka",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
