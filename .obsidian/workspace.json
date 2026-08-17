@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "741345329744c77f",
+        "id": "b680b6bff146f1ae",
         "type": "tabs",
         "children": [
           {
-            "id": "b315836701045133",
+            "id": "12a7faeaa5a7e675",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/How_And_Why/03.How_Code_is_executed.md",
+                "file": "Observability/Loki/01.loki_with_promtail_setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03.How_Code_is_executed"
+              "title": "01.loki_with_promtail_setup"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.70097732543945
+    "width": 217.67924880981445
   },
   "right": {
     "id": "3758031abf639b10",
@@ -220,13 +220,20 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "b315836701045133",
+  "active": "12a7faeaa5a7e675",
   "lastOpenFiles": [
+    "Observability/Loki/Loki.md",
+    "Observability/Loki/01.loki_with_promtail_setup.md",
+    "Untitled.md",
+    "Operating_System/01.Code_Executionn/04.Stack_Section.md",
+    "Operating_System/01.Code_Executionn/03.Code_sections.md",
+    "Operating_System/01.Code_Executionn/Untitled.md",
+    "Clippings/The End of Undetectable AI Text Claude’s New Watermark Explained.md",
+    "Excalidraw/Drawing 2026-01-22 14.33.22.excalidraw.md",
     "Language/How_And_Why/03.How_Code_is_executed.md",
     "Operating_System/02.Memory_Management/02.CPU_Read_Write_RAM.md",
     "Operating_System/02.Memory_Management/01.RAM_And_Internals.md",
     "Operating_System/01.Code_Executionn/05.Heap_Section.md",
-    "Operating_System/01.Code_Executionn/04.Stack_Section.md",
     "Operating_System/01.Code_Executionn/02.Execution_Example.md",
     "Operating_System/01.Code_Executionn/01.How_code_execute.md",
     "Operating_System/01.Code_Executionn/00.Code_Execution.md",
@@ -244,14 +251,7 @@
     "skills",
     "Current_Tech_Stack.md",
     "Redis/Redis_With_Go/04.Redis_Query_With_Statis_Key.md",
-    "Redis/Redis_With_Go/03.Redis_Client_With_Dynamic_Query.md",
-    "Redis/Redis_With_Go/01.What_and_how.md",
-    "Redis/Redis_With_Go/02.redis_docker_compose_setup.md",
-    "Redis/Docs/05.Redis_vs_Database.md",
     "Redis/Redis_With_Go",
-    "Redis/Docs/04.data_structure.md",
-    "Redis/Docs/03.Architecture.md",
-    "Redis/Docs/02.Data_structure.md",
     "Kafka/Consumer",
     "Micro_Service/why_and_how",
     "Micro_Service/micro_service_design_pattern",
