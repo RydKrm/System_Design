@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Observability/Loki/01.loki_with_promtail_setup.md",
+                "file": "Observability/Full_setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.loki_with_promtail_setup"
+              "title": "Full_setup"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.57622146606445
+    "width": 265.1485176086426
   },
   "right": {
     "id": "3758031abf639b10",
@@ -220,17 +220,29 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "12a7faeaa5a7e675",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
+    "Language/JavaScript/OOP/6.Inheritance.js",
+    "Language/JavaScript/OOP/5.Polymorphism.js",
+    "Language/JavaScript/OOP/4.Instance.js",
+    "Language/JavaScript/OOP/3.Prototypes.js",
+    "Language/JavaScript/OOP/2.Methods.js",
+    "Language/JavaScript/OOP/1.Encapsulation.js",
+    "Language/JavaScript/OOP/0.Classes.js",
+    "Language/JavaScript/Scope.js",
+    "Language/JavaScript/Promise.js",
+    "Language/JavaScript/OOP",
+    "Language/JavaScript/Object.js",
+    "Observability/Prometheus/Prometheus.md",
+    "Observability/Prometheus/How_To_Add_Production_Project.md",
+    "Observability/Open_Telemetry/03.How_to_setup.md",
+    "Observability/Loki/01.loki_with_promtail_setup.md",
     "Observability/Full_setup.md",
     "Observability/Grafana/01.how_to_setup.md",
     "Observability/Logging/03.Production_Logging_Best_Practices.md",
     "Observability/Logging/02.Apply_For_Production.md",
     "Observability/How_to_add_real_world_project.md",
     "Observability/Prometheus/how_to_setup.md",
-    "Observability/Grafana",
-    "Observability/Open_Telemetry/03.How_to_setup.md",
-    "Observability/Loki/01.loki_with_promtail_setup.md",
     "Observability/Loki/Loki.md",
     "Untitled.md",
     "Operating_System/01.Code_Executionn/04.Stack_Section.md",
@@ -246,18 +258,6 @@
     "Operating_System/01.Code_Executionn/01.How_code_execute.md",
     "Operating_System/01.Code_Executionn/00.Code_Execution.md",
     "Books/Philosophy.md",
-    "Books/Psychology.md",
-    "Language/How_And_Why/02.Why_x_language_is_slower_than_y_language.md",
-    "Language/How_And_Why/01.why_python_is_slower_than_golang.md",
-    "Language/How_And_Why",
-    "Micro_Service/project_idea",
-    "skills",
-    "Redis/Redis_With_Go",
-    "Kafka/Consumer",
-    "Micro_Service/why_and_how",
-    "Micro_Service/micro_service_design_pattern",
-    "Docker/Docker_Deep/Docker_Compose",
-    "Docker/Docker_Deep/Docker_Technology/Example",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Database/Database.png",
