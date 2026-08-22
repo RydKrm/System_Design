@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "35cf9043ee46a0bd",
+        "id": "58033405c4c4e462",
         "type": "tabs",
         "children": [
           {
-            "id": "bb36d0e6c63958dc",
+            "id": "cb81e1e0c049d052",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/MySQL/Theory/03.index/index.md",
+                "file": "Design_Pattern/Structural_Design_Patterns/04.Composite_Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "04.Composite_Pattern"
+            }
+          },
+          {
+            "id": "3acd28f1513e157c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design_Pattern/Structural_Design_Patterns/04.Composite_Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04.Composite_Pattern"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,8 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5,
-    "collapsed": true
+    "width": 501.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +235,21 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "bb36d0e6c63958dc",
+  "active": "36fde483d467abb9",
   "lastOpenFiles": [
+    "Design_Pattern/Structural_Design_Patterns/03.Facade_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/02.Decorator_Patterns.md",
+    "Design_Pattern/Structural_Design_Patterns/04.Composite_Pattern.md",
+    "Design_Pattern/Creational_Design_Patterns/06.Object_Pool_Pattern.md",
+    "Design_Pattern/Creational_Design_Patterns/04.Builder_Pattern.md",
+    "Design_Pattern/Creational_Design_Patterns/01.Singleton_Pattern.md",
+    "Design_Pattern/Behavioral_Design_Pattern/02.Strategy_Pattern.md",
+    "Excalidraw/Drawing 2026-01-22 14.33.22.excalidraw.md",
+    "Observability/Prometheus/How_To_Add_Production_Project.md",
+    "Observability/Open_Telemetry/01.Why_How.md",
+    "Observability/Loki/03.promtail_config_explanation.md",
+    "Observability/Loki/02.loki_config_explaination.md",
+    "Database/MySQL/Theory/03.index/index.md",
     "Database/MySQL/Theory/02.Storage/02.row_base_db_vs_col_base_db.md",
     "Database/MySQL/Theory/02.Storage/01.storage.md",
     "Database/MySQL/Theory/01.Transection/transection.md",
@@ -236,8 +263,6 @@
     "Database/MySQL/Theory/05.Partition/01.Partition.md",
     "Database/MySQL/Theory/04.Database_Tree/01.Database_Tree.md",
     "Database/MySQL/Theory/03.index/scaning.md",
-    "Database/MySQL/Theory/03.index/index.md",
-    "Database/MySQL/Problem/HackerRank/Advance/CharCocate.md",
     "Database/MySQL/Images/d5b481b3-9ea0-42d0-bd92-7f6148731705.jpg",
     "Database/MySQL/Images/mark_of_nums.png",
     "Database/MySQL/Images/triangle_type.png",
@@ -248,17 +273,6 @@
     "Database/MySQL/Images/2546fd7e-df20-4bb2-96a7-12539a290190.jpg",
     "Database/MySQL/Images/267c95ae-7b2b-4516-969e-33be86f62c86.jpg",
     "Database/MySQL/Images/3ffa949e-1f44-4f03-b033-ad915e13032c.jpg",
-    "Database/GORM/04.Query.md",
-    "Database/GORM/02.0DeclaringModel.md",
-    "Database/GORM/01.Introduction.md",
-    "Observability/Loki/02.loki_config_explaination.md",
-    "TradeOff/Docs/01.Five_main_pilliar.md",
-    "TradeOff/TradeOff_Learning_List.md",
-    "Tools/Make_File/01.Make_File.md",
-    "System_Design/Job_Portal/job-portal.md",
-    "System_Design/Folder_Structure/01.Basic_Folder_Structure.md",
-    "Swagger/Basic.md",
-    "Observability/Open_Telemetry/01.Why_How.md",
     "Language/JavaScript/OOP/6.Inheritance.js",
     "Language/JavaScript/OOP/5.Polymorphism.js",
     "Language/JavaScript/OOP/4.Instance.js",
