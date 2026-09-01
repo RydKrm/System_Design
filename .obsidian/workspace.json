@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1f9bcca9e31fb2db",
+        "id": "a750f191d9aac331",
         "type": "tabs",
         "children": [
           {
-            "id": "85a05a3ae6126415",
+            "id": "e44bd3e5a493938c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Theory/2.5.Joining_plan.md",
+                "file": "Database/Theory/5.2.Isolation_Levels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5.Joining_plan"
-            }
-          },
-          {
-            "id": "f7c5d42ed1512e17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Theory/2.5.Joining_plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.5.Joining_plan"
+              "title": "5.2.Isolation_Levels"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.1485176086426
+    "width": 368.3029365539551
   },
   "right": {
     "id": "3758031abf639b10",
@@ -235,35 +220,36 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "f7c5d42ed1512e17",
+  "active": "e44bd3e5a493938c",
   "lastOpenFiles": [
+    "Database/Database.png",
+    "Database/Theory/5.2.Isolation_Levels.md",
+    "Database/Theory/learning_list.md",
+    "Database/Theory/5.1.ACID_Properties.md",
+    "Database/Theory/3.1.Entity-Relationship(ER)Modeling.md",
+    "Database/Theory/3.2.1.Normalization.md",
+    "Database/Theory/4.5.QueryExecutionPlans.md",
+    "Database/Theory/4.4.index_pitfall.md",
+    "Database/Theory/4.3.2.index_sratage.md",
+    "Database/Theory/4.3.1.index_stratage.md",
+    "Database/Theory/4.2.2.index_type.md",
+    "Database/Theory/4.2.index_type.md",
+    "Database/Theory/4.2.1.index_type.md",
+    "Database/Theory/4.2.2.index_type.go",
+    "Database/Theory/4.1.Index.md",
+    "Database/Theory/3.4.2.schema_design_pattern.md",
+    "Database/Theory/3.4.1.schema_design_pattern.md",
+    "Database/Theory/3.3.Denormalization.md",
+    "Database/Theory/3.2.2.Normalization_from3nf.md",
+    "Database/Theory/3.2.Normalization.md",
+    "Database/Theory/2.10.Advance_query.md",
+    "Database/Theory/2.9.Windows_Functions.md",
+    "Database/Theory/2.8.CommonTableExpressions(CTEs).md",
+    "Database/Theory/2.5.Joining_plan.md",
+    "Database/Theory/2.2Querying.md",
     "Database/Theory/2.4.joining_algorithm.md",
     "Database/Theory/2.7.Subqueries.md",
-    "Database/Theory/2.8.CommonTableExpressions(CTEs).md",
-    "Database/Theory/learning_list.md",
-    "Database/Theory/2.6.Aggregation.md",
-    "Database/Theory/2.6.aggegation.md",
-    "Database/Theory/2.5.Joining_plan.md",
-    "Database/Theory/2.3.Joins.md",
-    "Database/Theory/2.2Querying.md",
-    "Database/Theory/2.1.sql_fundamental.md",
-    "Database/Theory/1.4.Relational_Model.md",
-    "Database/Theory/1.3.Database_model.md",
-    "Database/Theory/1.2.Database_crash_and_recovery.md",
-    "Database/Theory/1.1.How_Database_works.md",
-    "Database/Theory/04.Relational_Model.md",
-    "Database/Theory/03.Database_model.md",
-    "Database/Theory/02.Database_crash_and_recovery.md",
-    "Database/Theory/01.How_Database_works.md",
-    "Database/MySQL/Theory/01.Transection/transection.md",
-    "Database/Theory/learning_list_of_design_lagre_scale_project.md",
-    "Database/Theory/learning_list_with_books.md",
-    "Database/GORM/06.Delete.md",
     "Database/Theory",
-    "Database/GORM/05.Update.md",
-    "Database/GORM/04.Query.md",
-    "Database/GORM/03.Create.md",
-    "Database/GORM/02.0DeclaringModel.md",
     "Database/MySQL/Images/d5b481b3-9ea0-42d0-bd92-7f6148731705.jpg",
     "Database/MySQL/Images/mark_of_nums.png",
     "Database/MySQL/Images/triangle_type.png",
@@ -281,7 +267,6 @@
     "Language/JavaScript/OOP/2.Methods.js",
     "Language/JavaScript/OOP/1.Encapsulation.js",
     "Language/JavaScript/OOP/0.Classes.js",
-    "Language/JavaScript/Scope.js",
     "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Docker/Untitled 2.canvas",
