@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Theory/5.2.Isolation_Levels.md",
+                "file": "Database/Theory/learning_list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.2.Isolation_Levels"
+              "title": "learning_list"
             }
           }
         ]
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 385.1937255859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,9 +222,22 @@
   },
   "active": "e44bd3e5a493938c",
   "lastOpenFiles": [
-    "Database/Database.png",
-    "Database/Theory/5.2.Isolation_Levels.md",
+    "Database/Theory/6.5.Benchmarking.md",
+    "Database/Theory/learning_list_of_design_lagre_scale_project.md",
+    "Database/Theory/learning_list_with_books.md",
     "Database/Theory/learning_list.md",
+    "Database/Theory/6.4.Schema-LevelPerformance.md",
+    "Database/Theory/6.2.ConnectionManagement.md",
+    "Database/Theory/6.3.StorageandMemoryTuning.md",
+    "Database/Theory/6.1.QueryOptimization.md",
+    "Database/Theory/5.6.DistributedTransactions.md",
+    "Database/Theory/5.5.OptimisticvsPessimistic.md",
+    "Database/Theory/5.4.(Multi-VersionConcurrencyControl).md",
+    "Database/Theory/5.3.Locking.md",
+    "Database/Theory/5.2.Isolation_Levels.md",
+    "Database/MySQL/Theory/02.Storage/02.row_base_db_vs_col_base_db.md",
+    "Database/MySQL/Theory/02.Storage/01.storage.md",
+    "Database/Database.png",
     "Database/Theory/5.1.ACID_Properties.md",
     "Database/Theory/3.1.Entity-Relationship(ER)Modeling.md",
     "Database/Theory/3.2.1.Normalization.md",
@@ -237,18 +250,6 @@
     "Database/Theory/4.2.1.index_type.md",
     "Database/Theory/4.2.2.index_type.go",
     "Database/Theory/4.1.Index.md",
-    "Database/Theory/3.4.2.schema_design_pattern.md",
-    "Database/Theory/3.4.1.schema_design_pattern.md",
-    "Database/Theory/3.3.Denormalization.md",
-    "Database/Theory/3.2.2.Normalization_from3nf.md",
-    "Database/Theory/3.2.Normalization.md",
-    "Database/Theory/2.10.Advance_query.md",
-    "Database/Theory/2.9.Windows_Functions.md",
-    "Database/Theory/2.8.CommonTableExpressions(CTEs).md",
-    "Database/Theory/2.5.Joining_plan.md",
-    "Database/Theory/2.2Querying.md",
-    "Database/Theory/2.4.joining_algorithm.md",
-    "Database/Theory/2.7.Subqueries.md",
     "Database/Theory",
     "Database/MySQL/Images/d5b481b3-9ea0-42d0-bd92-7f6148731705.jpg",
     "Database/MySQL/Images/mark_of_nums.png",
@@ -267,7 +268,6 @@
     "Language/JavaScript/OOP/2.Methods.js",
     "Language/JavaScript/OOP/1.Encapsulation.js",
     "Language/JavaScript/OOP/0.Classes.js",
-    "Nginx/Images/load_balancer.png",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 1.canvas",

@@ -242,7 +242,6 @@
 - NOWAIT
 
 ### 5.6 Distributed Transactions
-
 - Two-Phase Commit (2PC)
 - Three-Phase Commit (3PC)
 - Saga pattern — choreography and orchestration
