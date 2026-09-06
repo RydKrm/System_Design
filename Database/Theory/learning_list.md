@@ -448,7 +448,6 @@
 - PACELC model (extension of CAP)
 
 ### 10.2 Consistency Models
-
 - Strong consistency
 - Sequential consistency
 - Causal consistency
@@ -456,14 +455,12 @@
 - Read-your-writes, monotonic reads, monotonic writes
 
 ### 10.3 Consensus Algorithms
-
 - Paxos — basic and multi-Paxos
 - Raft — leader election, log replication, safety
 - Viewstamped Replication
 - Zookeeper's ZAB protocol
 
 ### 10.4 Distributed Clocks and Ordering
-
 - Wall clock vs logical clock
 - Lamport timestamps
 - Vector clocks
