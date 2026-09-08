@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "15601606bd40cc34",
+        "id": "c9c55845d0ff0163",
         "type": "tabs",
         "children": [
           {
-            "id": "f2b366f8b1a912f8",
+            "id": "2102953a21b6dddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database_Scaling_Failue/08.The Vacuum Bloat Explosion.md",
+                "file": "Database/Database_Scaling_Failue/case_study_lists_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08.The Vacuum Bloat Explosion"
+              "title": "case_study_lists_2"
             }
           }
         ]
@@ -221,12 +221,16 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "f2b366f8b1a912f8",
+  "active": "2102953a21b6dddc",
   "lastOpenFiles": [
+    "Database/Database_Scaling_Failue/case_study_lists.md",
+    "Database/Database_Scaling_Failue/case_study_lists_2.md",
+    "Database/Database_Scaling_Failue/Untitled 1.md",
+    "Database/Theory/9.1.CAP Theoram.md",
+    "Database/Database_Scaling_Failue/08.The Vacuum Bloat Explosion.md",
     "Database/Database_Scaling_Failue/10.The_Cascading_Slow_Query.md",
     "Database/Database_Scaling_Failue/09.The_Connection_Pool_Exhaustion.md",
     "Database/Database_Scaling_Failue/05.Missing Foreign Key Index.md",
-    "Database/Database_Scaling_Failue/08.The Vacuum Bloat Explosion.md",
     "Database/Database_Scaling_Failue/7.TheImplicitTypeCastIndexKill.md",
     "Database/Database_Scaling_Failue/06.Unbounded_IN_Case.md",
     "Database/Theory/5.3.Locking.md",
@@ -236,7 +240,6 @@
     "Database/Database_Scaling_Failue/03.Count_Bottleneck.md",
     "Database/Learning_List.md",
     "Database/Theory/Database_case_studies_and_failure_cases.md",
-    "Database/Database_Scaling_Failue/Untitled.md",
     "Database/Database_Scaling_Failue",
     "Database/Theory/database_knowledge_for_become_architect.md",
     "Database/Theory/learning_list_of_design_lagre_scale_project.md",
@@ -247,9 +250,6 @@
     "Design_Pattern/Structural_Design_Patterns/03.Facade_Pattern.md",
     "Design_Pattern/Structural_Design_Patterns/02.Decorator_Patterns.md",
     "Roadmap.md",
-    "README.md",
-    "Docker/Learning_List.md",
-    "Database/Theory/learning_list.md",
     "Database/Database.png",
     "Database/Theory/4.2.2.index_type.go",
     "Database/Theory",
