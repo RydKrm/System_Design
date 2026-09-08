@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da70ad729e885c38",
+        "id": "15601606bd40cc34",
         "type": "tabs",
         "children": [
           {
-            "id": "df16fa56c6ec7935",
+            "id": "f2b366f8b1a912f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Learning_List.md",
+                "file": "Database/Database_Scaling_Failue/08.The Vacuum Bloat Explosion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning_List"
+              "title": "08.The Vacuum Bloat Explosion"
             }
           }
         ]
@@ -221,34 +221,35 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "df16fa56c6ec7935",
+  "active": "f2b366f8b1a912f8",
   "lastOpenFiles": [
+    "Database/Database_Scaling_Failue/10.The_Cascading_Slow_Query.md",
+    "Database/Database_Scaling_Failue/09.The_Connection_Pool_Exhaustion.md",
+    "Database/Database_Scaling_Failue/05.Missing Foreign Key Index.md",
+    "Database/Database_Scaling_Failue/08.The Vacuum Bloat Explosion.md",
+    "Database/Database_Scaling_Failue/7.TheImplicitTypeCastIndexKill.md",
+    "Database/Database_Scaling_Failue/06.Unbounded_IN_Case.md",
+    "Database/Theory/5.3.Locking.md",
+    "Database/Database_Scaling_Failue/04.Hot_Row_Bottleneck.md",
+    "Database/Database_Scaling_Failue/1.N+1 Query Disaster.md",
+    "Database/Database_Scaling_Failue/02.Offset_Pagination_Collapse.md",
+    "Database/Database_Scaling_Failue/03.Count_Bottleneck.md",
+    "Database/Learning_List.md",
+    "Database/Theory/Database_case_studies_and_failure_cases.md",
+    "Database/Database_Scaling_Failue/Untitled.md",
+    "Database/Database_Scaling_Failue",
+    "Database/Theory/database_knowledge_for_become_architect.md",
+    "Database/Theory/learning_list_of_design_lagre_scale_project.md",
+    "Database/Theory/learning_list_with_books.md",
+    "Design_Pattern/Structural_Design_Patterns/06.Flyweight_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/05.Bridge_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/04.Composite_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/03.Facade_Pattern.md",
+    "Design_Pattern/Structural_Design_Patterns/02.Decorator_Patterns.md",
     "Roadmap.md",
     "README.md",
     "Docker/Learning_List.md",
     "Database/Theory/learning_list.md",
-    "Learning_List.md",
-    "Database/Learning_List.md",
-    "Database/Theory/13.3.3.Common_system_design_pattern.md",
-    "Database/Theory/13.3.2.Common_system_design_pattern.md",
-    "Database/Theory/13.3.1.Common_system_design_pattern.md",
-    "Database/Theory/13.2.CachingArchitecture.md",
-    "Database/Theory/11.1.Monitoring.md",
-    "Database/Theory/11.2.Logging.md",
-    "Database/Theory/10.2.Database Auditing_and_Compliance.md",
-    "Database/Theory/10.3.SQL_Injection_Prevention.md",
-    "Database/Theory/10.1.Authentication_and_Authorization.md",
-    "Database/Theory/9.6.Distributed_Storage_Internals.md",
-    "Database/Theory/9.5.DistributedClocksandOrdering.md",
-    "Database/Theory/9.4.ConsensusAlgorithms.md",
-    "Database/Theory/9.3.Consistency_Model.md",
-    "Database/Theory/9.2.CPvsAPvsNOT_CA.md",
-    "Database/Theory/8.2.Sharding.md",
-    "Database/Theory/8.1.TablePartitioning.md",
-    "Database/Theory/9.1.CAP Theoram.md",
-    "Database/Theory/3.2.1.Normalization.md",
-    "Database/Theory/3.1.Entity-Relationship(ER)Modeling.md",
-    "Database/Theory/2.10.Advance_query.md",
     "Database/Database.png",
     "Database/Theory/4.2.2.index_type.go",
     "Database/Theory",
@@ -268,7 +269,6 @@
     "Language/JavaScript/OOP/3.Prototypes.js",
     "Language/JavaScript/OOP/2.Methods.js",
     "Language/JavaScript/OOP/1.Encapsulation.js",
-    "Language/JavaScript/OOP/0.Classes.js",
     "Language/Golang/Books_Learn/Untitled.canvas",
     "Docker/Untitled 2.canvas",
     "Docker/Untitled 1.canvas",
