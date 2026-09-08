@@ -617,7 +617,6 @@
 - When to reach for Elasticsearch instead
 
 ### 15.4 Geospatial
-
 - PostGIS extension
 - Geometry vs Geography types
 - Spatial indexes — GiST, BRIN for spatial
