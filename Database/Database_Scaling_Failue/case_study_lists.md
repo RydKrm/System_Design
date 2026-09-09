@@ -608,72 +608,72 @@
 
 ## Summary Reference Table
 
-|#|Failure Case|Root Cause|Category|
-|---|---|---|---|
-|1.1|N+1 Query Disaster|Too many round trips|Query|
-|1.2|OFFSET Pagination Collapse|O(offset) scan|Query|
-|1.3|COUNT(*) Bottleneck|Full scan for a number|Query|
-|1.4|Unbounded Result Set|No LIMIT clause|Query|
-|1.5|Implicit Type Cast Index Kill|Type mismatch|Query|
-|1.6|Wildcard Leading LIKE|No index on %keyword%|Query|
-|1.7|SELECT * Over-Fetch|Fetching unused columns|Query|
-|1.8|Unbounded IN Clause|List grows without bound|Query|
-|1.9|Function in WHERE Clause|Function prevents index use|Query|
-|1.10|OR Condition Index Breakdown|OR across separate indexes|Query|
-|1.11|Missing Composite Index Order|Wrong leading column|Query|
-|1.12|ORDER BY Sort Spill|Sort without index|Query|
-|1.13|Cartesian Product Accident|Missing JOIN condition|Query|
-|1.14|Correlated Subquery Per Row|N subqueries in SELECT|Query|
-|1.15|DISTINCT Performance Trap|Full result deduplication|Query|
-|1.16|Recursive CTE Stack Overflow|Cyclic data, no guard|Query|
-|2.1|Missing Foreign Key Index|No index on FK column|Index|
-|2.2|Index That Never Gets Used|Low selectivity / stale stats|Index|
-|2.3|Index Bloat Explosion|Dead entries accumulate|Index|
-|2.4|Over-Indexed Write Table|Too many indexes on writes|Index|
-|2.5|Partial Index Mismatch|Query doesn't match partial|Index|
-|2.6|Index on Low-Cardinality Boolean|Boolean has 2 values|Index|
-|2.7|Write-Time Index Rebuild Lock|CREATE INDEX without CONCURRENTLY|Index|
-|3.1|Connection Pool Exhaustion|Too many connections|Connection|
-|3.2|Idle Connection Leak|Connections never returned|Connection|
-|3.3|Long Transaction Lock Escalation|Transaction held too long|Connection|
-|3.4|Cascading Slow Query Timeout|One slow query blocks all|Connection|
-|3.5|Serverless Connection Explosion|Lambda × connections|Connection|
-|3.6|Work_mem Sort Spill Cascade|Memory × concurrency|Connection|
-|3.7|Shared Buffers Under-Allocation|Default 128MB on 64GB RAM|Connection|
-|4.1|Hot Row Bottleneck|All writes to one row|Write|
-|4.2|Deadlock Cascade|Circular lock dependency|Write|
-|4.3|Lost Update Under Concurrency|Read-compute-write race|Write|
-|4.4|Phantom Read Double-Booking|Two concurrent reservations|Write|
-|4.5|Write Skew on Multi-Row Constraint|Both see constraint satisfied|Write|
-|4.6|Bulk Delete Lock Explosion|Millions of rows in one DELETE|Write|
-|4.7|Transaction Too Large to Rollback|100M row rollback stalls DB|Write|
-|4.8|Optimistic Lock Retry Storm|High contention + retries = livelock|Write|
-|5.1|EAV Trap|Entity-Attribute-Value schema|Schema|
-|5.2|God Table|One table for all entity types|Schema|
-|5.3|Polymorphic Association No Index|Missing type in composite index|Schema|
-|5.4|Money Stored as FLOAT|Floating-point rounding errors|Schema|
-|5.5|Timestamps Without Timezone|Local time in DB|Schema|
-|5.6|Unconstrained String Length|No VARCHAR limit|Schema|
-|5.7|Missing Soft Delete Index|IS NULL without partial index|Schema|
-|5.8|Nullable Column False NULL Semantics|NULL used as magic value|Schema|
-|6.1|Replication Lag Read Anomaly|Read-after-write on replica|Replication|
-|6.2|Split-Brain Dual Write|Both nodes think they're primary|Replication|
-|6.3|Replica Divergence Silent Corruption|Non-deterministic statement replication|Replication|
-|6.4|Replication Slot Disk Fill|WAL held for offline consumer|Replication|
-|6.5|Failover Promoted Outdated Replica|Async lag + fast failover = data loss|Replication|
-|7.1|Cache Stampede|Popular key expires under load|Cache|
-|7.2|Cache Penetration Attack|Non-existent keys hit DB|Cache|
-|7.3|Cache Avalanche|Mass simultaneous expiry|Cache|
-|7.4|Stale Permission Cache|Security data with long TTL|Cache|
-|7.5|Redis Memory Eviction Cascade|Redis full → eviction → DB flood|Cache|
-|8.1|Backup Never Tested|Restore fails when needed|Backup|
-|8.2|Backup Excluded Critical Data|Partial backup gap|Backup|
-|8.3|PITR Never Configured|24h RPO when 5min needed|Backup|
-|8.4|Silent Delete Beyond Retention|Corruption older than backup window|Backup|
-|9.1|Locking ALTER TABLE Outage|DDL without CONCURRENTLY|Migration|
-|9.2|ORM AutoMigrate in Production|Dev tooling in prod|Migration|
-|9.3|Migration Rollback Dropped Column|Schema/code not decoupled|Migration|
-|9.4|Long Backfill Locked All Writes|Single-transaction UPDATE of millions|Migration|
+| #    | Failure Case                         | Root Cause                              | Category    |
+| ---- | ------------------------------------ | --------------------------------------- | ----------- |
+| 1.1  | N+1 Query Disaster                   | Too many round trips                    | Query       |
+| 1.2  | OFFSET Pagination Collapse           | O(offset) scan                          | Query       |
+| 1.3  | COUNT(*) Bottleneck                  | Full scan for a number                  | Query       |
+| 1.4  | Unbounded Result Set                 | No LIMIT clause                         | Query       |
+| 1.5  | Implicit Type Cast Index Kill        | Type mismatch                           | Query       |
+| 1.6  | Wildcard Leading LIKE                | No index on %keyword%                   | Query       |
+| 1.7  | SELECT * Over-Fetch                  | Fetching unused columns                 | Query       |
+| 1.8  | Unbounded IN Clause                  | List grows without bound                | Query       |
+| 1.9  | Function in WHERE Clause             | Function prevents index use             | Query       |
+| 1.10 | OR Condition Index Breakdown         | OR across separate indexes              | Query       |
+| 1.11 | Missing Composite Index Order        | Wrong leading column                    | Query       |
+| 1.12 | ORDER BY Sort Spill                  | Sort without index                      | Query       |
+| 1.13 | Cartesian Product Accident           | Missing JOIN condition                  | Query       |
+| 1.14 | Correlated Subquery Per Row          | N subqueries in SELECT                  | Query       |
+| 1.15 | DISTINCT Performance Trap            | Full result deduplication               | Query       |
+| 1.16 | Recursive CTE Stack Overflow         | Cyclic data, no guard                   | Query       |
+| 2.1  | Missing Foreign Key Index            | No index on FK column                   | Index       |
+| 2.2  | Index That Never Gets Used           | Low selectivity / stale stats           | Index       |
+| 2.3  | Index Bloat Explosion                | Dead entries accumulate                 | Index       |
+| 2.4  | Over-Indexed Write Table             | Too many indexes on writes              | Index       |
+| 2.5  | Partial Index Mismatch               | Query doesn't match partial             | Index       |
+| 2.6  | Index on Low-Cardinality Boolean     | Boolean has 2 values                    | Index       |
+| 2.7  | Write-Time Index Rebuild Lock        | CREATE INDEX without CONCURRENTLY       | Index       |
+| 3.1  | Connection Pool Exhaustion           | Too many connections                    | Connection  |
+| 3.2  | Idle Connection Leak                 | Connections never returned              | Connection  |
+| 3.3  | Long Transaction Lock Escalation     | Transaction held too long               | Connection  |
+| 3.4  | Cascading Slow Query Timeout         | One slow query blocks all               | Connection  |
+| 3.5  | Serverless Connection Explosion      | Lambda × connections                    | Connection  |
+| 3.6  | Work_mem Sort Spill Cascade          | Memory × concurrency                    | Connection  |
+| 3.7  | Shared Buffers Under-Allocation      | Default 128MB on 64GB RAM               | Connection  |
+| 4.1  | Hot Row Bottleneck                   | All writes to one row                   | Write       |
+| 4.2  | Deadlock Cascade                     | Circular lock dependency                | Write       |
+| 4.3  | Lost Update Under Concurrency        | Read-compute-write race                 | Write       |
+| 4.4  | Phantom Read Double-Booking          | Two concurrent reservations             | Write       |
+| 4.5  | Write Skew on Multi-Row Constraint   | Both see constraint satisfied           | Write       |
+| 4.6  | Bulk Delete Lock Explosion           | Millions of rows in one DELETE          | Write       |
+| 4.7  | Transaction Too Large to Rollback    | 100M row rollback stalls DB             | Write       |
+| 4.8  | Optimistic Lock Retry Storm          | High contention + retries = livelock    | Write       |
+| 5.1  | EAV Trap                             | Entity-Attribute-Value schema           | Schema      |
+| 5.2  | God Table                            | One table for all entity types          | Schema      |
+| 5.3  | Polymorphic Association No Index     | Missing type in composite index         | Schema      |
+| 5.4  | Money Stored as FLOAT                | Floating-point rounding errors          | Schema      |
+| 5.5  | Timestamps Without Timezone          | Local time in DB                        | Schema      |
+| 5.6  | Unconstrained String Length          | No VARCHAR limit                        | Schema      |
+| 5.7  | Missing Soft Delete Index            | IS NULL without partial index           | Schema      |
+| 5.8  | Nullable Column False NULL Semantics | NULL used as magic value                | Schema      |
+| 6.1  | Replication Lag Read Anomaly         | Read-after-write on replica             | Replication |
+| 6.2  | Split-Brain Dual Write               | Both nodes think they're primary        | Replication |
+| 6.3  | Replica Divergence Silent Corruption | Non-deterministic statement replication | Replication |
+| 6.4  | Replication Slot Disk Fill           | WAL held for offline consumer           | Replication |
+| 6.5  | Failover Promoted Outdated Replica   | Async lag + fast failover = data loss   | Replication |
+| 7.1  | Cache Stampede                       | Popular key expires under load          | Cache       |
+| 7.2  | Cache Penetration Attack             | Non-existent keys hit DB                | Cache       |
+| 7.3  | Cache Avalanche                      | Mass simultaneous expiry                | Cache       |
+| 7.4  | Stale Permission Cache               | Security data with long TTL             | Cache       |
+| 7.5  | Redis Memory Eviction Cascade        | Redis full → eviction → DB flood        | Cache       |
+| 8.1  | Backup Never Tested                  | Restore fails when needed               | Backup      |
+| 8.2  | Backup Excluded Critical Data        | Partial backup gap                      | Backup      |
+| 8.3  | PITR Never Configured                | 24h RPO when 5min needed                | Backup      |
+| 8.4  | Silent Delete Beyond Retention       | Corruption older than backup window     | Backup      |
+| 9.1  | Locking ALTER TABLE Outage           | DDL without CONCURRENTLY                | Migration   |
+| 9.2  | ORM AutoMigrate in Production        | Dev tooling in prod                     | Migration   |
+| 9.3  | Migration Rollback Dropped Column    | Schema/code not decoupled               | Migration   |
+| 9.4  | Long Backfill Locked All Writes      | Single-transaction UPDATE of millions   | Migration   |
 
 ---
 
