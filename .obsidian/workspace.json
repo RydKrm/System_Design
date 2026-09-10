@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database_Scaling_Failue/index_Case/19.Over-Indexed_Write_Table.md",
+                "file": "Database/Database_Scaling_Failue/performance_case_study_list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19.Over-Indexed_Write_Table"
+              "title": "performance_case_study_list"
             }
           }
         ]
@@ -202,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.2530517578125,
-    "collapsed": true
+    "width": 531.2530517578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,6 +222,8 @@
   },
   "active": "cb907f099113af0b",
   "lastOpenFiles": [
+    "Database/Database_Scaling_Failue/index_Case/19.Over-Indexed_Write_Table.md",
+    "Database/Database_Scaling_Failue/performance_case_study_list.md",
     "Database/Database_Scaling_Failue/Schema_Case/08.The_Nullable_Column_With_False_NULL_Semantics.md",
     "Database/Database_Scaling_Failue/Schema_Case/07.The_Missing_Soft_Delete_Index.md",
     "Database/Database_Scaling_Failue/Connection_Pool_Case/01.The_Connection_Pool_Exhaustion.md",
@@ -250,10 +251,8 @@
     "Database/Database_Scaling_Failue/index_Case/22.The_Idle_Connection_Leak.md",
     "Monitor/Monitoring.md",
     "Database/Database_Scaling_Failue/Query_Case/15.Deep_Recursive_CTE_Stack_Overflow.md",
-    "Database/Database_Scaling_Failue/Query_Case/20.Partial_Index_That_Doesn't_Match_the_Query.md",
     "Database/Database_Scaling_Failue/Connection_Pool_Case/01.The_Connection_Pool_Exhaustion",
     "Database/Database_Scaling_Failue/Connection_Pool_Case",
-    "Database/Database_Scaling_Failue/index_Case/21.Index_Low-Cardinality_Boolean_Column.md",
     "Database/Database_Scaling_Failue/index_Case",
     "Database/Database_Scaling_Failue/Query_Case",
     "Database/Database_Scaling_Failue",
