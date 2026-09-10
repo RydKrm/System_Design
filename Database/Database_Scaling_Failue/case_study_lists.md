@@ -132,7 +132,7 @@
 - **Solution:** Rewrite as a JOIN with GROUP BY: `SELECT u.name, COUNT(o.id) FROM users u LEFT JOIN orders o ON o.user_id = u.id GROUP BY u.id, u.name`; or use a window function
 - **Lesson:** A subquery in the SELECT clause that references the outer row runs once per outer row — rewrite as a JOIN every time
 
-### 1.15 The DISTINCT Performance Trap
+### 1.15 The DISTINCT Performance Traph
 
 - **What happens:** `SELECT DISTINCT user_id FROM events WHERE created_at > NOW() - INTERVAL '30 days'` — DISTINCT requires sorting or hashing the entire result set to deduplicate
 - **Real pattern:** De-duplicating large result sets, "give me all unique X that did Y"
