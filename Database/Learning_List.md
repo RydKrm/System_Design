@@ -429,6 +429,7 @@
 
 ### 🏆 Case Studies and Failure Cases
 - Real-World Database Failures and Lessons [[Theory/Database_case_studies_and_failure_cases]]
+- Database Scaling Failures & Performance Optimization Index [[Database_Scaling_Failue/learning_list]]
 
 ### 🧑‍💼 Architect Knowledge Base
 - Database Knowledge for Becoming an Architect [[Theory/database_knowledge_for_become_architect]]
