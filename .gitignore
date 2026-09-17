@@ -4,3 +4,5 @@
 /Language/Rust/Code/target
 .vscode/
 .obsidian/
+/.obsidian/
+*.log
