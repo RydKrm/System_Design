@@ -215,7 +215,12 @@ For every case, extract these six answers:
 - **Solution:** Use a closure to scope the defer:
     
     ```go
-    for _, path := range filePaths {    func() {        f, _ := os.Open(path)        defer f.Close() // now defers within the closure scope        process(f)    }() // immediately invoked — file closes after each iteration}
+    for _, path := range filePaths {    
+        func() {        
+          f, _ := os.Open(path)        
+          defer f.Close() // now defers within the closure scope        
+          process(f)    
+        }() // immediately invoked — file closes after each iteration}
     ```
     
     Or call `f.Close()` explicitly (checking the error) instead of using defer in the loop
@@ -231,7 +236,14 @@ For every case, extract these six answers:
 - **Solution:** Convert recursive traversal to iterative using an explicit stack data structure:
     
     ```go
-    stack := []Node{root}for len(stack) > 0 {    node := stack[len(stack)-1]    stack = stack[:len(stack)-1]    process(node)    for _, child := range node.Children {        stack = append(stack, child)    }}
+    stack := []Node{root}for len(stack) > 0 {    
+       node := stack[len(stack)-1]    
+       stack = stack[:len(stack)-1]    
+       process(node)    
+        for _, child := range node.Children {        
+          stack = append(stack, child)    
+        }
+    }
     ```
     
     Validate and reject inputs with nesting depth > safe limit; set `debug.SetMaxStack()` to limit explosion
@@ -249,20 +261,32 @@ For every case, extract these six answers:
 - **Root cause:**
     
     ```go
-    var config map[string]string // shared between goroutines with no synchronizationgo func() {    for {        config = loadConfig() // WRITE: replaces the map        time.Sleep(30 * time.Second)    }}()// Request handlers: value := config[key] // READ: concurrent with WRITE
+    var config map[string]string // shared between goroutines with no synchronizationgo 
+    func() {    
+        for {        
+        config = loadConfig() // WRITE: replaces the map        
+        time.Sleep(30 * time.Second)    
+        }
+    }()
+    // Request handlers: 
+    value := config[key] // READ: concurrent with WRITE
     ```
     
     Map reads and writes are not safe for concurrent use — Go's race detector would catch this immediately but was not enabled in development
 - **Solution:** Use `sync.RWMutex` to protect the map:
     
     ```go
-    var mu sync.RWMutexvar config map[string]string// Writer:mu.Lock()config = loadConfig()mu.Unlock()// Readers:mu.RLock()value := config[key]mu.RUnlock()
+    var mu sync.RWMutexvar config map[string]string
+    // Writer:
+    mu.Lock()config = loadConfig()mu.Unlock()// Readers:
+    mu.RLock()value := config[key]mu.RUnlock()
     ```
     
     Or use `atomic.Value` for lock-free reads of the entire config (store and load the whole map atomically):
     
     ```go
-    var configAtomic atomic.ValueconfigAtomic.Store(loadConfig()) // store new map atomicallycfg := configAtomic.Load().(map[string]string) // load atomically — zero lock
+    var configAtomic atomic.ValueconfigAtomic.Store(loadConfig()) // store new map
+    atomicallycfg := configAtomic.Load().(map[string]string) // load atomically — zero lock
     ```
     
 - **Result:** Zero concurrent map panics — `atomic.Value` approach gives zero-contention reads

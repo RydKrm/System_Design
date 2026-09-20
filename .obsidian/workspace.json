@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Golang/Study_Case/study_case_lists.md",
+                "file": "gRPC/case_study.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "study_case_lists"
+              "title": "case_study"
             }
           }
         ]
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.318359375
+    "width": 415.318359375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,6 +223,12 @@
   },
   "active": "e311b324c03d7274",
   "lastOpenFiles": [
+    "gRPC/gRPC_Learning_List.md",
+    "gRPC/case_study.md",
+    "gRPC/01.topic_list.md",
+    "Kafka/Case_study_lists.md",
+    "Kafka/Case_study_lists.md.md",
+    "Language/Golang/Golang_Learning_List_2.md",
     "Language/Golang/Study_Case/study_case_lists.md",
     "Language/Golang/Golang_Learning_List.md",
     "Database/Database_Case_Study/case_study_lists.md",
@@ -243,12 +250,6 @@
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/09.Pre_Aggregated_Summary_Table.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/08.Rewriting_OR_to_UNION_ALL.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/05.CTE_Materialization_Forces_Efficient_Plan.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/04.Window_Function_Replaces_Correlated_Subquery.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/03.EXISTS_Replaces_COUNT.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/02.Cursor_Pagination_Replaces_OFFSET.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/01.Subquery_To_Join_Rewrite.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Index_Optimization/05.Composite_Index.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Index_Optimization/04.Expression_Index.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Index_Optimization",
