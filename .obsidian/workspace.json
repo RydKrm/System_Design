@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a95acdbf1cb3bdc7",
+        "id": "a2d9bc5f9be1437f",
         "type": "tabs",
         "children": [
           {
-            "id": "e311b324c03d7274",
+            "id": "1f71ef3eb8ba03ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gRPC/case_study.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "case_study"
+              "title": "New tab"
             }
           }
         ]
@@ -202,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.318359375,
-    "collapsed": true
+    "width": 415.318359375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,17 +216,21 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "e311b324c03d7274",
+  "active": "1f71ef3eb8ba03ce",
   "lastOpenFiles": [
-    "gRPC/gRPC_Learning_List.md",
+    "Docker/case_study.md",
+    "Docker/README.md",
+    "Docker/gen_readme.py",
+    "Database/Database_Case_Study/case_study_lists.md",
+    "Infra/go_infra.md",
     "gRPC/case_study.md",
+    "gRPC/gRPC_Learning_List.md",
     "gRPC/01.topic_list.md",
     "Kafka/Case_study_lists.md",
     "Kafka/Case_study_lists.md.md",
     "Language/Golang/Golang_Learning_List_2.md",
     "Language/Golang/Study_Case/study_case_lists.md",
     "Language/Golang/Golang_Learning_List.md",
-    "Database/Database_Case_Study/case_study_lists.md",
     "Language/Golang/Study_Case",
     "Database/Database_Case_Study/case_study_lists_2.md",
     "Learning_List.md",
@@ -247,9 +246,6 @@
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/07.Avoiding_DISTINCT_With_Proper_JOIN.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/06.Batching_Replaces_Per_Row_Updates.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/10.Push_Filters_Into_Subquery.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/09.Pre_Aggregated_Summary_Table.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/08.Rewriting_OR_to_UNION_ALL.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/05.CTE_Materialization_Forces_Efficient_Plan.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Index_Optimization",
@@ -258,7 +254,6 @@
     "Database/Database_Case_Study/Performance_Optimization_Case_Study",
     "Database/Database_Case_Study/index_Case",
     "Database/Database_Case_Study/Connection_Pool_Case",
-    "Database/Database_Case_Study/Concurrency_Case",
     "Database/Database.png",
     "Database/MySQL/Images/d5b481b3-9ea0-42d0-bd92-7f6148731705.jpg",
     "Database/MySQL/Images/mark_of_nums.png",
