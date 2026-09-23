@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/case_study/31.Split_Brain_Two_Leaders_Elected_Simultaneously.md",
+                "file": "Database/MySQL/Theory/05.Partition/01.Partition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "31.Split_Brain_Two_Leaders_Elected_Simultaneously"
+              "title": "01.Partition"
             }
           }
         ]
@@ -202,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.318359375,
-    "collapsed": true
+    "width": 415.318359375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,8 +222,8 @@
   },
   "active": "8e9d17a0e727c53d",
   "lastOpenFiles": [
-    "Socket/case_study.md",
     "Docker/case_study/31.Split_Brain_Two_Leaders_Elected_Simultaneously.md",
+    "Socket/case_study.md",
     "Docker/case_study/30.Redis_Hot_Key_Bottleneck.md",
     "Docker/case_study/29.RabbitMQ_Consumer_Scale_Thundering_Herd.md",
     "Docker/case_study/28.Database_Connection_Pool_Exhaustion.md",
