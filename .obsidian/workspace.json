@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a2d9bc5f9be1437f",
+        "id": "6bfd686eab984228",
         "type": "tabs",
         "children": [
           {
-            "id": "1f71ef3eb8ba03ce",
+            "id": "8e9d17a0e727c53d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Docker/case_study/31.Split_Brain_Two_Leaders_Elected_Simultaneously.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "31.Split_Brain_Two_Leaders_Elected_Simultaneously"
             }
           }
         ]
@@ -198,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.318359375
+    "width": 415.318359375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,44 +221,44 @@
       "proletarian-wizard:Open planning": false
     }
   },
-  "active": "1f71ef3eb8ba03ce",
+  "active": "8e9d17a0e727c53d",
   "lastOpenFiles": [
+    "Socket/case_study.md",
+    "Docker/case_study/31.Split_Brain_Two_Leaders_Elected_Simultaneously.md",
+    "Docker/case_study/30.Redis_Hot_Key_Bottleneck.md",
+    "Docker/case_study/29.RabbitMQ_Consumer_Scale_Thundering_Herd.md",
+    "Docker/case_study/28.Database_Connection_Pool_Exhaustion.md",
+    "Docker/case_study/27.Horizontal_Scale_Without_Session_Affinity.md",
+    "Docker/case_study/26.Docker_Socket_Mounted_in_Container.md",
+    "Docker/case_study/25.Secrets_in_ENV_Leaked_via_docker_inspect.md",
+    "Docker/case_study/24.GOMAXPROCS_Misconfigured_CPU_Thrashing.md",
+    "Docker/case_study/23.Go_GC_Thinks_It_Has_Whole_Host_RAM.md",
+    "Docker/case_study/22.No_Resource_Limits_Container_Kills_Host.md",
+    "Docker/case_study/21.Compose_Hot_Reload_Not_Working.md",
+    "Docker/case_study/20.Environment_Variable_Leakage.md",
+    "Docker/case_study/19.The_depends_on_Race_Condition.md",
+    "Docker/case_study/18.Volume_Fills_Disk_Silent_Death.md",
+    "Docker/case_study/17.Bind_Mount_Permission_Hell.md",
+    "Docker/case_study/16.Data_Loss_on_Container_Removal.md",
+    "Socket/case_study/02.Event_Name_Collision.md",
+    "Socket/case_study/01.Room_Memory_Leak.md",
+    "Socket/case_study",
+    "Docker/case_study/3.5.DNS_Resolution_TTL_Stale_IP_Cache.md",
+    "Socket/Docs/Golang_Socket.md",
+    "Socket/Docs/03.file_transfer.md",
+    "Socket/Docs/02.simple_socket_app.md",
+    "Socket/Docs/01.what_why.md",
+    "Docker/case_study/15.DNS_Resolution_TTL_Stale_IP_Cache.md",
     "Docker/case_study.md",
-    "Docker/README.md",
+    "Docker/case_study",
     "Docker/gen_readme.py",
-    "Database/Database_Case_Study/case_study_lists.md",
-    "Infra/go_infra.md",
-    "gRPC/case_study.md",
-    "gRPC/gRPC_Learning_List.md",
-    "gRPC/01.topic_list.md",
-    "Kafka/Case_study_lists.md",
-    "Kafka/Case_study_lists.md.md",
-    "Language/Golang/Golang_Learning_List_2.md",
-    "Language/Golang/Study_Case/study_case_lists.md",
-    "Language/Golang/Golang_Learning_List.md",
     "Language/Golang/Study_Case",
-    "Database/Database_Case_Study/case_study_lists_2.md",
-    "Learning_List.md",
-    "Kafka/05.Producer_to_Consumer.md",
-    "Kafka/02.Core_Architecture.md",
-    "Kafka/01.what_and_why.md",
-    "gRPC/00.Foundamental/00.uderstanding_distributed_system.md",
-    "Docker/Docker_Deep/Docker_Technology/06.Docker_compose/01.Docker_compose_guide_01.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement/04.Numeric_Instead_of_VARCHAR.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement/02.Partitioning_Old_Table.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement/03.Status_Column_Eliminates_JOIN.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement/01.Normalizing_Denormalized_Table.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/07.Avoiding_DISTINCT_With_Proper_JOIN.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/06.Batching_Replaces_Per_Row_Updates.md",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite/10.Push_Filters_Into_Subquery.md",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Schema_Design_Improvement",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Query_Rewrite",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Index_Optimization",
     "Database/Database_Case_Study/Schema_Case",
     "Database/Database_Case_Study/Query_Case",
     "Database/Database_Case_Study/Performance_Optimization_Case_Study",
-    "Database/Database_Case_Study/index_Case",
-    "Database/Database_Case_Study/Connection_Pool_Case",
     "Database/Database.png",
     "Database/MySQL/Images/d5b481b3-9ea0-42d0-bd92-7f6148731705.jpg",
     "Database/MySQL/Images/mark_of_nums.png",
