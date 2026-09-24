@@ -1,11 +1,8 @@
 [
-  "calendar",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-full-calendar",
   "obsidian-icon-folder",
   "obsidian-mind-map",
-  "obsidian-tracker",
   "obsidian-minimal-settings",
   "buttons",
   "contribution-graph",
@@ -13,7 +10,6 @@
   "extended-graph",
   "obsidian-living-graph",
   "dataview",
-  "obsidian-kanban",
   "proletarian-wizard",
   "iconic"
 ]

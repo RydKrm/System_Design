@@ -11,10 +11,14 @@
             "id": "e67a88e403f37ae3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Micro_Service/case_study_05.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "case_study_05"
             }
           }
         ]
@@ -160,16 +164,6 @@
             }
           },
           {
-            "id": "bcb524e71304163b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "dd5ac7ee6b05e2cd",
             "type": "leaf",
             "state": {
@@ -194,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -219,6 +213,12 @@
   },
   "active": "e67a88e403f37ae3",
   "lastOpenFiles": [
+    "Micro_Service/case_study_04.md",
+    "Micro_Service/case_study_03.md",
+    "Micro_Service/case_study_02.md",
+    "Micro_Service/case_study_05.md",
+    "Micro_Service/case_study_01.md",
+    "Micro_Service/micro_service_design_pattern/03.out_box_pattern.md",
     "Untitled.base",
     "Untitled Kanban.md",
     "README.md",
@@ -240,11 +240,6 @@
     "Docker/case_study/28.Database_Connection_Pool_Exhaustion.md",
     "Docker/case_study/27.Horizontal_Scale_Without_Session_Affinity.md",
     "Docker/case_study/26.Docker_Socket_Mounted_in_Container.md",
-    "Docker/case_study/25.Secrets_in_ENV_Leaked_via_docker_inspect.md",
-    "Docker/case_study/24.GOMAXPROCS_Misconfigured_CPU_Thrashing.md",
-    "Docker/case_study/23.Go_GC_Thinks_It_Has_Whole_Host_RAM.md",
-    "Docker/case_study/22.No_Resource_Limits_Container_Kills_Host.md",
-    "Docker/case_study/21.Compose_Hot_Reload_Not_Working.md",
     "Socket/case_study",
     "Docker/case_study",
     "Docker/gen_readme.py",
@@ -254,7 +249,6 @@
     "Database/Database_Case_Study/Performance_Optimization_Case_Study/Index_Optimization",
     "Database/Database_Case_Study/Schema_Case",
     "Database/Database_Case_Study/Query_Case",
-    "Database/Database_Case_Study/Performance_Optimization_Case_Study",
     "Database/Database.png",
     "Database/MySQL/Images/d5b481b3-9ea0-42d0-bd92-7f6148731705.jpg",
     "Database/MySQL/Images/mark_of_nums.png",
