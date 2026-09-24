@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6bfd686eab984228",
+        "id": "6c33d0a532d7910e",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9d17a0e727c53d",
+            "id": "e67a88e403f37ae3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/MySQL/Theory/05.Partition/01.Partition.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01.Partition"
+              "title": "New tab"
             }
           }
         ]
@@ -217,11 +213,26 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-kanban:Create new board": false,
-      "proletarian-wizard:Open planning": false
+      "proletarian-wizard:Open planning": false,
+      "iconic:Open rulebook": false
     }
   },
-  "active": "8e9d17a0e727c53d",
+  "active": "e67a88e403f37ae3",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled Kanban.md",
+    "README.md",
+    "Current_Tech_Stack.md",
+    "learning_list_for_microservice.md",
+    "Learning_List.md",
+    "Tools/Make_File/01.Make_File.md",
+    "Swagger/Basic.md",
+    "Excalidraw/Drawing 2026-01-22 14.33.22.excalidraw.md",
+    "Blog/Facade Method Design Pattern.md",
+    "gRPC/case_study.md",
+    "Database/Learning_List.md",
+    "Database/Theory/8.1.TablePartitioning.md",
+    "Database/MySQL/Theory/05.Partition/01.Partition.md",
     "Docker/case_study/31.Split_Brain_Two_Leaders_Elected_Simultaneously.md",
     "Socket/case_study.md",
     "Docker/case_study/30.Redis_Hot_Key_Bottleneck.md",
@@ -234,21 +245,7 @@
     "Docker/case_study/23.Go_GC_Thinks_It_Has_Whole_Host_RAM.md",
     "Docker/case_study/22.No_Resource_Limits_Container_Kills_Host.md",
     "Docker/case_study/21.Compose_Hot_Reload_Not_Working.md",
-    "Docker/case_study/20.Environment_Variable_Leakage.md",
-    "Docker/case_study/19.The_depends_on_Race_Condition.md",
-    "Docker/case_study/18.Volume_Fills_Disk_Silent_Death.md",
-    "Docker/case_study/17.Bind_Mount_Permission_Hell.md",
-    "Docker/case_study/16.Data_Loss_on_Container_Removal.md",
-    "Socket/case_study/02.Event_Name_Collision.md",
-    "Socket/case_study/01.Room_Memory_Leak.md",
     "Socket/case_study",
-    "Docker/case_study/3.5.DNS_Resolution_TTL_Stale_IP_Cache.md",
-    "Socket/Docs/Golang_Socket.md",
-    "Socket/Docs/03.file_transfer.md",
-    "Socket/Docs/02.simple_socket_app.md",
-    "Socket/Docs/01.what_why.md",
-    "Docker/case_study/15.DNS_Resolution_TTL_Stale_IP_Cache.md",
-    "Docker/case_study.md",
     "Docker/case_study",
     "Docker/gen_readme.py",
     "Language/Golang/Study_Case",
